@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-__authors__ = ["Zack Link"]
+__author__ = "Zack Link"
 __maintainer__ = "Zack Link"
 __email__ = "zlink@cylance.com"
 __version__ = "0.5"
