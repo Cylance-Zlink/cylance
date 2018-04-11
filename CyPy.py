@@ -1,10 +1,14 @@
+#!/usr/bin/env python
+
+__authors__ = ["Zack Link"]
+__maintainer__ = "Zack Link"
+__email__ = "zlink@cylance.com"
+__version__ = "0.5"
+__credits__ = []
+__license__ = "GPL"
+
 from cmd import Cmd
-import jwt  # PyJWT version 1.6.1 as of the time of authoring
-import uuid
-import requests  # requests version 2.18.4 as of the time of authoring
 import json
-from time import gmtime, strftime, sleep
-from datetime import datetime, timedelta
 import cylance
 
 class MyPrompt(Cmd):
@@ -71,5 +75,5 @@ class MyPrompt(Cmd):
 
 if __name__ == '__main__':
     prompt = MyPrompt()
-    prompt.prompt = 'PyCy> '
-    prompt.cmdloop('Starting PyCy...')
+    prompt.prompt = 'CyPy> '
+    prompt.cmdloop('Starting CyPy...')
