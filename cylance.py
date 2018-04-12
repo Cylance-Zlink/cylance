@@ -34,26 +34,27 @@ region = ""
 URLS = {"BASE_URL": "https://protectapi", "AUTH_URL": ".cylance.com/auth/v2/token", "USERS": ".cylance.com/users/v2", "DEVICES": ".cylance.com/devices/v2", "DEVICETHREATS": ".cylance.com/devices/v2", "POLICIES": ".cylance.com/policies/v2", "ZONES": ".cylance.com/zones/v2", "ZONEDEVICES": ".cylance.com/zones/v2","THREATS": ".cylance.com/threats/v2","THREATDEVICES": ".cylance.com/threats/v2", "QUARANTINE": ".cylance.com/globallists/v2", "SAFE": ".cylance.com/globallists/v2" }
 PAGE_SIZE = 200
 
-def load_creds():
+def load_creds(file):
     # get saved creds if they exist
+    global tenant, app_id, app_secret, region
     print "loading creds"
     # TODO don't hard code creds file, make this default but allow to override on CLI
-    file = open("PyCy.conf", "r")
+    file = open(file, "r")
+    creds = dict()
     t = file.readline()
-    print t
     if t.split()[0] == "tenant":
-        creds["tenant"] = t.split()[2]
+        tenant = t.split()[2]
     i = file.readline()
     if i.split()[0] == "app_id":
-        creds["app_id"] = i.split()[2]
+        app_id = i.split()[2]
     s = file.readline()
     if s.split()[0] == "app_secret":
-        creds["app_secret"] = s.split()[2]
+        app_secret = s.split()[2]
     r = file.readline()
     if r.split()[0] == "region":
-        creds["region"] = s.split()[2]
+        if len(r.split()) > 2:
+            region = r.split()[2]
     file.close()
-    return creds
 
 def save_creds():
     # save creds
@@ -72,6 +73,9 @@ def set_creds(t, i, s, r=""):
     app_id = i
     app_secret = s
     region = r
+    if tenant == "":
+        load_creds("CyPy.conf")
+    # print "t: " + tenant + ", " + app_id + ", " + app_secret
 
 def get_regions():
     return regions.keys()
@@ -262,7 +266,7 @@ def write_to_file(results, filename):
 
 def get_token():
     # get jwt token
-    global tenant, app_id, app_secret, auth_token, device_headers
+    global tenant, app_id, app_secret, region, auth_token, device_headers
     global timeout_datetime
     timeout = 1800  # 30 minutes from now
     now = datetime.utcnow()
@@ -288,6 +292,7 @@ def get_token():
     payload = {"auth_token": encoded}
     headers = {"Content-Type": "application/json; charset=utf-8"}
     # print "tenant: " + tid_val + " app_id: " + app_id + " app_secret: " + app_secret
+    # print "url:    " + URLS['BASE_URL'] + region + URLS['AUTH_URL']
     resp = requests.post(URLS['BASE_URL'] + region + URLS['AUTH_URL'], headers=headers, data=json.dumps(payload))
     auth_token = json.loads(resp.text)['access_token']  # access_token to be passed to GET request
     device_headers = {"Content-Type": "application/json; charset=utf-8", "Authorization": "Bearer " + str(auth_token)}
