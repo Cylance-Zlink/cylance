@@ -18,6 +18,7 @@ import pandas
 
 """ TODO LIST """
 """ Not checking a lot of input params, need to add that """
+""" Make get_data_by_id function return multiplae pages of data just like get_data function, actually, probabyly just merge the 2 functions by adding id as an optional parameter in get_data()"""
 """ Search for TODO in the code """
 
 """ GLOBAL PARAMS """
@@ -30,7 +31,7 @@ timeout_datetime = datetime.utcnow()
 timeout_epoch = ""
 regions = {'North America': '', 'Asia Pacific-North': '-apne1', 'Asia Pacific-South': '-au', 'Europe': '-euc1', 'US-Government': '-us', 'South America': '-sae1'}
 region = "" 
-URLS = {"BASE_URL": "https://protectapi", "AUTH_URL": ".cylance.com/auth/v2/token", "USERS": ".cylance.com/users/v2", "DEVICES": ".cylance.com/devices/v2", "POLICIES": ".cylance.com/policies/v2", "ZONES": ".cylance.com/zones/v2", "THREATS": ".cylance.com/threats/v2" }
+URLS = {"BASE_URL": "https://protectapi", "AUTH_URL": ".cylance.com/auth/v2/token", "USERS": ".cylance.com/users/v2", "DEVICES": ".cylance.com/devices/v2", "DEVICETHREATS": ".cylance.com/devices/v2", "POLICIES": ".cylance.com/policies/v2", "ZONES": ".cylance.com/zones/v2", "ZONEDEVICES": ".cylance.com/zones/v2","THREATS": ".cylance.com/threats/v2","THREATDEVICES": ".cylance.com/threats/v2", "QUARANTINE": ".cylance.com/globallists/v2", "SAFE": ".cylance.com/globallists/v2" }
 PAGE_SIZE = 200
 
 def load_creds():
@@ -54,7 +55,7 @@ def load_creds():
     file.close()
     return creds
 
-def save_creds(self):
+def save_creds():
     # save creds
     global tenant, app_id, app_secret, region
     file = open("PyCy.conf", "w")
@@ -147,6 +148,66 @@ def get_data(data_type, args=""):
         write_to_file(results, file)
 
     return results
+
+def get_data_by_id(data_type, id, args=""):
+    """ Gets data for a specific ID.  Data_types supported: USER, DEVICE, DEVICETHREATS, ZONEDEVICES, POLICY, ZONE, THREAT, THREATDEVICES, and THREATDOWNLOAD."""
+    """ standard args for filtering, fields and file output"""
+    """ First check if auth token is about to expire and refresh if necessary """
+    global auth_token, device_headers
+    if timeout_datetime < datetime.utcnow():  # need to auth/re-auth
+        auth_token = get_token()
+    # Build URL from function and region
+    if data_type in { 'USER', 'DEVICE', 'POLICY', 'ZONE', 'THREAT' }:
+        url = URLS['BASE_URL'] + region + URLS[data_type] + "/" + id
+    elif data_type in { 'ZONEDEVICES', 'THREATDEVICES' }:
+        url = URLS['BASE_URL'] + region + URLS[data_type] + "/" + id + "/devices?page=1&page_size=" + str(PAGE_SIZE)
+    elif data_type == "DEVICETHREATS":
+        url = URLS['BASE_URL'] + region + URLS[data_type] + "/" + id + "/threats?page=1&page_size=" + str(PAGE_SIZE)
+    # elif data_type == "THREATDOWNLOAD":
+    #    url = URLS['BASE_URL'] + region + URLS[data_type] + "/" + id + "/threats?page=1&page_size=" + str(PAGE_SIZE)
+        
+    r = requests.get(url, headers=device_headers)
+    # TODO need to support multi page responses like in get_data()
+    json_data = json.loads(r.text)
+    results = json_data['page_items']
+
+    return results
+
+def update_data(data_type, id, data):
+    """Update an entity. Supports USER, DEVICE, POLICY."""
+    """Standard args for filtering, fields and file output"""
+    """ First check if auth token is about to expire and refresh if necessary """
+    global auth_token, device_headers
+    if timeout_datetime < datetime.utcnow():  # need to auth/re-auth
+        auth_token = get_token()
+    # Build URL from function and region
+    if data_type in { 'USER', 'DEVICE', 'POLICY', 'ZONE' }:
+        url = URLS['BASE_URL'] + region + URLS[data_type] + "/" + id
+    else:
+        return "bad data_type: " + data_type + " for update_data"
+    r = requests.put(url, header=device_headers)
+    if r.code == "200":
+        return "success"
+    else:
+        return "failed"
+
+def delete_data(data_type, id):
+    """delete an entity by id.  Supported data_types are USER, DEVICE, POLICY, ZONE"""
+    """ First check if auth token is about to expire and refresh if necessary """
+    global auth_token, device_headers
+    if timeout_datetime < datetime.utcnow():  # need to auth/re-auth
+        auth_token = get_token()
+    # Build URL from function and region
+    if data_type in { 'USER', 'DEVICE', 'POLICY', 'ZONE' }:
+        url = URLS['BASE_URL'] + region + URLS[data_type] + "/" + id
+    else: 
+        return "bad data_type: " + data_type + " for delete_data"
+    r = requests.delete(url, header=device_headers)
+    if r.code == "200":
+        return "success"
+    else:
+        return "failed"
+
 
 def filter_data(data, filters):
     """Take a results set and match on all filters (i.e. AND not OR)"""
