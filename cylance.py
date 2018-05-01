@@ -29,9 +29,29 @@ auth_token = ""
 device_headers = {"Content-Type": "application/json; charset=utf-8", "Authorization": "Bearer " + str(auth_token)}
 timeout_datetime = datetime.utcnow()
 timeout_epoch = ""
-regions = {'North America': '', 'Asia Pacific-North': '-apne1', 'Asia Pacific-South': '-au', 'Europe': '-euc1', 'US-Government': '-us', 'South America': '-sae1'}
+regions = {
+    'North America': '', 
+    'Asia Pacific-North': '-apne1', 
+    'Asia Pacific-South': '-au', 
+    'Europe': '-euc1', 
+    'US-Government': '-us', 
+    'South America': '-sae1'
+}
 region = "" 
-URLS = {"BASE_URL": "https://protectapi", "AUTH_URL": ".cylance.com/auth/v2/token", "USERS": ".cylance.com/users/v2", "DEVICES": ".cylance.com/devices/v2", "DEVICETHREATS": ".cylance.com/devices/v2", "POLICIES": ".cylance.com/policies/v2", "ZONES": ".cylance.com/zones/v2", "ZONEDEVICES": ".cylance.com/zones/v2","THREATS": ".cylance.com/threats/v2","THREATDEVICES": ".cylance.com/threats/v2", "QUARANTINE": ".cylance.com/globallists/v2", "SAFE": ".cylance.com/globallists/v2" }
+URLS = {
+    "BASE_URL": "https://protectapi", 
+    "AUTH_URL": ".cylance.com/auth/v2/token", 
+    "USERS": ".cylance.com/users/v2", 
+    "DEVICES": ".cylance.com/devices/v2", 
+    "DEVICETHREATS": ".cylance.com/devices/v2", 
+    "POLICIES": ".cylance.com/policies/v2", 
+    "ZONES": ".cylance.com/zones/v2", 
+    "ZONEDEVICES": ".cylance.com/zones/v2",
+    "THREATS": ".cylance.com/threats/v2",
+    "THREATDEVICES": ".cylance.com/threats/v2", 
+    "QUARANTINE": ".cylance.com/globallists/v2", 
+    "SAFE": ".cylance.com/globallists/v2" 
+}
 PAGE_SIZE = 200
 
 def load_creds(file):

@@ -18,10 +18,9 @@ class MyPrompt(Cmd):
     auth_token = ""
     authed = 0
 
-    def do_auth(self, args):
-        """Authenticate with console.  Access Tken last 30 minutes."""
-        global tenant, app_id, app_secret
-        cylance.set_creds(self.tenant, self.app_id, self.app_secret)
+    def do_auth(self, tenant, app_id, app_secret, region=""):
+        """Authenticate with console.  Shell automatically checks expiration and renews token periodically.  Args are <tenant> <app_id> <app_secret> [region suffix].  Region suffixes are -apne1, -au, -euc1, -us, -sae1"""
+        cylance.set_creds(tenant, app_id, app_secret, region)
     
     def do_getUsers(self, args):
         """Get all Users.\nOptions:\n  email=<string> (contains <string>)\n  first_name=<string>\n  last_name=<string>\n  has_logged_in=<True|False>\n  user_role=<role> (e.g. Administrator is 00000000-0000-0000-0000-000000000002)\n  date_last_login=<date> (e.g.  2018-01- for Jan 2018)\n  date_email_confirmed=<date> (e.g.  2018-01- for Jan 2018)\n  date_created=<date> (e.g.  2018-01- for Jan 2018)\n  date_modified=<date> (e.g.  2018-01- for Jan 2018)\n  out <filename> (suports .json and .csv)\nOptions should be in the format: <field1>=<value1>,<field2>=<value2>,etc"""
