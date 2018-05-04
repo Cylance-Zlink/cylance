@@ -18,9 +18,13 @@ class MyPrompt(Cmd):
     auth_token = ""
     authed = 0
 
-    def do_auth(self, tenant, app_id, app_secret, region=""):
-        """Authenticate with console.  Shell automatically checks expiration and renews token periodically.  Args are <tenant> <app_id> <app_secret> [region suffix].  Region suffixes are -apne1, -au, -euc1, -us, -sae1"""
-        cylance.set_creds(tenant, app_id, app_secret, region)
+    def do_auth(self, arg):
+        """Authenticate with console.  Shell automatically checks expiration and renews token periodically.  \nExample:\n auth <tenant> <app_id> <app_secret> [region suffix].  Region suffixes are -apne1, -au, -euc1, -us, -sae1"""
+        args = arg.split()
+        print "len of args is " + str(len(args))
+        for x in args:
+            print x
+        cylance.set_creds(*args)
     
     def do_getUsers(self, args):
         """Get all Users.\nOptions:\n  email=<string> (contains <string>)\n  first_name=<string>\n  last_name=<string>\n  has_logged_in=<True|False>\n  user_role=<role> (e.g. Administrator is 00000000-0000-0000-0000-000000000002)\n  date_last_login=<date> (e.g.  2018-01- for Jan 2018)\n  date_email_confirmed=<date> (e.g.  2018-01- for Jan 2018)\n  date_created=<date> (e.g.  2018-01- for Jan 2018)\n  date_modified=<date> (e.g.  2018-01- for Jan 2018)\n  out <filename> (suports .json and .csv)\nOptions should be in the format: <field1>=<value1>,<field2>=<value2>,etc"""
@@ -61,6 +65,10 @@ class MyPrompt(Cmd):
     def do_filtering(self, args):
         """All top level attributes can be filtered on.  Multiple filters can be used by putting a comma (no spaces) in between the filters.  Search string uses contains, not exact match.  Searches are case-insensitive\nExample: getDevices state=Online,name=US\n"""
         print ""
+
+    def parse(arg):
+        """parse command line args into array"""
+        return arg.split(" ")
 
     def do_quit(self, args):
         """Quits the program."""

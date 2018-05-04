@@ -1,0 +1,4649 @@
+0,1
+name,eaubuntu
+ip_addresses,"[192.168.241.131, 10.10.10.41]"
+mac_addresses,"[00-0C-29-25-B0-A6, 00-0C-29-25-B0-B0]"
+state,Offline
+date_first_registered,2018-04-27T20:10:19
+policy,"{u'id': u'fb989229-7f0d-42cf-8d2f-fc738c5da872', u'name': u'EA-ALERT-BTD-LNX'}"
+id,879211c1-c653-48c8-914b-ae9f6eafee33
+agent_version,2.0.1480
+name,AFMMAC-PROT-VM
+ip_addresses,"[10.10.10.6, 172.16.228.142]"
+mac_addresses,"[00-0C-29-09-E6-A8, 00-0C-29-09-E6-B2]"
+state,Offline
+date_first_registered,2018-04-27T14:50:31
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,634a7e23-8e2d-4e60-9444-012028683252
+agent_version,2.0.1470
+name,CFS-CYPRO.DEMO.LOCAL
+ip_addresses,[192.168.159.217]
+mac_addresses,[00-0C-29-A6-15-71]
+state,Offline
+date_first_registered,2018-04-26T11:49:20
+policy,"{u'id': u'8d9790af-7fde-462c-b89c-3bcad007fe3c', u'name': u'CFS-Demo_Policy'}"
+id,67b7bb60-74de-4d7a-94fe-011cbafad1ca
+agent_version,2.0.1480
+name,OEHybrid
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-04-26T09:59:00
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,5b3e4539-ce4c-4f48-8233-74e7895da34a
+agent_version,
+name,pashybrid.PASDCWIN7X64
+ip_addresses,[192.168.159.133]
+mac_addresses,[00-0C-29-A6-DF-A6]
+state,Offline
+date_first_registered,2018-04-22T20:30:10
+policy,"{u'id': u'419768f8-c555-42b9-a067-27f190c471bc', u'name': u'PAS-ProtectHost'}"
+id,28a4b225-d53b-4290-bddf-5fdbb90e34df
+agent_version,2.0.1480
+name,TESTPC1
+ip_addresses,"[10.10.10.201, 192.168.241.130]"
+mac_addresses,"[00-0C-29-35-E3-B5, 00-0C-29-35-E3-BF]"
+state,Offline
+date_first_registered,2018-04-19T06:59:03
+policy,"{u'id': u'6f1433b6-aeed-4388-b2a5-672258c9bba4', u'name': u'taka test optics normal'}"
+id,17699a4d-dfcf-4da3-8c56-44b546676f18
+agent_version,2.0.1480
+name,TESTPC2
+ip_addresses,"[10.10.10.202, 192.168.241.134]"
+mac_addresses,"[00-0C-29-BF-07-4E, 00-0C-29-BF-07-58]"
+state,Offline
+date_first_registered,2018-04-19T06:56:12
+policy,"{u'id': u'532cd9f0-1a01-434a-b281-9033779eac8d', u'name': u'taka test optics exclude'}"
+id,6e519d77-d036-431b-9290-328fadf8cb49
+agent_version,2.0.1480
+name,Ross’s iMac
+ip_addresses,"[192.168.1.30, 2605:E000:1C03:428D:0:A9B1:CAA9:DA32]"
+mac_addresses,[10-9A-DD-9E-9B-C0]
+state,Offline
+date_first_registered,2018-04-18T23:45:56
+policy,"{u'id': u'3363f4a2-b8e0-4810-85d8-828df0997ee0', u'name': u'RR - AQT - MPT - SCB'}"
+id,2ec473a4-dc28-4f00-a39d-6efce4462e49
+agent_version,2.0.1480
+name,AFMMAC-PROT-VM
+ip_addresses,"[10.10.10.6, 172.16.228.140]"
+mac_addresses,"[00-0C-29-97-AA-21, 00-0C-29-97-AA-2B]"
+state,Offline
+date_first_registered,2018-04-18T21:14:33
+policy,"{u'id': u'ded261e1-a60e-495b-b68f-f53334f124a7', u'name': u'AFM-Prot-VM'}"
+id,3c331d68-ab77-47cc-b439-5c87ef5ff3a2
+agent_version,2.0.1470
+name,ND-OPTICS-PBOB
+ip_addresses,"[192.168.97.130, 10.10.10.20]"
+mac_addresses,"[00-0C-29-5E-9D-12, 00-0C-29-5E-9D-1C]"
+state,Offline
+date_first_registered,2018-04-17T17:04:42
+policy,"{u'id': u'18857144-1ec5-4233-8678-4b27920fa3e1', u'name': u'ND PBOB'}"
+id,e0b5f388-386c-410c-b34a-3c7aaa3bf152
+agent_version,2.0.1480
+name,CYL-UBT1-TRDVM
+ip_addresses,"[10.10.10.5, 192.168.207.139]"
+mac_addresses,"[00-0C-29-A9-25-9B, 00-0C-29-A9-25-A5]"
+state,Offline
+date_first_registered,2018-04-16T16:22:28
+policy,"{u'id': u'd4f51479-6f3c-4fa0-8e58-addae4cfe7cb', u'name': u'ysk_01_withTrend'}"
+id,8e4c763d-74ad-4907-8b43-77b3829dd6c7
+agent_version,2.0.1480
+name,BMC-CHI-WIN10DE
+ip_addresses,[192.168.159.134]
+mac_addresses,[00-0C-29-0B-1B-21]
+state,Offline
+date_first_registered,2018-04-16T15:49:54
+policy,"{u'id': u'8cf9f16b-73f1-4538-9413-b3e7db269f76', u'name': u'BMC: Test Demo'}"
+id,5e6508fe-19cd-4f74-8d6b-78c686662ed9
+agent_version,2.0.1480
+name,MALWARECHICAGO
+ip_addresses,[192.168.159.128]
+mac_addresses,[00-0C-29-75-08-F7]
+state,Offline
+date_first_registered,2018-04-16T15:40:45
+policy,"{u'id': u'0c79200d-84df-4ecc-bf80-69dd5b6e2438', u'name': u'BMC-Cylance Protect Demo VM'}"
+id,7acf4df7-b372-47c7-a695-1604d45ca3f2
+agent_version,2.0.1480
+name,JFMAC-OPTI-VM
+ip_addresses,[192.168.159.213]
+mac_addresses,[00-0C-29-38-81-2F]
+state,Offline
+date_first_registered,2018-04-11T22:19:29
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,232302d6-a4e4-4736-a62b-97643d142c72
+agent_version,2.0.1470
+name,CFS-Hybrid.DESKTOP-PPMONSL
+ip_addresses,[192.168.159.215]
+mac_addresses,[00-0C-29-9F-ED-A8]
+state,Offline
+date_first_registered,2018-04-10T22:17:03
+policy,"{u'id': u'bf1c9589-517a-456a-8c2d-509599d266e9', u'name': u'CFS-Test'}"
+id,44ac8369-30fc-4743-b305-32450a5ff168
+agent_version,2.0.1480
+name,CFS-Hybrid
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-04-10T22:10:27
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,fe294049-3880-4152-a936-854ae4d200b3
+agent_version,
+name,Alderman-CentOS7
+ip_addresses,[192.168.159.153]
+mac_addresses,[00-0C-29-64-97-14]
+state,Offline
+date_first_registered,2018-04-10T20:56:06
+policy,"{u'id': u'226e7961-73e9-4128-ae47-3b914ee9edc9', u'name': u'Alderman-Linux-Protect'}"
+id,6b45cbed-414f-4684-92c0-5cf10f982a63
+agent_version,2.0.1470
+name,RS-OPTICS3-X64
+ip_addresses,[192.168.159.140]
+mac_addresses,[00-0C-29-E2-03-AD]
+state,Offline
+date_first_registered,2018-04-10T10:15:07
+policy,"{u'id': u'94decfe5-0e74-4078-9f14-edd8d9ca4820', u'name': u'00-RS-WIN-AQT-MP-SC-OPT*!'}"
+id,73177d9a-a7f1-407b-805e-9e3c22d4ca39
+agent_version,2.0.1480
+name,RCollinsUbuntu
+ip_addresses,[192.168.84.185]
+mac_addresses,[00-0C-29-C3-10-12]
+state,Offline
+date_first_registered,2018-04-09T13:45:42
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,da40650d-738c-4974-8e08-62d9ed0ceef3
+agent_version,2.0.1480
+name,RCOLLINSPROTECT
+ip_addresses,"[10.10.10.142, 192.168.84.186]"
+mac_addresses,"[00-0C-29-50-8E-AE, 00-0C-29-50-8E-B8]"
+state,Offline
+date_first_registered,2018-04-09T07:09:48
+policy,"{u'id': u'62c566a9-e0f1-473f-bf7c-fb94335191e3', u'name': u'RCollins_FULL_PROTECTION'}"
+id,df091aaa-d322-4e11-9f60-59f9d061d6fb
+agent_version,2.0.1480
+name,RCOLLINS_OPTICS
+ip_addresses,"[192.168.84.183, 10.10.10.143]"
+mac_addresses,"[00-0C-29-DC-45-75, 00-0C-29-DC-45-7F]"
+state,Offline
+date_first_registered,2018-04-09T07:08:36
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,5485a279-b0ff-4c25-80d1-b782babffd8b
+agent_version,2.0.1480
+name,GD-WIN10-LAB
+ip_addresses,[192.168.241.133]
+mac_addresses,[00-50-56-30-FD-94]
+state,Offline
+date_first_registered,2018-04-07T19:02:39
+policy,"{u'id': u'2667d9a7-1199-4b43-b5ab-bf6700261817', u'name': u'Gabe Detect+Optics'}"
+id,691683a0-237e-48e6-aa20-bdb2f7d773eb
+agent_version,2.0.1480
+name,AM-WIN7X64
+ip_addresses,[192.168.159.139]
+mac_addresses,[00-0C-29-CC-31-3D]
+state,Offline
+date_first_registered,2018-04-05T17:08:10
+policy,"{u'id': u'7d5440d2-36c8-4c80-897e-3487c84913b8', u'name': u'AM - Full Protection'}"
+id,866208df-2302-4dad-a991-4235b703eab7
+agent_version,1.2.1320
+name,CYOPTEST
+ip_addresses,[192.168.207.139]
+mac_addresses,[00-0C-29-DA-05-98]
+state,Offline
+date_first_registered,2018-04-05T03:15:11
+policy,"{u'id': u'193a7269-f7c3-49db-bfc9-27f36e5b9bca', u'name': u'ysk_01'}"
+id,8ab8ab60-d4f4-4ca7-bd57-3ff74b11f0eb
+agent_version,2.0.1480
+name,EGCYLANCE1320
+ip_addresses,[192.168.159.154]
+mac_addresses,[00-0C-29-06-12-B4]
+state,Offline
+date_first_registered,2018-04-04T17:37:40
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,0e35ab75-0c74-47e8-975e-9f1497905854
+agent_version,1.2.1320
+name,EGCYLANCEPRO
+ip_addresses,[192.168.159.162]
+mac_addresses,[00-0C-29-0D-84-0C]
+state,Offline
+date_first_registered,2018-04-04T17:37:25
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,bea2d36b-22b9-46cb-8e84-8425fc945bbb
+agent_version,2.0.1470
+name,EGCYLANCE-1320
+ip_addresses,[192.168.159.160]
+mac_addresses,[00-0C-29-B1-6A-7C]
+state,Offline
+date_first_registered,2018-04-04T16:26:56
+policy,"{u'id': u'b2c78900-a6c3-4cf0-9503-439ded8546a6', u'name': u'Gidders1320'}"
+id,3d4c93af-1ee7-4a24-aa15-387b729d5c7c
+agent_version,1.2.1320
+name,ETAN-OPTICS1
+ip_addresses,[192.168.159.135]
+mac_addresses,[00-0C-29-5E-BC-41]
+state,Offline
+date_first_registered,2018-04-03T03:23:51
+policy,"{u'id': u'9c0048d8-33d3-4555-8f21-443bd19b2e3e', u'name': u'etan-opticsdemo'}"
+id,4897f0c3-c8cb-473c-a098-fc8ae7ed7145
+agent_version,2.0.1470
+name,BT-PROTECT
+ip_addresses,[192.168.159.136]
+mac_addresses,[00-0C-29-6B-D1-81]
+state,Offline
+date_first_registered,2018-04-02T16:31:12
+policy,"{u'id': u'6874318c-0430-4022-92d1-865a5cbe344a', u'name': u'BT - Demo'}"
+id,fbc3d63d-63d7-41fe-92bb-c51f4fd2436e
+agent_version,2.0.1480
+name,USER-PC
+ip_addresses,[192.168.159.161]
+mac_addresses,[00-0C-29-3C-1C-99]
+state,Offline
+date_first_registered,2018-04-02T05:10:38
+policy,"{u'id': u'dd6bc648-00b8-4d25-8584-65edf4163387', u'name': u'etan-opticsdemo-block'}"
+id,9dd4c65b-9fd7-4cbc-afa3-510c14fb2f0c
+agent_version,2.0.1470
+name,CFS-Hybrid.DESKTOP-PPMONSL
+ip_addresses,[192.168.159.170]
+mac_addresses,[00-0C-29-09-0B-1D]
+state,Offline
+date_first_registered,2018-03-30T21:45:07
+policy,"{u'id': u'8d9790af-7fde-462c-b89c-3bcad007fe3c', u'name': u'CFS-Demo_Policy'}"
+id,eae78207-b30d-4f39-9013-a711a54fc2a4
+agent_version,2.0.1480
+name,TDWIN10-X86
+ip_addresses,"[10.10.10.17, 172.16.228.218]"
+mac_addresses,"[00-0C-29-C4-79-E1, 00-0C-29-C4-79-EB]"
+state,Offline
+date_first_registered,2018-03-30T19:07:47
+policy,"{u'id': u'068062f7-c003-4f03-aa07-a15252ec7cd3', u'name': u'TD-Prot-VM'}"
+id,96d3873e-5b18-4f12-b45a-ea38bf35543d
+agent_version,2.0.1480
+name,TDWINXP-PROTECT
+ip_addresses,"[10.10.10.16, 172.16.228.217]"
+mac_addresses,"[00-0C-29-52-32-12, 00-0C-29-52-32-1C]"
+state,Offline
+date_first_registered,2018-03-30T13:50:28
+policy,"{u'id': u'068062f7-c003-4f03-aa07-a15252ec7cd3', u'name': u'TD-Prot-VM'}"
+id,2f63a633-f609-44c7-bee4-ea4e8a8f0982
+agent_version,2.0.1480
+name,BT-OPTICS-2
+ip_addresses,[192.168.159.130]
+mac_addresses,[00-0C-29-68-8D-BE]
+state,Offline
+date_first_registered,2018-03-30T12:51:02
+policy,"{u'id': u'672f3b33-91e0-495d-b276-7c1ba6237225', u'name': u'BT - Optics'}"
+id,2128f0c4-e4a4-4362-8a7c-78b39cdb2dff
+agent_version,2.0.1470
+name,HT_Hybrid
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-03-30T06:10:50
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,856ee1f7-7aa9-4682-a210-c5348fd39488
+agent_version,
+name,DESKTOP-LSM8H4E
+ip_addresses,[192.168.159.140]
+mac_addresses,[00-0C-29-9C-EC-78]
+state,Offline
+date_first_registered,2018-03-28T21:25:30
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,e3e153ea-f287-4808-9faf-e8cd50e80c99
+agent_version,2.0.1480
+name,tdcentos7
+ip_addresses,[172.16.228.214]
+mac_addresses,[00-0C-29-70-03-3F]
+state,Offline
+date_first_registered,2018-03-28T19:11:22
+policy,"{u'id': u'9c74fd85-806e-47ef-b5e6-c30ad94c242a', u'name': u'TD-Linux-VM'}"
+id,b8d555a7-4a2b-4a3c-ac46-713f78ce24f5
+agent_version,2.0.1480
+name,Omar-Hybrid.CYL-HYB-OELW
+ip_addresses,[192.168.159.21]
+mac_addresses,[00-0C-29-97-92-B6]
+state,Offline
+date_first_registered,2018-03-28T17:17:47
+policy,"{u'id': u'002f7299-881a-472f-bbc3-648085c1abca', u'name': u'OElw - Lab '}"
+id,f7fe3048-48b9-429d-b86c-3399c483767a
+agent_version,2.0.1480
+name,Omar-Hybrid
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-03-28T17:04:41
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,042ebe9a-522c-4008-af91-b0c12e47f0b4
+agent_version,
+name,TDWIN10-PROTECT
+ip_addresses,"[10.10.10.15, 172.16.228.206]"
+mac_addresses,"[00-0C-29-24-3B-13, 00-0C-29-24-3B-1D]"
+state,Offline
+date_first_registered,2018-03-27T19:32:35
+policy,"{u'id': u'a9e92522-6644-4ef4-8eeb-7662b9b37414', u'name': u'TD-Optics-VM'}"
+id,3ddb995d-2a56-4813-b1dd-56be250727f7
+agent_version,2.0.1480
+name,CYL-DEMO6-JP-HT
+ip_addresses,[192.168.105.143]
+mac_addresses,[00-0C-29-B7-96-67]
+state,Offline
+date_first_registered,2018-03-27T09:40:10
+policy,"{u'id': u'44b523ae-d76e-4c9f-a54e-920066b66de7', u'name': u'HT Demo'}"
+id,c09bdb98-c58f-4876-b997-c0fd2a2fe02b
+agent_version,2.0.1470
+name,RENAMEME
+ip_addresses,[192.168.159.197]
+mac_addresses,[00-0C-29-C1-1D-54]
+state,Offline
+date_first_registered,2018-03-26T14:19:43
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,47ce99d7-da67-40a1-a564-5a6212699f3a
+agent_version,2.0.1470
+name,YOSHIHARA-PC
+ip_addresses,[192.168.11.4]
+mac_addresses,[74-03-BD-8F-6A-A5]
+state,Offline
+date_first_registered,2018-03-25T14:04:58
+policy,"{u'id': u'a334605c-bb99-45fd-94d7-561fd2f2f717', u'name': u'Taka H Alert'}"
+id,fe9f0bd8-213d-4970-97f4-76b54a42dfda
+agent_version,2.0.1470
+name,LAPTOP-QE46MSO3
+ip_addresses,"[10.0.0.123, 2601:8C0:C000:65AE:8D85:F4C6:D6F1:9DD8, 2601:8C0:C000:65AE:70F6:81E6:63DF:88D7]"
+mac_addresses,[E8-9E-B4-1A-DA-A7]
+state,Offline
+date_first_registered,2018-03-24T20:43:31
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,3396e0cf-ea83-4cc6-a319-b308be40b69d
+agent_version,2.0.1460
+name,Hybrid-Jimmy.JIMMY-DISCONNEC
+ip_addresses,[192.168.159.13]
+mac_addresses,[00-0C-29-23-51-34]
+state,Offline
+date_first_registered,2018-03-23T17:49:33
+policy,"{u'id': u'76b867e5-3966-447b-a341-b623e6fc9609', u'name': u'ALDERMAN-block+SC-alert'}"
+id,925b4794-a400-447c-8270-9d0661251937
+agent_version,2.0.1480
+name,Hybrid-Jimmy
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-03-23T15:40:09
+policy,"{u'id': u'76b867e5-3966-447b-a341-b623e6fc9609', u'name': u'ALDERMAN-block+SC-alert'}"
+id,86171731-accc-4ae0-8daf-af46c6d1f123
+agent_version,
+name,ETAN-OPTICS2
+ip_addresses,[192.168.159.131]
+mac_addresses,[00-0C-29-9C-DE-56]
+state,Offline
+date_first_registered,2018-03-23T05:15:31
+policy,"{u'id': u'dd6bc648-00b8-4d25-8584-65edf4163387', u'name': u'etan-opticsdemo-block'}"
+id,f1186283-3ad3-44e0-8c2e-c5837f33f3e7
+agent_version,2.0.1470
+name,GiddersHybrid
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-03-21T14:24:05
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,9c1a02a9-5c99-4ccd-84e2-387026ddc340
+agent_version,
+name,rsundin-hybrid
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-03-21T11:19:57
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,4a420495-8c78-4846-910c-e696a2ebb494
+agent_version,
+name,JT CylanceHYBRID Test.JDOE-PC
+ip_addresses,[192.168.159.101]
+mac_addresses,[00-0C-29-77-43-BE]
+state,Offline
+date_first_registered,2018-03-20T10:39:18
+policy,"{u'id': u'1cad62a9-9aa0-4941-a9b5-8e80661bd5fa', u'name': u'JTIETZE Block+Mem+Script'}"
+id,e440d5ee-fb4c-4303-b35c-aaf7116886b0
+agent_version,2.0.1480
+name,JT CylanceHYBRID Test
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-03-20T09:50:31
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,be477a04-8b01-4392-b07c-9a9000c1d07b
+agent_version,
+name,TESTCyHYBRID.CYLABS.NET
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-03-16T23:42:08
+policy,"{u'id': u'3ddd5b41-1069-45f7-806d-585291f55449', u'name': u'FBA-Prevent'}"
+id,e8398c33-28a9-438d-a70c-37b090373065
+agent_version,
+name,HT_Hybrid.CYL-DEMO5-JP-HT
+ip_addresses,[192.168.105.229]
+mac_addresses,[00-0C-29-4D-68-45]
+state,Offline
+date_first_registered,2018-03-16T05:34:20
+policy,"{u'id': u'44b523ae-d76e-4c9f-a54e-920066b66de7', u'name': u'HT Demo'}"
+id,06bc7698-a63f-48fc-ac02-576057dbf0a6
+agent_version,2.0.1480
+name,HT_Hybrid.CYL-DEMO6-JP-HT
+ip_addresses,[192.168.105.240]
+mac_addresses,[00-0C-29-34-65-C4]
+state,Offline
+date_first_registered,2018-03-16T04:39:28
+policy,"{u'id': u'44b523ae-d76e-4c9f-a54e-920066b66de7', u'name': u'HT Demo'}"
+id,6ffc69fb-faf2-48f1-a8e1-7805ae3b9f73
+agent_version,2.0.1480
+name,mf-Hybrid.NO-NET
+ip_addresses,[192.168.159.221]
+mac_addresses,[00-0C-29-6D-DE-0B]
+state,Offline
+date_first_registered,2018-03-16T03:34:33
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,702c9d0b-6b72-4d31-b229-f014cce1dbf2
+agent_version,2.0.1480
+name,DESKTOP-PBCORPL
+ip_addresses,[172.16.147.175]
+mac_addresses,[00-0C-29-B4-6C-70]
+state,Offline
+date_first_registered,2018-03-15T18:18:35
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,baba9a0f-125f-4ad8-92e2-7a21f4ff1ec6
+agent_version,2.0.1470
+name,BT-Hybrid-3
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-03-15T15:16:21
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,0927ec7f-7428-4b19-9177-27287654d765
+agent_version,
+name,pashybrid
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-03-15T14:52:47
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,aff0567e-2da7-406c-8b83-b65af410e0c1
+agent_version,
+name,JD-Mac-Protected
+ip_addresses,[192.168.159.228]
+mac_addresses,[00-0C-29-14-8F-6E]
+state,Offline
+date_first_registered,2018-03-15T04:42:13
+policy,"{u'id': u'4260ee67-eeab-4530-be52-43bf7c7856fc', u'name': u'JD-OSX-AQT+M+CAE-R'}"
+id,b917a2a3-e09d-4f29-8051-340272823656
+agent_version,2.0.1480
+name,Alderman-Win10_x86
+ip_addresses,[192.168.59.131]
+mac_addresses,[00-0C-29-5C-D3-78]
+state,Offline
+date_first_registered,2018-03-14T22:02:27
+policy,"{u'id': u'76b867e5-3966-447b-a341-b623e6fc9609', u'name': u'ALDERMAN-block+SC-alert'}"
+id,6e530964-e624-48c6-acad-89fa2eaa408d
+agent_version,2.0.1480
+name,HYBRID
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-03-14T18:09:52
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,e1412f86-4fe9-4960-af73-c8516c396af4
+agent_version,
+name,HT_Hybrid
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-03-14T06:11:19
+policy,"{u'id': u'44b523ae-d76e-4c9f-a54e-920066b66de7', u'name': u'HT Demo'}"
+id,c950920a-d71d-4014-b8a9-9bf415b5a64a
+agent_version,
+name,bwosxMav1’s Mac
+ip_addresses,[192.168.159.190]
+mac_addresses,[00-0C-29-50-AD-C4]
+state,Offline
+date_first_registered,2018-03-13T22:16:54
+policy,"{u'id': u'e499d704-d4cc-4e2e-ab84-7ec185e120de', u'name': u'WaldenDemoMar2'}"
+id,38a14801-2bef-45e3-8b61-d404410faba2
+agent_version,2.0.1480
+name,mf-Hybrid
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-03-13T18:50:16
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,e1086568-7dcc-4e72-a095-618bebcbbc7d
+agent_version,
+name,JSMAC-PROT-VM
+ip_addresses,"[10.10.10.2, 192.168.223.145]"
+mac_addresses,"[00-0C-29-39-4D-EC, 00-0C-29-39-4D-F6]"
+state,Offline
+date_first_registered,2018-03-13T17:51:53
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,fa51124b-9a4b-4e12-bc80-9d85715df540
+agent_version,2.0.1470
+name,WEBB Hybrid.WEBBL-HY1
+ip_addresses,[192.168.159.201]
+mac_addresses,[00-0C-29-CE-2F-C2]
+state,Offline
+date_first_registered,2018-03-11T14:46:18
+policy,"{u'id': u'3ee3c7f9-8774-41ec-a23a-063dd9e0ed98', u'name': u'*WEBBL_Full'}"
+id,8cb1857b-e659-4fab-9dcb-35ec3b2e8eaa
+agent_version,2.0.1480
+name,WEBB Hybrid
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-03-11T14:45:11
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,1ea78aed-25af-4d54-9495-d8f99fa98f77
+agent_version,
+name,DPRES-HYBRIDTEST
+ip_addresses,[]
+mac_addresses,[]
+state,Offline
+date_first_registered,2018-03-10T22:16:43
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,4a1a701f-8587-423c-b3e4-80b91f1e5235
+agent_version,
+name,CS-OPTICS4
+ip_addresses,[192.168.159.210]
+mac_addresses,[00-0C-29-13-55-41]
+state,Offline
+date_first_registered,2018-03-10T02:12:04
+policy,"{u'id': u'7d9d7476-bb0f-48d8-8a17-2a7d9e0098e9', u'name': u'CFS-Optics-NoSC'}"
+id,3121c678-a561-4fe6-882e-bd04f17880d7
+agent_version,2.0.1470
+name,CS-OPTICS5
+ip_addresses,[192.168.159.209]
+mac_addresses,[00-0C-29-A8-F1-77]
+state,Offline
+date_first_registered,2018-03-10T02:11:03
+policy,"{u'id': u'7d9d7476-bb0f-48d8-8a17-2a7d9e0098e9', u'name': u'CFS-Optics-NoSC'}"
+id,d559331b-8a2b-4a13-b879-e7fc5f19b45a
+agent_version,2.0.1470
+name,CS-OPTICS3
+ip_addresses,[192.168.159.206]
+mac_addresses,[00-0C-29-6B-3F-40]
+state,Offline
+date_first_registered,2018-03-09T19:09:29
+policy,"{u'id': u'7d9d7476-bb0f-48d8-8a17-2a7d9e0098e9', u'name': u'CFS-Optics-NoSC'}"
+id,e63bfd2d-9bdc-4448-9c55-0c2d0b60178e
+agent_version,2.0.1470
+name,HT_MAC
+ip_addresses,"[192.168.105.1, 192.168.152.1, 172.16.214.1, 192.168.1.11, 2400:7800:49EA:9800:452:91E1:77DF:F37F, 2400:7800:49EA:9800:8CC7:F962:D307:C243]"
+mac_addresses,"[00-50-56-C0-00-01, 00-50-56-C0-00-02, 8C-85-90-65-B2-89, 00-50-56-C0-00-08]"
+state,Offline
+date_first_registered,2018-03-09T07:19:06
+policy,"{u'id': u'21f65590-58ae-4a64-9691-dc771ae68de9', u'name': u'HT Demo Alert'}"
+id,98261e56-577e-4aec-b394-1b2b43447ce6
+agent_version,2.0.1480
+name,UNPROTECTED
+ip_addresses,[192.168.159.143]
+mac_addresses,[00-0C-29-D5-B7-E2]
+state,Offline
+date_first_registered,2018-03-07T16:02:08
+policy,"{u'id': u'f50fe36a-9426-4a1d-aefa-da7783dfac86', u'name': u'Winkler-SE-Demo-Policy'}"
+id,9ac0f75b-991d-4182-bed7-4f4b6f95f65e
+agent_version,2.0.1470
+name,W7X64-FBA-OLD
+ip_addresses,[192.168.159.148]
+mac_addresses,[00-0C-29-16-ED-95]
+state,Offline
+date_first_registered,2018-03-06T21:29:35
+policy,"{u'id': u'3ddd5b41-1069-45f7-806d-585291f55449', u'name': u'FBA-Prevent'}"
+id,ebd6d87c-d154-4255-bcee-a2d5464df45f
+agent_version,1.2.1320
+name,DPRES-DEMO-1380
+ip_addresses,[192.168.159.211]
+mac_addresses,[00-0C-29-20-D9-FE]
+state,Offline
+date_first_registered,2018-03-05T20:51:52
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,c94b1ac4-9520-4ea9-866d-6a108d6c0eea
+agent_version,2.0.1480
+name,RJCCYLANCE1320
+ip_addresses,"[10.10.10.8, 192.168.84.152]"
+mac_addresses,"[00-0C-29-E9-13-48, 00-0C-29-E9-13-52]"
+state,Offline
+date_first_registered,2018-03-03T03:44:55
+policy,"{u'id': u'62c566a9-e0f1-473f-bf7c-fb94335191e3', u'name': u'RCollins_FULL_PROTECTION'}"
+id,afc78c97-6947-4d3d-ab12-78991d594c05
+agent_version,1.2.1320
+name,PB-W7-PRO-OPTUS
+ip_addresses,[192.168.159.191]
+mac_addresses,[00-0C-29-38-37-71]
+state,Offline
+date_first_registered,2018-03-02T15:55:58
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,f8297d81-78da-4779-8fbe-d76cad6fdfd4
+agent_version,2.0.1480
+name,ETAN-CYLANCE2
+ip_addresses,[192.168.159.140]
+mac_addresses,[00-0C-29-4C-24-72]
+state,Offline
+date_first_registered,2018-03-01T03:15:46
+policy,"{u'id': u'b55ae7cd-bde7-479e-94a3-a9c999bd2fa8', u'name': u'etan-protectdemo'}"
+id,02057abf-42f7-40dd-9315-d3664ac2555c
+agent_version,1.2.1390
+name,ETAN-CYLANCE1
+ip_addresses,[192.168.159.135]
+mac_addresses,[00-0C-29-A6-5B-9B]
+state,Offline
+date_first_registered,2018-03-01T03:13:00
+policy,"{u'id': u'b55ae7cd-bde7-479e-94a3-a9c999bd2fa8', u'name': u'etan-protectdemo'}"
+id,ae158c0d-76d5-4371-88da-56fd253b59ef
+agent_version,2.0.1470
+name,computer’s MacBook
+ip_addresses,[192.168.1.189]
+mac_addresses,[D4-9A-20-6C-12-65]
+state,Offline
+date_first_registered,2018-03-01T01:49:13
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,7f377c97-abd6-406c-8761-7f0fe5df0b03
+agent_version,2.0.1460
+name,OSX-WIN7-TEST
+ip_addresses,[172.16.164.130]
+mac_addresses,[00-0C-29-8D-15-9F]
+state,Offline
+date_first_registered,2018-02-26T16:30:42
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,5ea5d2eb-8a61-45f5-ac69-6824219d6c8f
+agent_version,2.0.1470
+name,OSX-WIN7
+ip_addresses,[172.16.164.128]
+mac_addresses,[00-0C-29-BD-66-10]
+state,Offline
+date_first_registered,2018-02-26T06:55:32
+policy,"{u'id': u'2884e28e-dc40-405c-b969-055a88d5e6b7', u'name': u'PNW-EC-SC'}"
+id,66fcc8a4-5b9a-4caa-ac86-cd3ca9b26ff0
+agent_version,2.0.1470
+name,Lucas-Malware MacBook Pro
+ip_addresses,"[192.168.0.62, 172.16.1.1, 192.168.159.1]"
+mac_addresses,"[14-10-9F-D9-B9-21, 00-50-56-C0-00-01, 00-50-56-C0-00-08]"
+state,Offline
+date_first_registered,2018-02-23T23:42:15
+policy,"{u'id': u'a7568b4a-9605-4092-b62d-c41343c3faa0', u'name': u'Lucas's Policy'}"
+id,dbc9586a-10d1-457f-85d4-90682c447bbe
+agent_version,2.0.1470
+name,Lucas-Mac
+ip_addresses,[192.168.159.135]
+mac_addresses,[00-0C-29-B4-E9-9E]
+state,Offline
+date_first_registered,2018-02-23T23:16:51
+policy,"{u'id': u'a7568b4a-9605-4092-b62d-c41343c3faa0', u'name': u'Lucas's Policy'}"
+id,7acfc69a-c1cb-4a69-b894-51f4a47f1dc5
+agent_version,2.0.1470
+name,pas-centos.localdomain 
+ip_addresses,[192.168.159.162]
+mac_addresses,[00-0C-29-DC-67-E5]
+state,Offline
+date_first_registered,2018-02-20T03:11:38
+policy,"{u'id': u'419768f8-c555-42b9-a067-27f190c471bc', u'name': u'PAS-ProtectHost'}"
+id,0e4b680f-a433-4e8b-af4a-439ce519239d
+agent_version,2.0.1470
+name,MacBookPro
+ip_addresses,[192.168.0.59]
+mac_addresses,"[D2-0B-C2-42-EE-FC, B8-E8-56-30-CA-AC]"
+state,Offline
+date_first_registered,2018-02-16T18:34:13
+policy,"{u'id': u'671339ec-165b-44ab-a362-65f901feae04', u'name': u'Mac.MalwarePrevent+MemdefAlert'}"
+id,10ab3e95-c870-4bd8-bbb7-932f5eb950c0
+agent_version,1.2.1330
+name,CS-OPTICS1
+ip_addresses,[192.168.159.204]
+mac_addresses,[00-0C-29-9A-73-9D]
+state,Offline
+date_first_registered,2018-02-16T17:49:49
+policy,"{u'id': u'7d9d7476-bb0f-48d8-8a17-2a7d9e0098e9', u'name': u'CFS-Optics-NoSC'}"
+id,aee578e3-9a9d-4f1e-8329-9b3a81ecc5c2
+agent_version,2.0.1470
+name,centos.testlab
+ip_addresses,[192.168.19.194]
+mac_addresses,[00-0C-29-76-36-AF]
+state,Offline
+date_first_registered,2018-02-16T15:05:42
+policy,"{u'id': u'57ff08f4-e361-40cd-bf10-d6c3248d5c24', u'name': u'sdubbel-malware-lab-W10-optics-allow_PS'}"
+id,89e0d0e1-fc68-47a6-b87c-2cb370bb1be9
+agent_version,2.0.1470
+name,SHI-CPWO
+ip_addresses,[172.23.4.198]
+mac_addresses,[00-0C-29-B1-4B-71]
+state,Offline
+date_first_registered,2018-02-15T20:32:23
+policy,"{u'id': u'e6c3ecd2-147c-44b5-9261-5d8c19d5f37e', u'name': u'MYSHI-SELECT-PRD'}"
+id,91ed83b4-a413-4e14-828d-edd71689bb86
+agent_version,2.0.1470
+name,SHI-CPDP
+ip_addresses,[172.23.4.199]
+mac_addresses,[00-0C-29-1D-13-8D]
+state,Offline
+date_first_registered,2018-02-15T20:21:40
+policy,"{u'id': u'e6c3ecd2-147c-44b5-9261-5d8c19d5f37e', u'name': u'MYSHI-SELECT-PRD'}"
+id,9f22c020-eccc-48a8-93ee-b18d512a3677
+agent_version,2.0.1470
+name,SHI-FBTD
+ip_addresses,[172.23.4.197]
+mac_addresses,[00-0C-29-19-81-B0]
+state,Offline
+date_first_registered,2018-02-15T20:19:06
+policy,"{u'id': u'b3df4f0f-ae5b-4e92-baaf-df4f53de271b', u'name': u'MYSHI-SELECT-NF'}"
+id,a8644808-8ee8-43a0-9d93-b9cb1c025e7e
+agent_version,2.0.1470
+name,SHI-DEVC
+ip_addresses,[172.23.4.195]
+mac_addresses,[00-0C-29-B0-71-CB]
+state,Offline
+date_first_registered,2018-02-15T20:13:09
+policy,"{u'id': u'c933253c-cfd6-4e42-8c0d-d40f7bb93e44', u'name': u'MYSHI-SELECT-DC'}"
+id,f0c414dc-5471-4481-906f-ee799399e5ec
+agent_version,2.0.1470
+name,SHI-APPC
+ip_addresses,[172.23.4.196]
+mac_addresses,[00-0C-29-BC-79-D6]
+state,Offline
+date_first_registered,2018-02-15T20:08:21
+policy,"{u'id': u'dca6f7c9-1660-466e-89c5-c1ad4fc17ef0', u'name': u'MYSHI-SELECT-AC'}"
+id,43766ed8-7ab1-452a-ab23-3e96f2159d27
+agent_version,2.0.1470
+name,INOUE-PC
+ip_addresses,[192.168.0.3]
+mac_addresses,[00-17-C4-FA-F3-05]
+state,Offline
+date_first_registered,2018-02-15T13:07:34
+policy,"{u'id': u'69ebf779-d778-4a74-96a2-ecb8e69397e6', u'name': u'taka H'}"
+id,2a3d2d5f-53e0-4265-8711-f051659c4ae2
+agent_version,2.0.1470
+name,CYL-DEMO4-JP-HT
+ip_addresses,[192.168.105.228]
+mac_addresses,[00-0C-29-E0-59-63]
+state,Offline
+date_first_registered,2018-02-14T09:08:32
+policy,"{u'id': u'21f65590-58ae-4a64-9691-dc771ae68de9', u'name': u'HT Demo Alert'}"
+id,bc394153-da74-4b27-a6d3-d94e335729e9
+agent_version,2.0.1470
+name,OPT-PT-MM-02
+ip_addresses,[10.45.96.147]
+mac_addresses,[00-50-56-88-3A-97]
+state,Offline
+date_first_registered,2018-02-13T22:45:42
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,46a6dde7-0f6f-416d-af55-60bbf63a5ee7
+agent_version,2.0.1470
+name,SAWOYA-DEMO-RIG
+ip_addresses,[192.168.159.149]
+mac_addresses,[00-0C-29-05-0F-AB]
+state,Offline
+date_first_registered,2018-02-08T22:11:39
+policy,"{u'id': u'28259acf-1fc8-41b6-ac75-f6e3ebdd0b0e', u'name': u'SawoyaNoSC'}"
+id,b798691c-b4e9-4355-98de-d5d94aab1dee
+agent_version,2.0.1480
+name,JSMAC-PROT-VM
+ip_addresses,"[10.10.10.2, 192.168.223.151]"
+mac_addresses,"[00-0C-29-E3-9C-8A, 00-0C-29-E3-9C-94]"
+state,Offline
+date_first_registered,2018-02-07T22:09:00
+policy,"{u'id': u'2c88477b-1607-42ca-9154-633857eb5ae3', u'name': u'JS-PROT-VM'}"
+id,f4ec608f-ebb8-4d2d-853a-29f54f9fe222
+agent_version,2.0.1470
+name,AAK-CYPRO
+ip_addresses,[192.168.159.130]
+mac_addresses,[00-0C-29-71-B2-5B]
+state,Offline
+date_first_registered,2018-02-07T01:42:04
+policy,"{u'id': u'973885e1-a9a6-40ad-8c31-f5dfb2c4a54f', u'name': u'Klein - Full'}"
+id,e2159372-d519-4f5e-802b-7652090bcae5
+agent_version,2.0.1480
+name,BMC-STAGINGHOST
+ip_addresses,[192.168.159.139]
+mac_addresses,[00-0C-29-9B-33-3D]
+state,Offline
+date_first_registered,2018-02-06T20:36:22
+policy,"{u'id': u'306d27c7-42bd-4b15-8a63-be2951d685bf', u'name': u'BMC - StagingHost'}"
+id,3214ba79-8ef1-4626-8837-45e397c1232b
+agent_version,2.0.1480
+name,EHTANDEMO
+ip_addresses,[192.168.159.129]
+mac_addresses,[00-0C-29-A3-7D-DF]
+state,Offline
+date_first_registered,2018-02-06T06:40:30
+policy,"{u'id': u'b81da7b0-1989-430d-858b-e63d492c641a', u'name': u'**WEBBL-AQT-STAGING'}"
+id,1f71b6da-4f53-49c0-b319-52408a931741
+agent_version,2.0.1470
+name,PAS-WIN10
+ip_addresses,[192.168.159.135]
+mac_addresses,[00-0C-29-2A-5A-C8]
+state,Offline
+date_first_registered,2018-02-05T21:56:34
+policy,"{u'id': u'db59639a-6203-4f5a-8cce-d8c23b72532c', u'name': u'PAS-ProtectHost-NoBTD-NoPwrShCon'}"
+id,323fbb8a-d2b3-40cb-abc3-f9ff37e1f92c
+agent_version,2.0.1470
+name,SW-MCAFEE-PRO-O
+ip_addresses,[192.168.159.129]
+mac_addresses,[00-0C-29-D6-C7-59]
+state,Offline
+date_first_registered,2018-02-03T16:52:36
+policy,"{u'id': u'4ae0640e-5713-415b-99dd-8162bba74691', u'name': u'Swhite - Flight recorder'}"
+id,eb72c770-dae4-4fad-9142-e608f8c55a14
+agent_version,2.0.1470
+name,BFREE-STAGING
+ip_addresses,[192.168.159.131]
+mac_addresses,[00-0C-29-EE-44-AB]
+state,Offline
+date_first_registered,2018-02-02T20:52:25
+policy,"{u'id': u'82f14d95-00a5-4481-a5f1-69a0fe437bf6', u'name': u'bfree-staging'}"
+id,ae33c5ff-0b86-43e7-9aac-fe025e0c830d
+agent_version,2.0.1470
+name,RRSTAGING
+ip_addresses,[192.168.159.25]
+mac_addresses,[00-50-56-34-BB-2A]
+state,Offline
+date_first_registered,2018-02-02T20:36:23
+policy,"{u'id': u'24518fe4-df0d-4c5d-8fa6-e1211e7c43ff', u'name': u'RR STAGING VM'}"
+id,04315247-ee79-41b6-a5e4-23314aa59a70
+agent_version,2.0.1470
+name,BFREE-DEMO
+ip_addresses,[192.168.159.129]
+mac_addresses,[00-0C-29-79-12-E7]
+state,Offline
+date_first_registered,2018-02-02T17:20:09
+policy,"{u'id': u'87f91b7f-d7c0-45ed-982f-93e5e8b8c351', u'name': u'bfree-demo'}"
+id,e8ded1c1-344e-493e-841f-f7cc4a3e5dca
+agent_version,2.0.1470
+name,RROPTICS
+ip_addresses,[192.168.159.60]
+mac_addresses,[00-0C-29-AF-9A-4D]
+state,Offline
+date_first_registered,2018-02-01T16:17:18
+policy,"{u'id': u'3363f4a2-b8e0-4810-85d8-828df0997ee0', u'name': u'RR - AQT - MPT - SCB'}"
+id,4246c1c8-5cce-4ae2-be0a-7798798f599a
+agent_version,2.0.1450
+name,MAL-OE-C02VV1LUHTDD
+ip_addresses,"[192.168.229.1, 192.168.228.1, FDDF:DCC9:CD70:0:4AB:BBC4:C14C:9DC6, 192.168.8.161, FDDF:DCC9:CD70:0:DD7B:2B87:B78E:4867]"
+mac_addresses,"[00-50-56-C0-00-01, 00-50-56-C0-00-08, 8C-85-90-7A-72-EE]"
+state,Offline
+date_first_registered,2018-01-31T09:39:33
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,35bb9027-1aae-48de-b239-c33cf4233e57
+agent_version,2.0.1470
+name,ht-cent7
+ip_addresses,[192.168.105.241]
+mac_addresses,[00-0C-29-71-5A-E0]
+state,Offline
+date_first_registered,2018-01-30T06:39:44
+policy,"{u'id': u'44b523ae-d76e-4c9f-a54e-920066b66de7', u'name': u'HT Demo'}"
+id,3b53adc4-4c03-4013-ba74-2f834fdd4ea0
+agent_version,2.0.1470
+name,CYLANCEWORKERPC
+ip_addresses,[172.16.85.129]
+mac_addresses,[00-0C-29-60-94-97]
+state,Offline
+date_first_registered,2018-01-26T02:35:51
+policy,"{u'id': u'b0332765-bc45-46bf-a2f4-fcb35adad5c9', u'name': u'00-Phase3 - Prevention Mode'}"
+id,b6dd70cf-ef1a-432e-b861-50ef183514d0
+agent_version,2.0.1470
+name,ND-WIN10-PROTEC
+ip_addresses,"[10.10.10.7, 192.168.241.153]"
+mac_addresses,"[00-0C-29-99-7F-2C, 00-0C-29-99-7F-36]"
+state,Offline
+date_first_registered,2018-01-19T20:01:24
+policy,"{u'id': u'18857144-1ec5-4233-8678-4b27920fa3e1', u'name': u'ND PBOB'}"
+id,dc356d98-2c17-4e6a-b5d0-eb5cb7864f54
+agent_version,2.0.1470
+name,ND-PBOB
+ip_addresses,"[10.10.10.20, 192.168.241.132]"
+mac_addresses,"[00-0C-29-63-17-BA, 00-0C-29-63-17-C4]"
+state,Offline
+date_first_registered,2018-01-19T15:03:05
+policy,"{u'id': u'18857144-1ec5-4233-8678-4b27920fa3e1', u'name': u'ND PBOB'}"
+id,2f09628e-31a2-4aa9-9ed2-a83e24ad3cf1
+agent_version,2.0.1470
+name,RRCYLANCE
+ip_addresses,[192.168.159.30]
+mac_addresses,[00-0C-29-83-88-E3]
+state,Offline
+date_first_registered,2018-01-18T17:05:33
+policy,"{u'id': u'3363f4a2-b8e0-4810-85d8-828df0997ee0', u'name': u'RR - AQT - MPT - SCB'}"
+id,4bafb8b4-f4a5-45eb-83e8-fef0af27894a
+agent_version,2.0.1450
+name,CYLANCE
+ip_addresses,"[10.10.10.204, 192.168.241.133]"
+mac_addresses,"[00-0C-29-02-14-36, 00-0C-29-02-14-40]"
+state,Offline
+date_first_registered,2018-01-18T15:23:36
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,93206844-911e-4773-8edd-d48211b571c7
+agent_version,2.0.1470
+name,TESTPC4-CYLANCE
+ip_addresses,"[192.168.11.89, 192.168.11.22]"
+mac_addresses,"[00-0C-29-81-2E-E5, 00-0C-29-81-2E-EF]"
+state,Offline
+date_first_registered,2018-01-18T13:41:08
+policy,"{u'id': u'b38a1bc8-cd96-48ee-a8c6-41d72322239c', u'name': u'Taka Malware Test Policy'}"
+id,2b54f635-1bd1-47b8-bb4a-6f38ed00bac8
+agent_version,2.0.1480
+name,DESKTOP-R1A53BU
+ip_addresses,[192.168.241.152]
+mac_addresses,[00-0C-29-B9-5D-ED]
+state,Offline
+date_first_registered,2018-01-17T02:14:57
+policy,"{u'id': u'18857144-1ec5-4233-8678-4b27920fa3e1', u'name': u'ND PBOB'}"
+id,204e0e89-e63d-4cfc-b919-cb95de166319
+agent_version,2.0.1470
+name,ND-OSLER-PAOA
+ip_addresses,"[192.168.241.130, 10.10.10.20, 169.254.21.86]"
+mac_addresses,"[00-0C-29-DC-36-90, 00-0C-29-DC-36-9A]"
+state,Offline
+date_first_registered,2018-01-16T02:15:01
+policy,"{u'id': u'9c8ea0ff-d12a-45d0-bda5-603b402e6e9b', u'name': u'Osler PAOA'}"
+id,f0874aed-d4f0-44e3-994f-81e79301fe3c
+agent_version,2.0.1470
+name,ND-MBPROT-VM
+ip_addresses,[192.168.1.43]
+mac_addresses,[00-0C-29-2B-06-1E]
+state,Offline
+date_first_registered,2018-01-15T23:35:29
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,9d4c283f-c8c3-40f2-b158-cf163a839869
+agent_version,2.0.1470
+name,LAURRIE-PC
+ip_addresses,[192.168.1.65]
+mac_addresses,[00-22-68-8C-0B-0B]
+state,Offline
+date_first_registered,2018-01-12T14:06:30
+policy,"{u'id': u'a3f263c1-8ff7-4808-ae84-46e39a75e97b', u'name': u'Gidders Policy 9'}"
+id,a0863ad5-3fd7-463f-8bda-7e280d8b3256
+agent_version,2.0.1470
+name,WIN-CVNQEV9JTAQ
+ip_addresses,[192.168.105.224]
+mac_addresses,[00-0C-29-BE-E5-01]
+state,Offline
+date_first_registered,2018-01-12T03:40:58
+policy,"{u'id': u'1c7c8df8-8215-459a-ae96-0c6024704b78', u'name': u'HT Demo MemDef'}"
+id,5961457b-3879-40aa-844a-a90105caa84e
+agent_version,2.0.1470
+name,PNW-PROTECT
+ip_addresses,[192.168.223.197]
+mac_addresses,[00-0C-29-65-98-1A]
+state,Offline
+date_first_registered,2018-01-11T02:53:28
+policy,"{u'id': u'2884e28e-dc40-405c-b969-055a88d5e6b7', u'name': u'PNW-EC-SC'}"
+id,872f3a72-83ec-434d-a746-fc8a971c853f
+agent_version,2.0.1470
+name,WIN-63GV4JA5O6D
+ip_addresses,"[10.10.10.42, 192.168.105.217]"
+mac_addresses,"[00-0C-29-D2-33-A0, 00-0C-29-D2-33-AA]"
+state,Offline
+date_first_registered,2018-01-11T02:27:06
+policy,"{u'id': u'1c7c8df8-8215-459a-ae96-0c6024704b78', u'name': u'HT Demo MemDef'}"
+id,d9ec634f-7c0e-461e-913f-e1d3fa97ada1
+agent_version,2.0.1470
+name,BT-1370
+ip_addresses,[192.168.159.139]
+mac_addresses,[00-0C-29-D0-71-56]
+state,Offline
+date_first_registered,2018-01-10T22:00:20
+policy,"{u'id': u'e65bbdb2-16d9-4870-b5d7-580769dd72b4', u'name': u'BT - 1370 - FW Off'}"
+id,8884414c-d086-4aee-b8b8-27ecaf602823
+agent_version,1.2.1370
+name,TEST1
+ip_addresses,"[10.10.10.110, 192.168.241.143]"
+mac_addresses,"[00-0C-29-03-BE-DC, 00-0C-29-03-BE-E6]"
+state,Offline
+date_first_registered,2018-01-08T09:57:28
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,24bbe9ec-c139-425d-96d6-dd4290ff75f1
+agent_version,2.0.1470
+name,PNW-OPTICS
+ip_addresses,[192.168.223.198]
+mac_addresses,[00-0C-29-B6-75-9D]
+state,Offline
+date_first_registered,2018-01-03T18:44:08
+policy,"{u'id': u'2884e28e-dc40-405c-b969-055a88d5e6b7', u'name': u'PNW-EC-SC'}"
+id,7d2260d6-9b06-4432-bf17-2be394066355
+agent_version,2.0.1470
+name,GD-WIN-SYSTEM
+ip_addresses,[192.168.241.137]
+mac_addresses,[00-0C-29-A4-AA-DF]
+state,Offline
+date_first_registered,2018-01-01T21:10:49
+policy,"{u'id': u'2db15606-6770-4159-bae2-866149a55e5a', u'name': u'Gabe Lab + SC PS Disabled'}"
+id,f9000dba-b1b1-4591-bc62-82189a780376
+agent_version,2.0.1470
+name,RRA-PROTECTOLD
+ip_addresses,[192.168.159.219]
+mac_addresses,[00-0C-29-17-98-EC]
+state,Offline
+date_first_registered,2017-12-29T12:19:37
+policy,"{u'id': u'b67b1797-8942-4fb4-a1fb-4972c47b72dc', u'name': u'RRastegarpour-Demo-Protect'}"
+id,971117d4-5d5c-4a0f-bbf4-c0e154f363ee
+agent_version,1.2.1320
+name,PNW-STAGE
+ip_addresses,[192.168.223.173]
+mac_addresses,[00-0C-29-38-2F-F4]
+state,Offline
+date_first_registered,2017-12-28T19:59:19
+policy,"{u'id': u'2884e28e-dc40-405c-b969-055a88d5e6b7', u'name': u'PNW-EC-SC'}"
+id,db83fd3c-6d32-4cb4-9c6c-7961f1ab8068
+agent_version,2.0.1470
+name,MH-OPT22-W10
+ip_addresses,[192.168.159.178]
+mac_addresses,[00-0C-29-5C-DB-F8]
+state,Offline
+date_first_registered,2017-12-22T06:18:34
+policy,"{u'id': u'07ce61ea-0ce5-44b0-b578-6873af0a3bf8', u'name': u'MH ATQ MT SCM OAU'}"
+id,55cd2b80-b448-47b1-9089-4bddab022e44
+agent_version,2.0.1480
+name,CY-WIN10
+ip_addresses,[192.168.11.128]
+mac_addresses,[00-0C-29-01-7D-84]
+state,Offline
+date_first_registered,2017-12-20T04:32:11
+policy,"{u'id': u'b669bdf9-f401-40a7-b165-d1115d7fd41e', u'name': u'Taka Optics Detect'}"
+id,f681c1e1-9cc1-41e5-9ff3-e7d80450259d
+agent_version,2.0.1470
+name,CY-WIN7
+ip_addresses,[192.168.11.129]
+mac_addresses,[00-0C-29-30-42-75]
+state,Offline
+date_first_registered,2017-12-20T04:29:43
+policy,"{u'id': u'b669bdf9-f401-40a7-b165-d1115d7fd41e', u'name': u'Taka Optics Detect'}"
+id,37e05054-0db4-4fd4-9c1f-b1701e473a02
+agent_version,2.0.1470
+name,RT Demo Mac
+ip_addresses,[192.168.241.201]
+mac_addresses,[00-0C-29-5B-4D-D4]
+state,Offline
+date_first_registered,2017-12-18T18:22:14
+policy,"{u'id': u'b5bb0612-e172-4c93-8547-24ff5914c5a9', u'name': u'RT Mac 2017'}"
+id,ec92588f-70bb-4615-b8e2-611e2104c426
+agent_version,2.0.1470
+name,LAPTOP-QE46MSO3
+ip_addresses,"[10.0.0.123, 2601:8C0:C000:65AE:8D85:F4C6:D6F1:9DD8, 2601:8C0:C000:65AE:1DE:7A62:F04A:F300, 2601:8C0:C000:65AE:F5FC:375:E35C:7C91, 2601:8C0:C000:65AE:6CDE:BD93:13A0:B8EA, 2601:8C0:C000:65AE:20D7:24D4:E9E1:6EC8]"
+mac_addresses,[E8-9E-B4-1A-DA-A7]
+state,Offline
+date_first_registered,2017-12-15T05:12:59
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,dbca7942-1d61-4b54-8901-400e5753f2c2
+agent_version,2.0.1460
+name,LAPTOP-3C74IRC3
+ip_addresses,"[192.168.1.84, 2600:1700:CD00:BD10:E47A:60EA:D4A0:71DF, 2600:1700:CD00:BD10::7AF, 2600:1700:CD00:BD10:3DC4:FCCF:103E:5FB2, 2600:1700:CD00:BD10:14CD:CA04:6CE1:E530, 2600:1700:CD00:BD10:BDE8:DB13:B864:9293]"
+mac_addresses,[CC-B0-DA-66-5B-29]
+state,Offline
+date_first_registered,2017-12-15T00:10:43
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,4b4cd635-0343-496f-8de5-b4976e74629e
+agent_version,2.0.1470
+name,OZDEMO
+ip_addresses,[192.168.254.129]
+mac_addresses,[00-50-56-32-0F-7E]
+state,Offline
+date_first_registered,2017-12-13T23:02:10
+policy,"{u'id': u'6d9f34b9-cdd5-4095-b424-821ce6d3ed03', u'name': u'Oz_PROTECT+OPTICS'}"
+id,e44dc4f4-c261-4475-8be8-95e6a9f20d11
+agent_version,2.0.1460
+name,MEIN_PC
+ip_addresses,[192.168.178.32]
+mac_addresses,[2C-41-38-9D-C0-CE]
+state,Offline
+date_first_registered,2017-12-07T17:27:35
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,7d71b492-a957-4106-8914-9637fb785d1a
+agent_version,2.0.1460
+name,localhost.localdomain
+ip_addresses,[192.168.159.137]
+mac_addresses,[00-0C-29-FB-25-94]
+state,Offline
+date_first_registered,2017-12-07T15:43:57
+policy,"{u'id': u'6874318c-0430-4022-92d1-865a5cbe344a', u'name': u'BT - Demo'}"
+id,4229c1e1-6ae8-4075-b6d4-99f2cc99365f
+agent_version,2.0.1460
+name,CYL-DEMO3-JP-HT
+ip_addresses,"[10.10.10.11, 192.168.105.239]"
+mac_addresses,"[00-0C-29-B9-1C-DD, 00-0C-29-B9-1C-E7]"
+state,Offline
+date_first_registered,2017-12-07T07:03:15
+policy,"{u'id': u'44b523ae-d76e-4c9f-a54e-920066b66de7', u'name': u'HT Demo'}"
+id,6757d3cd-1595-4192-a35f-bfc8083fdb19
+agent_version,2.0.1480
+name,CYL-DEMO1-JP-HT
+ip_addresses,"[10.10.10.7, 192.168.105.138]"
+mac_addresses,"[00-0C-29-50-FD-BA, 00-0C-29-50-FD-C4]"
+state,Offline
+date_first_registered,2017-12-07T05:43:43
+policy,"{u'id': u'44b523ae-d76e-4c9f-a54e-920066b66de7', u'name': u'HT Demo'}"
+id,4fcecac2-163d-4628-8b6e-6beda5f21bb5
+agent_version,2.0.1460
+name,localhost.localdomain
+ip_addresses,[10.2.10.131]
+mac_addresses,[00-0C-29-66-23-63]
+state,Offline
+date_first_registered,2017-11-29T18:45:40
+policy,"{u'id': u'6874318c-0430-4022-92d1-865a5cbe344a', u'name': u'BT - Demo'}"
+id,a248f51b-d677-44e6-b251-cc41a4c50bc2
+agent_version,2.0.1460
+name,PNW-LAB01
+ip_addresses,"[2601:602:77F:FED0:A5D1:52AF:439C:BD77, 192.168.0.111, 2601:602:77F:FED0:C3:7DC5:3A48:CC2E]"
+mac_addresses,[00-0C-29-6B-78-4A]
+state,Offline
+date_first_registered,2017-11-27T21:44:37
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,e6ef0cf6-ef6e-459f-9e9d-a0ea6d647233
+agent_version,2.0.1460
+name,ALDERMAN-1709
+ip_addresses,[192.168.159.154]
+mac_addresses,[00-0C-29-45-BD-9F]
+state,Offline
+date_first_registered,2017-11-22T12:09:18
+policy,"{u'id': u'a81bfe68-548c-4b11-9842-2deac603ec39', u'name': u'ALDERMAN-block'}"
+id,bd32618a-a4db-4f86-ae50-0faef82e2499
+agent_version,3.0.1460
+name,CYOPTEST1
+ip_addresses,[192.168.207.133]
+mac_addresses,[00-0C-29-29-2F-12]
+state,Offline
+date_first_registered,2017-11-21T03:17:36
+policy,"{u'id': u'aeaa5b50-5fba-4431-977a-135beaa976ae', u'name': u'ysk_opt_block'}"
+id,30c91f9c-1f78-4bf1-9607-c9b121aff249
+agent_version,2.0.1460
+name,TDWIN10-LTSB
+ip_addresses,[172.16.228.221]
+mac_addresses,[00-0C-29-80-CC-97]
+state,Offline
+date_first_registered,2017-11-20T20:25:28
+policy,"{u'id': u'068062f7-c003-4f03-aa07-a15252ec7cd3', u'name': u'TD-Prot-VM'}"
+id,36bc2ee1-75aa-4dc8-8bda-11bc4f07e88c
+agent_version,2.0.1460
+name,HOST
+ip_addresses,[192.168.159.130]
+mac_addresses,[00-0C-29-13-AB-CA]
+state,Offline
+date_first_registered,2017-11-20T17:05:19
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,63e7effe-3b43-4340-a55e-f1bf9d4ece2b
+agent_version,2.0.1460
+name,IA-VM-CYLANCE01
+ip_addresses,[192.168.159.129]
+mac_addresses,[00-0C-29-FD-F4-6B]
+state,Offline
+date_first_registered,2017-11-14T19:41:10
+policy,"{u'id': u'68b28944-46f0-48eb-81fc-b4b628ffd0f7', u'name': u'IA-Policy-01-NoApp'}"
+id,c4102313-55af-481f-99da-d529cc6a8a0d
+agent_version,2.0.1460
+name,LAPTOP-QE46MSO3
+ip_addresses,"[10.0.0.123, 2601:8C0:C000:65AE:B0C6:ADF6:4756:EAA4, 2601:8C0:C000:65AE:C84C:7EB4:70F1:49E7]"
+mac_addresses,[E8-9E-B4-1A-DA-A7]
+state,Offline
+date_first_registered,2017-11-10T13:19:21
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,177540cf-5680-46c6-ac37-0482e13ff367
+agent_version,2.0.1460
+name,mh-centos.localdomain
+ip_addresses,"[192.168.159.30, 192.168.122.1]"
+mac_addresses,[00-0C-29-26-4F-45]
+state,Offline
+date_first_registered,2017-11-06T14:56:08
+policy,"{u'id': u'3f3dc28f-cb81-424c-a906-232969d0353d', u'name': u'MH Linux ATQ + MP'}"
+id,7508716a-88e5-4740-a50c-23e747824628
+agent_version,2.0.1450
+name,IL-0DF2A5KQBEB3
+ip_addresses,"[192.168.123.1, 192.168.213.63]"
+mac_addresses,"[00-18-7D-3D-E8-1E, 00-18-7D-3D-E8-20]"
+state,Offline
+date_first_registered,2017-11-02T17:29:02
+policy,"{u'id': u'ed21bf2b-691f-48d8-b1f9-70f509decede', u'name': u'EA-BLOCK'}"
+id,a9ec70e3-c2e4-43d4-bbaf-144ebba27676
+agent_version,3.0.1460
+name,JA-1709-OPTICS
+ip_addresses,[192.168.159.136]
+mac_addresses,[00-0C-29-7A-55-88]
+state,Offline
+date_first_registered,2017-11-01T11:59:06
+policy,"{u'id': u'62ddb1ee-db9d-4a12-8a5b-797c04e8856e', u'name': u'ALDERMAN-ALERT'}"
+id,674f38e7-021e-4169-aad0-d62a7f6590e2
+agent_version,3.0.1460
+name,CYLANCEOPTICSMV
+ip_addresses,[192.168.159.133]
+mac_addresses,[00-0C-29-76-61-0C]
+state,Offline
+date_first_registered,2017-10-31T15:15:04
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,c2e0b9be-2d52-4edb-a5c5-10db410904ac
+agent_version,2.0.1480
+name,RW-Pat's Laptop
+ip_addresses,"[10.0.0.123, 2601:8C0:C000:65AE:B0C6:ADF6:4756:EAA4, 2601:8C0:C000:65AE:D45:6A7D:EDDC:9A04, 2601:8C0:C000:65AE:B5D2:C95E:A8CD:6945]"
+mac_addresses,[E8-9E-B4-1A-DA-A7]
+state,Offline
+date_first_registered,2017-10-30T00:19:07
+policy,"{u'id': u'51e69d7a-0ad5-4270-a15c-d98169940e87', u'name': u'Ryan W Prod'}"
+id,1d509d4d-d9dd-42ae-b89c-ab056661492e
+agent_version,2.0.1460
+name,MAL-LW
+ip_addresses,[192.168.2.92]
+mac_addresses,[C4-B3-01-B8-8E-D3]
+state,Offline
+date_first_registered,2017-10-29T17:35:29
+policy,"{u'id': u'b81da7b0-1989-430d-858b-e63d492c641a', u'name': u'**WEBBL-AQT-STAGING'}"
+id,f5105cc3-8e83-4e09-ada6-f7774f8c85df
+agent_version,3.0.1460
+name,TESTWIN10
+ip_addresses,[192.168.10.4]
+mac_addresses,[40-25-C2-BB-36-84]
+state,Offline
+date_first_registered,2017-10-29T02:15:11
+policy,"{u'id': u'a334605c-bb99-45fd-94d7-561fd2f2f717', u'name': u'Taka H Alert'}"
+id,7c8102b4-db1c-4902-a6fc-e1ea0932d858
+agent_version,2.0.1470
+name,TEST-PC
+ip_addresses,[172.20.10.12]
+mac_addresses,[00-0C-29-80-05-8B]
+state,Offline
+date_first_registered,2017-10-27T05:06:25
+policy,"{u'id': u'9cc5f678-9544-40b9-a0c1-06f398a3e9f4', u'name': u'ysk_opt_block_script_off'}"
+id,8defbc47-395d-4c0b-9c44-988d48da8611
+agent_version,2.0.1480
+name,brad-virtual-machine
+ip_addresses,[192.168.145.146]
+mac_addresses,[00-0C-29-71-B0-C6]
+state,Offline
+date_first_registered,2017-10-26T22:03:13
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,2d4bc65d-f970-43dd-a90d-2604d76c1f8b
+agent_version,2.0.1450
+name,brad-VirtualBox
+ip_addresses,[10.0.2.15]
+mac_addresses,[08-00-27-78-68-B9]
+state,Offline
+date_first_registered,2017-10-25T21:00:12
+policy,"{u'id': u'b762e09b-de80-4d74-9d1f-d4e0dcb5289c', u'name': u'WaldenAQTnoBTD AllowScripts Oct2'}"
+id,cc9212fa-ed48-4303-8630-0b5923a405df
+agent_version,2.0.1450
+name,TK-OPTICS2
+ip_addresses,"[10.10.10.71, 192.168.241.148]"
+mac_addresses,"[00-0C-29-68-61-41, 00-0C-29-68-61-4B]"
+state,Offline
+date_first_registered,2017-10-25T15:27:57
+policy,"{u'id': u'b669bdf9-f401-40a7-b165-d1115d7fd41e', u'name': u'Taka Optics Detect'}"
+id,94a699d0-6d3a-4012-a39e-6c800f5900e6
+agent_version,3.0.1460
+name,LUCAS-WIN7
+ip_addresses,[192.168.159.135]
+mac_addresses,[00-0C-29-38-6D-94]
+state,Offline
+date_first_registered,2017-10-21T23:29:06
+policy,"{u'id': u'a7568b4a-9605-4092-b62d-c41343c3faa0', u'name': u'Lucas's Policy'}"
+id,a145e512-1539-4f87-9515-8a383f992778
+agent_version,2.0.1460
+name,RS-WIN2008R2-2
+ip_addresses,[192.168.159.173]
+mac_addresses,[00-0C-29-EC-0C-0E]
+state,Offline
+date_first_registered,2017-10-20T19:11:55
+policy,"{u'id': u'c4565fb8-2f8c-49d6-bc7f-e08ba318e6ea', u'name': u'00-RS-Win2008R2*'}"
+id,d467cbcf-92c8-440f-9406-2c7f20b85e63
+agent_version,2.0.1450
+name,Alderman_RES-ONE_win7
+ip_addresses,[192.168.241.217]
+mac_addresses,[00-0C-29-EA-43-AD]
+state,Offline
+date_first_registered,2017-10-20T10:16:41
+policy,"{u'id': u'a81bfe68-548c-4b11-9842-2deac603ec39', u'name': u'ALDERMAN-block'}"
+id,7019ab36-07f4-4310-9013-163f16ef8baa
+agent_version,2.0.1450
+name,TK-OPTICS1
+ip_addresses,"[10.10.10.70, 192.168.241.130]"
+mac_addresses,"[00-0C-29-95-21-3D, 00-0C-29-95-21-47]"
+state,Offline
+date_first_registered,2017-10-20T03:30:16
+policy,"{u'id': u'b669bdf9-f401-40a7-b165-d1115d7fd41e', u'name': u'Taka Optics Detect'}"
+id,eb6c2cb8-c03b-4a2c-b14b-157852600d8f
+agent_version,3.0.1460
+name,RS-WIN2008R2
+ip_addresses,[192.168.159.169]
+mac_addresses,[00-0C-29-7B-89-F9]
+state,Offline
+date_first_registered,2017-10-19T23:59:33
+policy,"{u'id': u'c4565fb8-2f8c-49d6-bc7f-e08ba318e6ea', u'name': u'00-RS-Win2008R2*'}"
+id,b0b67a06-357d-4328-b47f-943784f14022
+agent_version,2.0.1450
+name,PROTOPT
+ip_addresses,[10.9.12.141]
+mac_addresses,[00-0C-29-DE-EB-14]
+state,Offline
+date_first_registered,2017-10-17T05:03:16
+policy,"{u'id': u'193a7269-f7c3-49db-bfc9-27f36e5b9bca', u'name': u'ysk_01'}"
+id,f998e060-11a8-42a5-b838-f7029339e4b3
+agent_version,2.0.1440
+name,EAMAC-PROT2-VM
+ip_addresses,"[10.10.10.29, 192.168.241.137]"
+mac_addresses,"[00-0C-29-3C-F6-C4, 00-0C-29-3C-F6-CE]"
+state,Offline
+date_first_registered,2017-10-16T22:29:53
+policy,"{u'id': u'ed21bf2b-691f-48d8-b1f9-70f509decede', u'name': u'EA-BLOCK'}"
+id,7ba20935-dfe5-42b9-a73f-392e84c88f4d
+agent_version,2.0.1480
+name,SR-CY-D1-W7
+ip_addresses,[192.168.200.165]
+mac_addresses,[00-0C-29-69-C9-63]
+state,Offline
+date_first_registered,2017-10-13T14:54:06
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,7727617c-1b90-4b94-b975-db2b92801a6b
+agent_version,1.2.1300
+name,OZDEMO
+ip_addresses,[172.16.94.129]
+mac_addresses,[00-50-56-26-C5-0C]
+state,Offline
+date_first_registered,2017-10-12T21:56:34
+policy,"{u'id': u'6d9f34b9-cdd5-4095-b424-821ce6d3ed03', u'name': u'Oz_PROTECT+OPTICS'}"
+id,54ad7fac-fdda-4bd2-b273-793a90f03ee1
+agent_version,2.0.1430
+name,Alderman_RESONE_test
+ip_addresses,[192.168.159.132]
+mac_addresses,[00-0C-29-D2-85-46]
+state,Offline
+date_first_registered,2017-10-09T21:21:51
+policy,"{u'id': u'a81bfe68-548c-4b11-9842-2deac603ec39', u'name': u'ALDERMAN-block'}"
+id,1517ec58-f7cc-49b2-8812-2c3acd53d478
+agent_version,3.0.1460
+name,AM-WIN7X64
+ip_addresses,[192.168.159.189]
+mac_addresses,[00-0C-29-20-CD-F6]
+state,Offline
+date_first_registered,2017-10-09T15:34:17
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,0f44ed95-84af-46db-981a-525ccaf605c9
+agent_version,3.0.1460
+name,MM-WIN7R02VICT
+ip_addresses,"[10.0.15.2, 10.0.2.15]"
+mac_addresses,"[08-00-27-1E-93-DE, 08-00-27-43-7B-81]"
+state,Offline
+date_first_registered,2017-10-05T00:09:15
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,81638212-ae7a-4aa1-bd8e-6157a643b4f1
+agent_version,3.0.1460
+name,AX-OPTICS
+ip_addresses,[10.0.0.215]
+mac_addresses,[00-0C-29-84-F8-74]
+state,Offline
+date_first_registered,2017-10-04T16:50:29
+policy,"{u'id': u'5f569c65-69dc-4f5b-a48b-c821a34a553f', u'name': u'0-AX-PC'}"
+id,6fe3f60b-db29-4b6f-a53d-60314aba91bf
+agent_version,2.0.1460
+name,EAMAC-PROT-VM
+ip_addresses,"[10.10.10.6, 192.168.241.188]"
+mac_addresses,"[00-0C-29-93-12-B5, 00-0C-29-93-12-BF]"
+state,Offline
+date_first_registered,2017-10-03T15:45:45
+policy,"{u'id': u'fd07fd70-4a78-4345-91ca-21abe5f9ba85', u'name': u'EA-ALERT-CAE-BLOCK'}"
+id,15d44ba6-bb92-455d-ae77-5ee4b4a3d238
+agent_version,2.0.1480
+name,EAVMAV10
+ip_addresses,"[10.10.10.31, 192.168.241.146]"
+mac_addresses,"[00-0C-29-AC-71-CB, 00-0C-29-AC-71-D5]"
+state,Offline
+date_first_registered,2017-10-02T19:31:58
+policy,"{u'id': u'06b14e62-779c-4de0-b8bc-5f352f148677', u'name': u'EA-ALERT'}"
+id,717a43bf-a815-44a7-af80-73d2c98e164c
+agent_version,2.0.1460
+name,EAVMPROT10
+ip_addresses,"[10.10.10.32, 192.168.241.149]"
+mac_addresses,"[00-0C-29-0A-41-1C, 00-0C-29-0A-41-26]"
+state,Offline
+date_first_registered,2017-10-02T19:30:59
+policy,"{u'id': u'ed21bf2b-691f-48d8-b1f9-70f509decede', u'name': u'EA-BLOCK'}"
+id,9d6e22e3-141d-45bd-accd-02614345aa60
+agent_version,2.0.1480
+name,macosx-demo
+ip_addresses,[192.168.159.130]
+mac_addresses,[00-0C-29-88-B0-88]
+state,Offline
+date_first_registered,2017-10-02T18:49:37
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,dfa12a16-9ab1-46fe-9fc3-0ab13c44c2cb
+agent_version,2.0.1450
+name,Alderman Linux
+ip_addresses,[192.168.159.231]
+mac_addresses,[00-0C-29-99-C4-98]
+state,Offline
+date_first_registered,2017-10-02T16:24:11
+policy,"{u'id': u'a81bfe68-548c-4b11-9842-2deac603ec39', u'name': u'ALDERMAN-block'}"
+id,ed7ae2a5-284e-4994-af5f-15fd5e35d28e
+agent_version,2.0.1450
+name,OPT-OSX-MM-02
+ip_addresses,[10.45.97.87]
+mac_addresses,[00-50-56-88-4D-F6]
+state,Offline
+date_first_registered,2017-09-28T00:45:22
+policy,"{u'id': u'c9b47ad1-09b6-44be-b788-127341d745ce', u'name': u'[MM] AQT-MPB-SCB-AFE-AFM'}"
+id,29336c15-375b-400d-b1b2-1e4fbf557456
+agent_version,3.0.1460
+name,WEBBL-W7-64
+ip_addresses,[172.16.196.129]
+mac_addresses,[00-0C-29-1E-F7-75]
+state,Offline
+date_first_registered,2017-09-24T15:11:39
+policy,"{u'id': u'68395199-24b4-4119-b1f7-1e53935ef659', u'name': u'*WEBBL-AQT-MD-SC'}"
+id,a30ffa57-9984-4cf0-852a-ee708bbaead7
+agent_version,2.0.1450
+name,JS-COS7-CYLANCE
+ip_addresses,"[192.168.122.1, 192.168.241.134]"
+mac_addresses,[00-0C-29-5D-EF-2E]
+state,Offline
+date_first_registered,2017-09-18T18:25:40
+policy,"{u'id': u'6ecee822-2f4a-4a5e-a9a0-5fba620cd1b9', u'name': u'JS-DM-FAQT-MSP'}"
+id,260538a4-8193-436e-bd82-7ef711aefffe
+agent_version,2.0.1450
+name,WEBBL-W7-ESXI
+ip_addresses,[192.168.1.99]
+mac_addresses,[00-0C-29-7B-C5-B2]
+state,Offline
+date_first_registered,2017-09-18T16:57:42
+policy,"{u'id': u'68395199-24b4-4119-b1f7-1e53935ef659', u'name': u'*WEBBL-AQT-MD-SC'}"
+id,0b2944e0-1914-4247-a037-bacfc28b567b
+agent_version,2.0.1470
+name,MCAFEE-VM
+ip_addresses,"[10.10.10.2, 192.168.241.134]"
+mac_addresses,"[00-0C-29-38-A9-79, 00-0C-29-38-A9-83]"
+state,Offline
+date_first_registered,2017-09-13T12:58:08
+policy,"{u'id': u'ed21bf2b-691f-48d8-b1f9-70f509decede', u'name': u'EA-BLOCK'}"
+id,ed91a344-e54d-46d2-8f57-db3fa90e31b5
+agent_version,2.0.1450
+name,WIN7X64
+ip_addresses,[192.168.159.140]
+mac_addresses,[00-0C-29-85-EC-A0]
+state,Offline
+date_first_registered,2017-09-12T18:02:42
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,93bd4e8d-ffe9-44a0-9f27-1e2e9a1c28a0
+agent_version,2.0.1480
+name,BANLEONG
+ip_addresses,[192.168.159.200]
+mac_addresses,[00-0C-29-C7-35-3B]
+state,Offline
+date_first_registered,2017-09-09T04:16:39
+policy,"{u'id': u'372d8bf3-328d-40bb-bb03-5b65286974c5', u'name': u'KWEE_AQ+MP+SC'}"
+id,52a89496-4f10-4a22-aaec-b8ab8a35262f
+agent_version,1.2.1310
+name,SR-CY-D6-W7
+ip_addresses,[192.168.159.134]
+mac_addresses,[00-0C-29-C4-69-F1]
+state,Offline
+date_first_registered,2017-09-08T14:45:08
+policy,"{u'id': u'd9afcc98-d088-494d-884e-9e704cb39124', u'name': u'RICHARDS:AQT-NoUp+MT+FW+MASB'}"
+id,743cd6ff-d68a-40fa-9e55-7fd494278ce2
+agent_version,2.0.1450
+name,M4800WIN71VM
+ip_addresses,"[192.168.0.101, 192.168.80.128]"
+mac_addresses,"[00-0C-29-49-8C-29, 00-0C-29-49-8C-33]"
+state,Offline
+date_first_registered,2017-09-06T20:14:20
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,f76af3b8-4645-42da-9f30-fe1a33830c57
+agent_version,1.2.1380
+name,M4800WIN7VM2
+ip_addresses,"[192.168.0.223, 192.168.80.130]"
+mac_addresses,"[00-0C-29-47-00-40, 00-0C-29-47-00-54]"
+state,Offline
+date_first_registered,2017-09-06T19:59:34
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,5cd5291e-b034-4829-a1de-854adce0c1ec
+agent_version,2.0.1430
+name,localhost.localdomain
+ip_addresses,"[192.168.122.1, 192.168.241.143]"
+mac_addresses,[00-0C-29-D5-16-1C]
+state,Offline
+date_first_registered,2017-09-06T19:58:29
+policy,"{u'id': u'b23c5155-1634-4d90-bc06-1fabfa840ff0', u'name': u'ak-aqt-mpa-linux'}"
+id,8ecb7190-9c54-433c-961a-d0ff449e4419
+agent_version,2.0.1450
+name,WINKMAC-OSX-VM
+ip_addresses,[192.168.241.136]
+mac_addresses,[00-0C-29-00-5A-3E]
+state,Offline
+date_first_registered,2017-09-05T14:24:41
+policy,"{u'id': u'f50fe36a-9426-4a1d-aefa-da7783dfac86', u'name': u'Winkler-SE-Demo-Policy'}"
+id,4b14838c-ae62-4227-9f37-48e17e579562
+agent_version,2.0.1450
+name,VV-WIN7X64
+ip_addresses,[192.168.159.163]
+mac_addresses,[00-0C-29-D1-FE-16]
+state,Offline
+date_first_registered,2017-09-05T06:32:16
+policy,"{u'id': u'64291c7f-969d-43ee-beb3-fca00669be38', u'name': u'VV-Optics'}"
+id,99cd0834-20ef-4414-90da-c89605975871
+agent_version,2.0.1450
+name,CYLANCEAPAC
+ip_addresses,[192.168.159.190]
+mac_addresses,[00-0C-29-10-0F-29]
+state,Offline
+date_first_registered,2017-09-01T08:03:50
+policy,"{u'id': u'5f30cb24-3f10-48a7-a0a0-83da2db82fde', u'name': u'KWEE_AQ+MP+SC+OP'}"
+id,eba91f98-93e1-4212-8758-be448500425a
+agent_version,2.0.1450
+name,LW-WIN7X64
+ip_addresses,[192.168.159.175]
+mac_addresses,[00-0C-29-61-C0-9F]
+state,Offline
+date_first_registered,2017-08-31T12:39:06
+policy,"{u'id': u'3ee3c7f9-8774-41ec-a23a-063dd9e0ed98', u'name': u'*WEBBL_Full'}"
+id,abe6aea7-84a6-4544-97c3-f6f1c306d7e6
+agent_version,1.2.1320
+name,JS-W10-CYLANCE
+ip_addresses,"[10.10.10.72, 192.168.241.144]"
+mac_addresses,"[00-0C-29-99-35-79, 00-0C-29-99-35-83]"
+state,Offline
+date_first_registered,2017-08-29T19:46:27
+policy,"{u'id': u'6ecee822-2f4a-4a5e-a9a0-5fba620cd1b9', u'name': u'JS-DM-FAQT-MSP'}"
+id,5a69d836-6b37-4762-93bd-b9b49f0ddced
+agent_version,2.0.1450
+name,JS-W7-CYLANCE-O
+ip_addresses,"[10.10.10.71, 192.168.241.137]"
+mac_addresses,"[00-0C-29-D9-EC-E5, 00-0C-29-D9-EC-EF]"
+state,Offline
+date_first_registered,2017-08-29T19:39:16
+policy,"{u'id': u'1804b694-f377-477f-9a89-546496017f00', u'name': u'JS-DM-FA-O'}"
+id,cb5fcfb2-dd4b-473a-931d-57252cb0cf06
+agent_version,2.0.1450
+name,CFS-Mac
+ip_addresses,[192.168.159.190]
+mac_addresses,[00-0C-29-18-97-6B]
+state,Offline
+date_first_registered,2017-08-25T19:17:47
+policy,"{u'id': u'8d9790af-7fde-462c-b89c-3bcad007fe3c', u'name': u'CFS-Demo_Policy'}"
+id,fdf6733d-1eee-4352-87ef-046da07038da
+agent_version,2.0.1480
+name,WIN7X64
+ip_addresses,[192.168.223.132]
+mac_addresses,[00-0C-29-EE-E7-B5]
+state,Offline
+date_first_registered,2017-08-23T23:28:39
+policy,"{u'id': u'6708ea03-c76b-4dc3-bcea-41cb8bb598c6', u'name': u'Jason Testing ANZ'}"
+id,29cd649e-a75c-4cd0-8031-b132d1c23f6d
+agent_version,2.0.1440
+name,Win7x64-1320
+ip_addresses,"[192.168.159.157, 172.16.228.128]"
+mac_addresses,"[00-0C-29-94-B7-EB, 00-0C-29-94-B7-F5]"
+state,Offline
+date_first_registered,2017-08-22T18:53:23
+policy,"{u'id': u'1f7d7bfa-6d85-499f-b22b-770a990e2e04', u'name': u'TG-Demo-Full'}"
+id,5c6a58e4-6391-4a7d-ae12-5e40a14d334b
+agent_version,1.2.1320
+name,SOPHOS-VM
+ip_addresses,"[10.10.10.5, 172.16.228.131]"
+mac_addresses,"[00-0C-29-46-0D-07, 00-0C-29-46-0D-FD]"
+state,Offline
+date_first_registered,2017-08-10T19:32:54
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,2dca6762-b494-4195-8800-944e6b9525cd
+agent_version,2.0.1450
+name,EAMAC-SIERRA-DEMO
+ip_addresses,"[192.168.241.130, 10.10.10.32]"
+mac_addresses,"[00-0C-29-4F-3E-4B, 00-0C-29-4F-3E-55]"
+state,Offline
+date_first_registered,2017-08-08T01:06:54
+policy,"{u'id': u'ed21bf2b-691f-48d8-b1f9-70f509decede', u'name': u'EA-BLOCK'}"
+id,4179e8d1-1c84-4edf-89f1-60d61036c94b
+agent_version,2.0.1470
+name,W10X64BASE
+ip_addresses,"[10.10.10.31, 192.168.241.134]"
+mac_addresses,"[00-0C-29-2E-6C-5B, 00-0C-29-2E-6C-65]"
+state,Offline
+date_first_registered,2017-08-07T22:31:02
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,3811902f-fc16-4049-a831-e4d992d9380d
+agent_version,2.0.1430
+name,TK-WIN10
+ip_addresses,"[10.10.10.90, 192.168.241.143]"
+mac_addresses,"[00-0C-29-74-33-8D, 00-0C-29-74-33-97]"
+state,Offline
+date_first_registered,2017-08-07T12:14:31
+policy,"{u'id': u'031e4efa-ba17-432f-b4d7-806754ac03e9', u'name': u'Taka Tokyo Policy'}"
+id,62deda13-1128-44c7-b550-d840d5292986
+agent_version,2.0.1480
+name,jdoe’s Mac
+ip_addresses,[192.168.241.193]
+mac_addresses,[00-0C-29-D4-85-B8]
+state,Offline
+date_first_registered,2017-08-07T10:24:18
+policy,"{u'id': u'a81bfe68-548c-4b11-9842-2deac603ec39', u'name': u'ALDERMAN-block'}"
+id,8ca930d5-c6eb-4016-9ebd-a86217f13edb
+agent_version,2.0.1450
+name,OSx’s Mac
+ip_addresses,[192.168.241.142]
+mac_addresses,[00-0C-29-1E-3E-EE]
+state,Offline
+date_first_registered,2017-08-05T05:05:22
+policy,"{u'id': u'26a2edb3-2ff9-4517-8b85-d507cfca0ebd', u'name': u'DPRESBIT-DEMO AQT MP FW NOUPDATE'}"
+id,a6519d1c-22c8-4198-981e-90b5a9c5668b
+agent_version,2.0.1450
+name,WIN7X64
+ip_addresses,"[192.168.159.129, 2001:0:4137:9E76:24AC:25DC:3F57:607E]"
+mac_addresses,[00-0C-29-EE-89-A2]
+state,Offline
+date_first_registered,2017-08-04T07:39:55
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,279aeb9d-13e7-4ea9-948e-81a5f727dded
+agent_version,2.0.1430
+name,ZLINK-DEMO-CYLA
+ip_addresses,[192.168.159.140]
+mac_addresses,[00-0C-29-68-7E-87]
+state,Offline
+date_first_registered,2017-08-02T16:26:33
+policy,"{u'id': u'ea133626-2b20-41fc-b10d-ef1ab38462a1', u'name': u'LINK - MD-only'}"
+id,da54e8e5-ff27-4610-a46c-b53af6b7cc5d
+agent_version,2.0.1460
+name,MTD
+ip_addresses,[192.168.159.142]
+mac_addresses,[00-0C-29-9A-F1-33]
+state,Offline
+date_first_registered,2017-07-26T19:07:29
+policy,"{u'id': u'b906daf0-a6e3-4c81-99cc-61138ffaea8e', u'name': u'mtdblock'}"
+id,178a93e7-fc0e-4714-bb19-7bd93e468140
+agent_version,2.0.1470
+name,DESKTOP-0N9VR2C
+ip_addresses,"[2001:0:4137:9E76:1099:33C9:3F57:605A, 192.168.159.165]"
+mac_addresses,[00-0C-29-DF-E0-8A]
+state,Offline
+date_first_registered,2017-07-25T11:21:15
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,4bfd1f6c-5503-4dae-a3e9-c6219b22356e
+agent_version,2.0.1450
+name,BWCYLANCE1
+ip_addresses,[192.168.159.150]
+mac_addresses,[00-0C-29-40-9B-4C]
+state,Offline
+date_first_registered,2017-07-24T16:58:57
+policy,"{u'id': u'e499d704-d4cc-4e2e-ab84-7ec185e120de', u'name': u'WaldenDemoMar2'}"
+id,5a02ad9e-12ab-4164-aaa0-ad60151db37c
+agent_version,3.0.1460
+name,JMS-VM-DEMO
+ip_addresses,[192.168.159.136]
+mac_addresses,[00-0C-29-C6-AB-D1]
+state,Offline
+date_first_registered,2017-07-23T20:36:12
+policy,"{u'id': u'6da81185-ad8e-432b-9eb6-fa3e8755726d', u'name': u'Sanders Staging - no BTD'}"
+id,2d203aed-5564-4be4-a8cd-6e59b9357fb5
+agent_version,2.0.1470
+name,AFM-SEP12-CYL
+ip_addresses,"[10.10.10.233, 172.16.228.163]"
+mac_addresses,"[00-0C-29-5B-34-7C, 00-0C-29-5B-34-86]"
+state,Offline
+date_first_registered,2017-07-19T21:15:33
+policy,"{u'id': u'3b536095-d8fa-4938-b0fe-bbab79057d51', u'name': u'AFM_CYL_SYM'}"
+id,46c313db-febc-4a5f-adb5-1d0dbf79cc64
+agent_version,2.0.1440
+name,AFM_CYL_SEP
+ip_addresses,"[10.10.10.231, 172.16.228.141]"
+mac_addresses,"[00-0C-29-CE-A9-A0, 00-0C-29-CE-A9-AA]"
+state,Offline
+date_first_registered,2017-07-12T22:51:37
+policy,"{u'id': u'3b536095-d8fa-4938-b0fe-bbab79057d51', u'name': u'AFM_CYL_SYM'}"
+id,55a2d600-6815-45f7-b26d-4d2380ffd02e
+agent_version,2.0.1440
+name,MH-APPCONTROL-T
+ip_addresses,"[192.168.159.139, 2001:0:9D38:90D7:3CF9:20CC:3F57:6074]"
+mac_addresses,[00-0C-29-92-FD-55]
+state,Offline
+date_first_registered,2017-07-12T22:47:42
+policy,"{u'id': u'b1d93958-4aec-4506-aee9-58effca00862', u'name': u'MH Appcontrol ON'}"
+id,31e70df8-a467-45eb-a3b1-1c5c2f3ade08
+agent_version,2.0.1450
+name,JMS-VM-OPTICS
+ip_addresses,[192.168.159.133]
+mac_addresses,[00-0C-29-B7-7B-F7]
+state,Offline
+date_first_registered,2017-07-12T19:37:00
+policy,"{u'id': u'adae20d8-73fd-4d52-b7ff-de242d20e851', u'name': u'Sanders Full On'}"
+id,904ae41b-5dba-4295-ba4d-7683d26e0286
+agent_version,2.0.1470
+name,JS-OPTICS2
+ip_addresses,[192.168.159.135]
+mac_addresses,[00-0C-29-9E-DA-A5]
+state,Offline
+date_first_registered,2017-07-12T19:36:56
+policy,"{u'id': u'adae20d8-73fd-4d52-b7ff-de242d20e851', u'name': u'Sanders Full On'}"
+id,e0cda1f9-b3b4-4190-aac6-92382f9064ab
+agent_version,2.0.1470
+name,AM-WIN7X64
+ip_addresses,[192.168.159.139]
+mac_addresses,[00-0C-29-18-BD-AA]
+state,Offline
+date_first_registered,2017-07-07T07:09:19
+policy,"{u'id': u'248c4b60-1ac4-4771-8f1d-d6d3ce3dd437', u'name': u'Malerba_Policy_Full'}"
+id,8cc29a40-0ad6-4515-bd47-354198241348
+agent_version,3.0.1460
+name,MH-INST-TEST
+ip_addresses,"[192.168.159.132, 2001:0:9D38:90D7:20CA:153F:3F57:607B]"
+mac_addresses,[00-0C-29-A6-15-54]
+state,Offline
+date_first_registered,2017-06-29T15:48:33
+policy,"{u'id': u'877c6c48-fd3c-4c92-97f1-b0c3e6625972', u'name': u'MH ATQ MT SCB OAU'}"
+id,d5ce7be0-b984-44dd-8eb7-841a262abfe1
+agent_version,1.2.1310
+name,JTIETZE-OLDAGEN
+ip_addresses,[192.168.159.97]
+mac_addresses,[00-0C-29-E2-C6-73]
+state,Offline
+date_first_registered,2017-06-29T12:10:23
+policy,"{u'id': u'1cad62a9-9aa0-4941-a9b5-8e80661bd5fa', u'name': u'JTIETZE Block+Mem+Script'}"
+id,19418b87-c52d-4855-94c2-e972aeea50b7
+agent_version,1.2.1320
+name,TESTPCS4405524D
+ip_addresses,[192.168.126.129]
+mac_addresses,[00-0C-29-81-B5-BF]
+state,Offline
+date_first_registered,2017-06-28T19:09:33
+policy,"{u'id': u'fadf85df-d06d-4768-a4d7-27888d85cdaf', u'name': u'AK-demo'}"
+id,0cf686f6-d835-413c-8923-b82bd54cbd8b
+agent_version,1.2.1320
+name,aak-osx
+ip_addresses,[192.168.159.132]
+mac_addresses,[00-0C-29-FC-7F-46]
+state,Offline
+date_first_registered,2017-06-27T00:57:28
+policy,"{u'id': u'973885e1-a9a6-40ad-8c31-f5dfb2c4a54f', u'name': u'Klein - Full'}"
+id,b073c8bf-6da6-4092-8e53-b8bf6ba27364
+agent_version,2.0.1470
+name,TK-UBT-PROTECT2
+ip_addresses,"[10.10.10.67, 192.168.241.136]"
+mac_addresses,"[00-0C-29-6A-C9-40, 00-0C-29-6A-C9-4A]"
+state,Offline
+date_first_registered,2017-06-24T15:13:10
+policy,"{u'id': u'51cccd0a-8f8e-40eb-bc4d-e71f5c4103f3', u'name': u'taka application test'}"
+id,f8597c9b-b2b5-40df-a721-86d68c913fbf
+agent_version,2.0.1470
+name,VW7-23421
+ip_addresses,"[192.168.159.139, 2001:0:5CF2:8C02:3441:411:3F57:6074]"
+mac_addresses,[00-0C-29-AD-84-B2]
+state,Offline
+date_first_registered,2017-06-22T21:18:23
+policy,"{u'id': u'b567e998-db75-4ed0-88ae-305e2f2269c3', u'name': u'MH FM MTM SCM OAU'}"
+id,c9fd857e-5e0f-4773-b624-7481c3d74dd4
+agent_version,2.0.1440
+name,test’s Mac
+ip_addresses,[192.168.241.173]
+mac_addresses,[00-0C-29-46-4E-05]
+state,Offline
+date_first_registered,2017-06-21T15:35:08
+policy,"{u'id': u'6296bcbd-08f8-4d3f-9bbb-bb096216f9f2', u'name': u'Taka Nagoya Policy'}"
+id,1756398f-a229-4a00-a02e-73b8329cf210
+agent_version,2.0.1450
+name,BT-PYTHON
+ip_addresses,"[192.168.159.145, 2001:0:9D38:6AB8:3456:365D:B4B7:A73F]"
+mac_addresses,[00-0C-29-C3-94-7D]
+state,Offline
+date_first_registered,2017-06-20T21:28:30
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,3a78f032-2b55-45bc-8f7a-195a67b656e1
+agent_version,2.0.1440
+name,BW-m4800-win2k3
+ip_addresses,"[192.168.201.130, 192.168.0.110]"
+mac_addresses,"[00-0C-29-FB-50-77, 00-0C-29-FB-50-81]"
+state,Offline
+date_first_registered,2017-06-20T20:43:36
+policy,"{u'id': u'23569452-d7ca-4652-8d51-14de93eb8f6a', u'name': u'WaldenVictimOct02'}"
+id,9bdf1b39-798a-4feb-a3f0-9ee12c26d849
+agent_version,2.0.1450
+name,bw-t430-xp64
+ip_addresses,[192.168.145.149]
+mac_addresses,[00-0C-29-A7-4F-BC]
+state,Offline
+date_first_registered,2017-06-20T19:29:23
+policy,"{u'id': u'23569452-d7ca-4652-8d51-14de93eb8f6a', u'name': u'WaldenVictimOct02'}"
+id,acf0893d-386d-49c0-9669-bc34e5e31ed8
+agent_version,2.0.1450
+name,RT_OPTICSM_W7
+ip_addresses,[192.168.241.193]
+mac_addresses,[00-0C-29-8A-63-E3]
+state,Offline
+date_first_registered,2017-06-20T18:11:44
+policy,"{u'id': u'9598fc20-382e-4bdd-9269-cf042638679e', u'name': u'RT_MonitorOP'}"
+id,0d89b32d-159a-4fa5-853d-40e2b32f5f85
+agent_version,2.0.1440
+name,EAMAC-DEMO-VM
+ip_addresses,"[10.10.10.111, 192.168.241.133]"
+mac_addresses,"[00-0C-29-08-25-C8, 00-0C-29-08-25-D2]"
+state,Offline
+date_first_registered,2017-06-20T17:49:53
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,c80d1445-053e-405b-a642-2a2eec4f5b9a
+agent_version,2.0.1440
+name,RT_OPTICSP_W10
+ip_addresses,[192.168.241.191]
+mac_addresses,[00-0C-29-F9-14-B0]
+state,Offline
+date_first_registered,2017-06-20T17:28:20
+policy,"{u'id': u'b1523763-2250-436f-90bf-5d640e0b327f', u'name': u'RT-Win10'}"
+id,892ec6fd-7d99-460e-a84e-4e957a39c3b3
+agent_version,2.0.1470
+name,bw-t430-xp32
+ip_addresses,[192.168.145.147]
+mac_addresses,[00-0C-29-A5-48-DB]
+state,Offline
+date_first_registered,2017-06-20T17:25:36
+policy,"{u'id': u'23569452-d7ca-4652-8d51-14de93eb8f6a', u'name': u'WaldenVictimOct02'}"
+id,4cbf9ef5-9e19-4a8c-8929-7823b6a857e2
+agent_version,2.0.1450
+name,RT-OPTICSEA1
+ip_addresses,"[2001:0:9D38:90D7:1030:3FF3:3F57:E4D, 192.168.241.178]"
+mac_addresses,[00-0C-29-EF-38-ED]
+state,Offline
+date_first_registered,2017-06-20T17:09:04
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,919dd04d-dc20-49ea-9f7a-e34fde5c5b4a
+agent_version,2.0.1440
+name,ND-MBPROT-VM
+ip_addresses,[192.168.1.43]
+mac_addresses,[00-0C-29-2B-06-1E]
+state,Offline
+date_first_registered,2017-06-20T16:23:10
+policy,"{u'id': u'f7df8cee-0321-4c6b-b8ab-e24945058b6d', u'name': u'ND-Prot-VM'}"
+id,e36130fd-7fff-4f4d-95ba-9bc22c67aa0b
+agent_version,2.0.1470
+name,TK-UBT-PROTECT
+ip_addresses,"[10.10.10.65, 192.168.241.146]"
+mac_addresses,"[00-0C-29-67-3C-80, 00-0C-29-67-3C-8A]"
+state,Offline
+date_first_registered,2017-06-20T14:15:08
+policy,"{u'id': u'f8903d50-abca-4f40-bba3-39042d9c588a', u'name': u'Taka Osaka Policy'}"
+id,abf9318a-fa0c-4d16-bdca-ed0a6492c21f
+agent_version,2.0.1470
+name,LW-WIN7X64
+ip_addresses,"[2001:0:4137:9E76:8F9:3CAD:3F57:607D, 192.168.159.130]"
+mac_addresses,[00-0C-29-C5-AF-A7]
+state,Offline
+date_first_registered,2017-06-19T07:20:16
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,bec36a14-cf2c-40a4-879e-460d487d1d82
+agent_version,2.0.1440
+name,RS-OPTICS2
+ip_addresses,[192.168.159.135]
+mac_addresses,[00-0C-29-7E-8A-0E]
+state,Offline
+date_first_registered,2017-06-14T03:44:19
+policy,"{u'id': u'94decfe5-0e74-4078-9f14-edd8d9ca4820', u'name': u'00-RS-WIN-AQT-MP-SC-OPT*!'}"
+id,d8725243-c482-4dda-beaa-188b5f037c89
+agent_version,2.0.1480
+name,aak-stage
+ip_addresses,[192.168.159.149]
+mac_addresses,[00-0C-29-E5-2C-D9]
+state,Offline
+date_first_registered,2017-06-13T19:57:38
+policy,"{u'id': u'3a4430a8-f986-4b8c-a6a5-c28a45968480', u'name': u'Klein - Staging'}"
+id,5233fd72-1403-4524-be34-344038d69361
+agent_version,3.0.1460
+name,WIN-445AEQJFGMK
+ip_addresses,"[192.168.159.133, 2001:0:5EF5:79FB:1438:3EA:3F57:607A]"
+mac_addresses,[00-0C-29-A9-A1-74]
+state,Offline
+date_first_registered,2017-06-12T19:39:57
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,e7d42351-20b2-4f7b-bb09-fa9f6cbdf903
+agent_version,2.0.1430
+name,MH-Cent-7-64.localdomain
+ip_addresses,[192.168.159.134]
+mac_addresses,[00-0C-29-3A-FD-0D]
+state,Offline
+date_first_registered,2017-06-12T14:51:01
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,7c0b6613-2004-4b5d-b38b-977f6421a2b3
+agent_version,3.0.1460
+name,HOSTB
+ip_addresses,"[192.168.1.117, 2001:0:9D38:953C:1045:212E:3F57:FE8A]"
+mac_addresses,[00-0C-29-82-FB-FF]
+state,Offline
+date_first_registered,2017-06-12T02:19:51
+policy,"{u'id': u'7abca2a9-5b99-4ee4-964a-d9d72e68c41b', u'name': u'[MM] ZEUS (Alerts Only /AutoUp)'}"
+id,1e44aff7-5b1e-471d-a146-141ee280b7f6
+agent_version,2.0.1440
+name,WYNNEII
+ip_addresses,"[192.168.244.1, 192.168.1.115, 5.236.22.207]"
+mac_addresses,"[00-FF-72-D3-18-F6, F8-B1-56-98-98-FA]"
+state,Offline
+date_first_registered,2017-06-12T01:05:42
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,10205430-f64f-45e6-bd26-7d279c12d38c
+agent_version,2.0.1440
+name,DAP-CYALERT
+ip_addresses,"[FD15:4BA5:5A2B:1002:E5E3:FB92:1448:5CCD, FD15:4BA5:5A2B:1002:A166:3CA7:6ED8:9854, 192.168.159.133, 2001:0:4137:9E76:CC9:1E4E:3F57:607A]"
+mac_addresses,[00-0C-29-01-01-E4]
+state,Offline
+date_first_registered,2017-06-09T21:42:13
+policy,"{u'id': u'60b10ab5-a627-449c-9e79-826bf4737424', u'name': u'Dappen-OPTICSAlert-Policy'}"
+id,d6bcdd9b-4ae2-4b2f-b36f-d1626c444004
+agent_version,2.0.1440
+name,ND-PROT-VM
+ip_addresses,[192.168.1.17]
+mac_addresses,[00-0C-29-AA-C2-F7]
+state,Offline
+date_first_registered,2017-06-09T13:54:11
+policy,"{u'id': u'f7df8cee-0321-4c6b-b8ab-e24945058b6d', u'name': u'ND-Prot-VM'}"
+id,df880bb4-9a77-4c70-8bb4-18b2adf9ad93
+agent_version,2.0.1460
+name,DR-SA-C1MRX3W6H3QK
+ip_addresses,"[10.0.0.3, 192.168.1.109]"
+mac_addresses,"[1E-F5-E5-56-A5-A3, 64-4B-F0-00-A3-09, 98-01-A7-CB-8E-A5]"
+state,Offline
+date_first_registered,2017-06-07T17:28:29
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,c9b2713d-0545-410a-ba15-c67885326f4f
+agent_version,2.0.1440
+name,Demo’s Mac
+ip_addresses,[192.168.55.132]
+mac_addresses,[00-0C-29-AC-5D-91]
+state,Offline
+date_first_registered,2017-06-05T22:03:51
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,61257a3e-c6a5-48d2-9608-6b7645e48478
+agent_version,2.0.1440
+name,MacBook Pro
+ip_addresses,[192.168.1.69]
+mac_addresses,"[20-C9-D0-85-B8-F9, 86-6F-AA-8E-C0-29]"
+state,Offline
+date_first_registered,2017-06-03T17:39:08
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,2b21f440-e514-4f69-a2bf-d3a06ff75f99
+agent_version,2.0.1440
+name,LENOVO-PC
+ip_addresses,"[192.168.7.26, 2001:0:9D38:90D7:882:3227:B33B:3FC2]"
+mac_addresses,[AC-E0-10-D4-01-C9]
+state,Offline
+date_first_registered,2017-06-03T01:30:52
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,54c611a5-1596-4f55-89d4-3f115791d1da
+agent_version,1.2.1330
+name,WIN7X64
+ip_addresses,"[192.168.159.158, 2001:0:9D38:6ABD:180B:264:3F57:6061]"
+mac_addresses,[00-0C-29-80-A7-FA]
+state,Offline
+date_first_registered,2017-06-01T04:38:52
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,5f6b9cb7-5b2d-4d4b-8966-a95f98899e40
+agent_version,2.0.1440
+name,SW-OPTICS4
+ip_addresses,[192.168.159.136]
+mac_addresses,[00-0C-29-F5-B5-88]
+state,Offline
+date_first_registered,2017-06-01T04:15:09
+policy,"{u'id': u'4ae0640e-5713-415b-99dd-8162bba74691', u'name': u'Swhite - Flight recorder'}"
+id,e051fc91-87f5-4adf-9884-7f5408001610
+agent_version,2.0.1470
+name,Music-Demo-Staging
+ip_addresses,[192.168.159.145]
+mac_addresses,[00-0C-29-CB-8B-33]
+state,Offline
+date_first_registered,2017-05-31T20:17:41
+policy,"{u'id': u'b61ed3b8-882e-4e3a-b659-0693173eea0d', u'name': u'Music_Staging_ExecutionCtrl'}"
+id,9a666e09-3331-4b15-a965-7857221088c3
+agent_version,2.0.1480
+name,localhost.localdomain
+ip_addresses,[172.16.228.168]
+mac_addresses,[00-0C-29-EC-6D-0A]
+state,Offline
+date_first_registered,2017-05-31T18:50:50
+policy,"{u'id': u'ded261e1-a60e-495b-b68f-f53334f124a7', u'name': u'AFM-Prot-VM'}"
+id,b59a9bce-8238-4ed8-8c5b-ed0f9ea54ab8
+agent_version,2.0.1470
+name,SW-OPTICS3
+ip_addresses,[192.168.159.139]
+mac_addresses,[00-0C-29-8A-8C-6F]
+state,Offline
+date_first_registered,2017-05-31T17:14:02
+policy,"{u'id': u'4ae0640e-5713-415b-99dd-8162bba74691', u'name': u'Swhite - Flight recorder'}"
+id,394db1c6-9220-47c5-aff7-ae43fae1123c
+agent_version,2.0.1430
+name,LW-WIN7X64
+ip_addresses,[192.168.159.55]
+mac_addresses,[00-0C-29-7C-2F-FC]
+state,Offline
+date_first_registered,2017-05-31T16:59:25
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,f34293a4-f3d6-44c8-a515-ba23168e590b
+agent_version,2.0.1440
+name,PAS-OPTICSSYS1
+ip_addresses,[192.168.159.134]
+mac_addresses,[00-0C-29-92-9B-34]
+state,Offline
+date_first_registered,2017-05-31T14:55:23
+policy,"{u'id': u'e16be933-5844-4a52-86aa-7866a9cc6f32', u'name': u'PAS - Optics 2.x Demo'}"
+id,65701ebc-fa89-433e-b528-44855f76fad4
+agent_version,2.0.1470
+name,EGCYLANCEPRO
+ip_addresses,[192.168.159.129]
+mac_addresses,[00-0C-29-12-D5-29]
+state,Offline
+date_first_registered,2017-05-30T14:58:34
+policy,"{u'id': u'a3f263c1-8ff7-4808-ae84-46e39a75e97b', u'name': u'Gidders Policy 9'}"
+id,5f49a908-838c-4b3b-8882-46612490587c
+agent_version,2.0.1480
+name,OPT-PT-MM-02
+ip_addresses,[10.45.96.147]
+mac_addresses,[00-50-56-88-3A-97]
+state,Offline
+date_first_registered,2017-05-26T20:02:01
+policy,"{u'id': u'ce8ea3a7-eda4-4350-9c00-6365c79b84ed', u'name': u'[MM] AQT-MPB-SCA-AFE-AFM'}"
+id,070a577e-52d9-4865-9f4b-0c7cf57d00a0
+agent_version,2.0.1470
+name,ORCATEST
+ip_addresses,"[10.10.10.20, 172.16.228.161]"
+mac_addresses,"[00-0C-29-76-64-F1, 00-0C-29-76-64-FB]"
+state,Offline
+date_first_registered,2017-05-26T18:33:33
+policy,"{u'id': u'68a2c351-57ef-42c0-b340-237a89a2ff27', u'name': u'TD-AppControl-VM'}"
+id,8a41f2b2-be70-4a58-80e3-8740f972fd9e
+agent_version,2.0.1430
+name,MALERBAA-WIN7A
+ip_addresses,[192.168.159.130]
+mac_addresses,[00-0C-29-C2-CB-51]
+state,Offline
+date_first_registered,2017-05-23T15:45:16
+policy,"{u'id': u'248c4b60-1ac4-4771-8f1d-d6d3ce3dd437', u'name': u'Malerba_Policy_Full'}"
+id,2bce3acd-6ecf-4f8e-a171-7dafd1fdf657
+agent_version,2.0.1470
+name,WIN-U6H0T8IO37A
+ip_addresses,"[192.168.19.139, 2001:0:9D38:6AB8:18D1:65A:3F57:EC74]"
+mac_addresses,[00-0C-29-89-A4-C8]
+state,Offline
+date_first_registered,2017-05-22T23:17:19
+policy,"{u'id': u'6dcee31d-1874-424d-8595-c8c39741210e', u'name': u'Coulter_Base'}"
+id,799b6124-c315-431a-ae4f-2367282b73aa
+agent_version,2.0.1440
+name,WINKMAC-DEMO-VM
+ip_addresses,[192.168.159.153]
+mac_addresses,[00-0C-29-FE-A8-86]
+state,Offline
+date_first_registered,2017-05-22T18:13:31
+policy,"{u'id': u'f50fe36a-9426-4a1d-aefa-da7783dfac86', u'name': u'Winkler-SE-Demo-Policy'}"
+id,1b9a22a5-5bf1-492b-9503-781e2c107616
+agent_version,2.0.1470
+name,rsundin-linux
+ip_addresses,[192.168.159.88]
+mac_addresses,[00-0C-29-14-A5-F2]
+state,Offline
+date_first_registered,2017-05-19T12:21:31
+policy,"{u'id': u'6ffd5769-7a20-4ee6-a089-ada0192de256', u'name': u'rsundin - block all - 20171124'}"
+id,aad18cd3-2b05-45a3-adb5-ccd6d2d149dd
+agent_version,2.0.1440
+name,linux-baylep
+ip_addresses,[192.168.159.88]
+mac_addresses,[00-0C-29-CD-10-D1]
+state,Offline
+date_first_registered,2017-05-19T12:12:23
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,a224732f-97e1-444e-853c-6a63ab7405d5
+agent_version,1.2.1400
+name,QAKBOT2
+ip_addresses,"[192.168.159.181, 2001:0:4137:9E76:2813:2199:3F57:604A]"
+mac_addresses,[00-0C-29-3F-4B-99]
+state,Offline
+date_first_registered,2017-05-17T04:10:53
+policy,"{u'id': u'a7568b4a-9605-4092-b62d-c41343c3faa0', u'name': u'Lucas's Policy'}"
+id,16a8fad0-ff7c-4f94-bb5b-c0446d98d0da
+agent_version,2.0.1420
+name,AFM-NEW-OPTICS
+ip_addresses,"[10.10.10.139, 172.16.228.140]"
+mac_addresses,"[00-0C-29-20-AC-59, 00-0C-29-20-AC-63]"
+state,Offline
+date_first_registered,2017-05-16T22:18:18
+policy,"{u'id': u'683af2a3-fb90-42b3-a68a-af29a848dbab', u'name': u'AFM-OPTICS-MON'}"
+id,cf5b9961-7261-4d86-9d3c-b6c0747979b2
+agent_version,3.0.1460
+name,RSUNDIN-CY-OLD
+ip_addresses,[192.168.159.191]
+mac_addresses,[00-0C-29-6F-51-1B]
+state,Offline
+date_first_registered,2017-05-16T07:49:45
+policy,"{u'id': u'6ffd5769-7a20-4ee6-a089-ada0192de256', u'name': u'rsundin - block all - 20171124'}"
+id,cdcf81e9-117b-4599-b6a6-69ccc9a9f43e
+agent_version,1.2.1320
+name,CYL-UBT-JPN-JC
+ip_addresses,"[172.16.228.138, 169.254.45.195, 2001:0:4137:9E76:2079:5E9:53EF:1B75]"
+mac_addresses,"[00-0C-29-75-E1-CD, 00-0C-29-75-E1-D7]"
+state,Offline
+date_first_registered,2017-05-15T06:17:36
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,53a9a17d-1c35-4cd0-9bcc-3cd7acdcd7a5
+agent_version,1.2.1380
+name,SW-PROTECT1370
+ip_addresses,"[192.168.159.136, 2001:0:4137:9E76:30A4:13F3:3F57:6077]"
+mac_addresses,[00-0C-29-9F-DD-A9]
+state,Offline
+date_first_registered,2017-05-13T21:16:44
+policy,"{u'id': u'1bdf340f-d944-4f5d-85fd-652617718cf5', u'name': u'Swhite - Optics - 3AQT'}"
+id,891a9de9-6a59-4e23-a223-37fc5342e396
+agent_version,1.2.1370
+name,PB-1370
+ip_addresses,[192.168.159.189]
+mac_addresses,[00-0C-29-0E-A5-19]
+state,Offline
+date_first_registered,2017-05-12T18:48:31
+policy,"{u'id': u'81c86bc2-5a2d-4a3d-9613-8580ccf882cf', u'name': u'PBAYLE_AQT+MP+FW+Script'}"
+id,157e9001-2f75-4846-b9dc-583025f1ab4d
+agent_version,1.2.1370
+name,PB-1320
+ip_addresses,[192.168.241.147]
+mac_addresses,[00-0C-29-D8-F0-4C]
+state,Offline
+date_first_registered,2017-05-12T18:31:51
+policy,"{u'id': u'81c86bc2-5a2d-4a3d-9613-8580ccf882cf', u'name': u'PBAYLE_AQT+MP+FW+Script'}"
+id,cf8cdd86-4320-4fb7-91ac-d0dc693772ee
+agent_version,1.2.1320
+name,DEMOPTNJ1
+ip_addresses,"[10.45.100.153, 2001:0:4137:9E76:90:1F00:F390:56C9]"
+mac_addresses,[00-50-56-88-0D-B2]
+state,Offline
+date_first_registered,2017-05-12T18:08:19
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,2756a95c-dd53-4fb2-b5ce-4bcad4b180d1
+agent_version,2.0.1440
+name,OP2RT1-WIN10
+ip_addresses,"[192.168.241.189, 2001:0:9D38:953C:185E:B05:3F57:E42]"
+mac_addresses,[00-0C-29-3F-1F-BD]
+state,Offline
+date_first_registered,2017-05-12T16:16:52
+policy,"{u'id': u'2803af7f-47fa-4f65-8d75-45d86f68a130', u'name': u'PAS-MonitorALL-OP'}"
+id,1f814534-6ccb-4ec9-bc35-1206afa5fbe1
+agent_version,1.2.1410
+name,TD-MacOS_10.12
+ip_addresses,[172.16.228.136]
+mac_addresses,[00-0C-29-69-06-C4]
+state,Offline
+date_first_registered,2017-05-11T14:42:11
+policy,"{u'id': u'068062f7-c003-4f03-aa07-a15252ec7cd3', u'name': u'TD-Prot-VM'}"
+id,32eccd2b-401f-42ef-9904-d5548f993d6c
+agent_version,2.0.1430
+name,ALDERMAN_OPTICS
+ip_addresses,[192.168.159.128]
+mac_addresses,[00-0C-29-3E-2D-64]
+state,Offline
+date_first_registered,2017-05-10T10:33:38
+policy,"{u'id': u'62ddb1ee-db9d-4a12-8a5b-797c04e8856e', u'name': u'ALDERMAN-ALERT'}"
+id,0cffea47-1fa5-44e7-a448-4042ab18d10f
+agent_version,2.0.1480
+name,MLOCKE-PROTECT-VM w/ Optics
+ip_addresses,"[2001:0:9D38:6AB8:1444:6438:E73B:540D, 192.168.159.235]"
+mac_addresses,[00-0C-29-F4-20-2A]
+state,Offline
+date_first_registered,2017-05-04T17:03:37
+policy,"{u'id': u'905ede5b-e6e5-4a34-bcf4-74d68856a8d3', u'name': u'Locke AQT MP FW Script'}"
+id,2551f113-8b00-4472-b630-9072ae2b5ff1
+agent_version,2.0.1440
+name,AX-PROTECT
+ip_addresses,[10.0.0.129]
+mac_addresses,[00-0C-29-2E-5B-81]
+state,Offline
+date_first_registered,2017-05-04T14:24:20
+policy,"{u'id': u'5f569c65-69dc-4f5b-a48b-c821a34a553f', u'name': u'0-AX-PC'}"
+id,7137a0f1-b462-40e7-b779-64c2ef706017
+agent_version,2.0.1470
+name,JLP001
+ip_addresses,[192.168.159.129]
+mac_addresses,[00-0C-29-FD-EB-C6]
+state,Offline
+date_first_registered,2017-05-03T19:33:53
+policy,"{u'id': u'626b25c5-fb98-45c8-8e8f-db7c0ae59060', u'name': u'Leadford_appcntrl'}"
+id,b317d4b3-48ba-4c7d-ac07-8cddb09edcf9
+agent_version,2.0.1470
+name,JL001
+ip_addresses,"[192.168.159.174, 2001:0:4137:9E76:383D:468:3F57:6051]"
+mac_addresses,[00-0C-29-11-CE-2B]
+state,Offline
+date_first_registered,2017-05-03T18:24:40
+policy,"{u'id': u'626b25c5-fb98-45c8-8e8f-db7c0ae59060', u'name': u'Leadford_appcntrl'}"
+id,e85f4c0b-f349-4a89-afed-572d527e9ac5
+agent_version,2.0.1430
+name,JL003
+ip_addresses,[192.168.2.87]
+mac_addresses,[00-0C-29-40-B5-D0]
+state,Offline
+date_first_registered,2017-05-03T18:24:12
+policy,"{u'id': u'626b25c5-fb98-45c8-8e8f-db7c0ae59060', u'name': u'Leadford_appcntrl'}"
+id,ba2e4f36-fe31-40b0-8813-54642806dd8a
+agent_version,2.0.1470
+name,JL002
+ip_addresses,[192.168.2.32]
+mac_addresses,[00-0C-29-E7-91-BF]
+state,Offline
+date_first_registered,2017-05-03T18:24:07
+policy,"{u'id': u'626b25c5-fb98-45c8-8e8f-db7c0ae59060', u'name': u'Leadford_appcntrl'}"
+id,60fbf1d3-3481-486e-9ab4-60194a2d0024
+agent_version,2.0.1470
+name,CFS-WIN7CYPRO
+ip_addresses,[192.168.159.167]
+mac_addresses,[00-0C-29-22-68-96]
+state,Offline
+date_first_registered,2017-05-03T03:31:18
+policy,"{u'id': u'8d9790af-7fde-462c-b89c-3bcad007fe3c', u'name': u'CFS-Demo_Policy'}"
+id,266d1531-cff7-43be-a32a-5e060ae47ffc
+agent_version,2.0.1470
+name,JD-CPRO-01
+ip_addresses,[192.168.159.128]
+mac_addresses,[00-0C-29-37-6D-4C]
+state,Offline
+date_first_registered,2017-05-02T22:23:09
+policy,"{u'id': u'7c64eaf2-0dcf-4b45-be5d-75131f2f22bc', u'name': u'JD-WIN-AQT-M-SC + OPTICS'}"
+id,c7f8e4f6-ab53-4d9c-9e4d-12cc709bb14f
+agent_version,2.0.1480
+name,JD-CPRO-OPT-01
+ip_addresses,[192.168.159.169]
+mac_addresses,[00-0C-29-C3-0F-E2]
+state,Offline
+date_first_registered,2017-05-02T22:21:45
+policy,"{u'id': u'ee30bf4d-893f-4734-9616-a53ef2bc8e5b', u'name': u'JD-Optics-Only'}"
+id,847bb572-a677-4cf5-b1f0-2fb450e94474
+agent_version,2.0.1480
+name,MAL-MD-C02S71XUG8WL
+ip_addresses,"[192.168.159.1, 172.16.42.2, 2002:AE34:2FF2:1:C6B3:1FF:FEBC:75A1, 2002:AE34:2FF2:1:840B:A9BC:95F7:9727]"
+mac_addresses,"[00-50-56-C0-00-01, 00-50-56-C0-00-08, C4-B3-01-BC-75-A1]"
+state,Offline
+date_first_registered,2017-05-02T20:03:57
+policy,"{u'id': u'62ddb1ee-db9d-4a12-8a5b-797c04e8856e', u'name': u'ALDERMAN-ALERT'}"
+id,342ad9cb-f720-4e33-94c4-0deb443de3b0
+agent_version,2.0.1480
+name,KH-UBT4-STAGING
+ip_addresses,"[::1, 10.10.10.1, 192.168.159.129]"
+mac_addresses,"[00-0C-29-3E-08-01, 00-0C-29-3E-08-0B]"
+state,Offline
+date_first_registered,2017-04-29T02:51:32
+policy,"{u'id': u'cb906a1e-43d0-40d2-b615-f688d64d128e', u'name': u'KrisLab2-Audit Only'}"
+id,5713a4e8-64c2-4635-8184-ece671506d47
+agent_version,2.0.1430
+name,KH-OPTICSTEST
+ip_addresses,"[10.10.10.4, 192.168.241.144]"
+mac_addresses,"[00-0C-29-53-51-10, 00-0C-29-53-51-1A]"
+state,Offline
+date_first_registered,2017-04-29T02:51:26
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,c74cd9ab-4d8a-4977-b0c2-c47a66526eec
+agent_version,2.0.1470
+name,NICI-T61
+ip_addresses,[10.4.20.111]
+mac_addresses,[00-21-5C-88-1D-09]
+state,Offline
+date_first_registered,2017-04-29T02:50:44
+policy,"{u'id': u'51e69d7a-0ad5-4270-a15c-d98169940e87', u'name': u'Ryan W Prod'}"
+id,b7d3d854-e659-4431-9caa-c9abf4c3dca5
+agent_version,2.0.1460
+name,RS-WIN7-32BIT
+ip_addresses,[192.168.159.144]
+mac_addresses,[00-0C-29-50-78-E1]
+state,Offline
+date_first_registered,2017-04-28T22:26:33
+policy,"{u'id': u'94decfe5-0e74-4078-9f14-edd8d9ca4820', u'name': u'00-RS-WIN-AQT-MP-SC-OPT*!'}"
+id,4067b999-9b18-4c12-94bf-3a302a1f5033
+agent_version,2.0.1480
+name,KEMAC-OPTICS
+ip_addresses,"[10.10.10.12, 192.168.159.129]"
+mac_addresses,"[00-0C-29-74-D8-28, 00-0C-29-74-D8-32]"
+state,Offline
+date_first_registered,2017-04-28T21:25:22
+policy,"{u'id': u'8c99e77a-d293-45b7-9c4c-49f5782aafb2', u'name': u'KE Optics Detonation0125A'}"
+id,fcc62aff-e72a-438d-83fc-84081194cf13
+agent_version,2.0.1470
+name,SW-OPTICS
+ip_addresses,"[192.168.159.140, 2001:0:4137:9E76:2C3F:182F:3F57:6073]"
+mac_addresses,[00-0C-29-36-38-80]
+state,Offline
+date_first_registered,2017-04-28T21:11:30
+policy,"{u'id': u'1bdf340f-d944-4f5d-85fd-652617718cf5', u'name': u'Swhite - Optics - 3AQT'}"
+id,0c513117-1e88-4c33-a179-4d05f74a38f7
+agent_version,2.0.1430
+name,SW-OPTICS2
+ip_addresses,[192.168.159.140]
+mac_addresses,[00-0C-29-46-27-62]
+state,Offline
+date_first_registered,2017-04-28T20:35:42
+policy,"{u'id': u'1bdf340f-d944-4f5d-85fd-652617718cf5', u'name': u'Swhite - Optics - 3AQT'}"
+id,36803005-314f-48f0-a963-e6a95f80c7e9
+agent_version,2.0.1430
+name,MF-TESTA
+ip_addresses,[192.168.159.168]
+mac_addresses,[00-0C-29-A2-64-48]
+state,Offline
+date_first_registered,2017-04-27T21:33:00
+policy,"{u'id': u'65c17ca6-7dd1-4502-9687-85e1c99b3a87', u'name': u'MF - Optics Test'}"
+id,860762e4-5de1-48e6-ab9d-4735fddf1364
+agent_version,2.0.1480
+name,BWCYOPTICS2
+ip_addresses,[192.168.159.129]
+mac_addresses,[00-0C-29-7E-8A-0E]
+state,Offline
+date_first_registered,2017-04-27T15:36:02
+policy,"{u'id': u'390ccb95-e73c-4a96-9177-74161e5d38f9', u'name': u'WaldenBlockall-allowScriptOct31'}"
+id,12f32bd7-2499-4241-b736-4ba78ea9a55b
+agent_version,2.0.1480
+name,QUINNPROTECT
+ip_addresses,[192.168.159.130]
+mac_addresses,[00-0C-29-92-ED-B0]
+state,Offline
+date_first_registered,2017-04-27T15:08:34
+policy,"{u'id': u'743352e5-db20-4a3e-8fd3-29dd2c94b35e', u'name': u'Quinn AQT MP FW Script '}"
+id,b295cad2-aeff-48f4-b54d-de5ade30a7a2
+agent_version,2.0.1470
+name,JS-VM-OPTICS
+ip_addresses,"[192.168.159.131, 2001:0:5EF5:79FB:207A:39CB:3F57:607C]"
+mac_addresses,[00-0C-29-8E-3B-7D]
+state,Offline
+date_first_registered,2017-04-27T14:55:35
+policy,"{u'id': u'1a9b5a03-2119-451e-b4af-2a3fe9d7c8bc', u'name': u'sanders Alert'}"
+id,510be0b9-5b17-416a-b4d9-8a56c6410f5d
+agent_version,2.0.1440
+name,MICROSOFT
+ip_addresses,"[172.16.1.130, 192.168.159.140]"
+mac_addresses,"[00-0C-29-9A-69-7C, 00-0C-29-9A-69-86]"
+state,Offline
+date_first_registered,2017-04-25T16:44:45
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,0c85f818-5d55-4389-bca5-8e10df47ec5a
+agent_version,1.2.1400
+name,jllinux.localdomain
+ip_addresses,"[192.168.159.207, 192.168.122.1]"
+mac_addresses,[00-0C-29-13-A5-CF]
+state,Offline
+date_first_registered,2017-04-24T15:08:32
+policy,"{u'id': u'3f50d6e7-6961-45bf-83f1-f9208fcc5c34', u'name': u'leadford_linux'}"
+id,f2112017-b020-4ee0-ad3b-f74fabeb2001
+agent_version,2.0.1430
+name,WIN-A49J8AILB10
+ip_addresses,"[172.16.73.136, 2001:0:4137:9E76:3419:FBFF:A95A:6B44]"
+mac_addresses,[00-0C-29-5A-58-98]
+state,Offline
+date_first_registered,2017-04-23T22:09:47
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,6cd7368c-0cbf-472b-af6f-611f0c16dea1
+agent_version,1.2.1320
+name,KEMAC-PROT64
+ip_addresses,"[10.10.10.11, 192.168.159.178]"
+mac_addresses,"[00-0C-29-70-10-F1, 00-0C-29-70-10-FB]"
+state,Offline
+date_first_registered,2017-04-22T22:53:23
+policy,"{u'id': u'7ad0d6bd-9126-4610-ab04-cd09cc177b96', u'name': u'KE-Prot-VM-0423'}"
+id,5e95d854-0f34-4bb8-a2d2-ab7295a5ec5d
+agent_version,2.0.1470
+name,DOE-PC
+ip_addresses,[192.168.159.79]
+mac_addresses,[00-0C-29-1A-B0-FF]
+state,Offline
+date_first_registered,2017-04-19T09:48:52
+policy,"{u'id': u'1cad62a9-9aa0-4941-a9b5-8e80661bd5fa', u'name': u'JTIETZE Block+Mem+Script'}"
+id,8cb2aa77-d851-46c6-8850-b93257c81004
+agent_version,2.0.1430
+name,GD-STAGING
+ip_addresses,"[192.168.241.249, 2001:0:4137:9E76:C01:1105:3F57:E06]"
+mac_addresses,[00-0C-29-B8-2B-5F]
+state,Offline
+date_first_registered,2017-04-18T21:47:47
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,f6d9ab72-b294-47b8-aaee-9abfcf384a53
+agent_version,2.0.1430
+name,webbl-centos7
+ip_addresses,"[192.168.159.130, 192.168.122.1]"
+mac_addresses,[00-50-56-32-0F-51]
+state,Offline
+date_first_registered,2017-04-16T08:09:39
+policy,"{u'id': u'7bf2e0f5-ac87-4cbf-abce-3dc3cfee4a68', u'name': u'*WEBBL-Linux'}"
+id,0435cb4f-ac1d-4a83-941b-5eabd4f115e4
+agent_version,2.0.1430
+name,PAS-VICTIM1
+ip_addresses,[192.168.159.145]
+mac_addresses,[00-0C-29-FC-2A-A3]
+state,Offline
+date_first_registered,2017-04-13T13:42:47
+policy,"{u'id': u'419768f8-c555-42b9-a067-27f190c471bc', u'name': u'PAS-ProtectHost'}"
+id,ad33e210-2968-4861-8501-306203aad9c3
+agent_version,2.0.1440
+name,DESKTOP-KPJ0QOR
+ip_addresses,"[192.168.159.220, 2001:0:4137:9E76:C03:2AA:2629:69A5]"
+mac_addresses,[00-0C-29-33-7E-93]
+state,Offline
+date_first_registered,2017-04-13T13:16:08
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,e5c48ed9-70fa-40b2-bcc1-1a9a7b5430bb
+agent_version,2.0.1430
+name,amlinux-prot-vm
+ip_addresses,"[172.23.4.4, 172.23.4.5, 192.168.122.1]"
+mac_addresses,"[00-0C-29-06-A7-08, 00-0C-29-06-A7-FE]"
+state,Offline
+date_first_registered,2017-04-08T20:46:18
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,9e1ccb7e-ebe1-4298-a213-dc5dc2f9165d
+agent_version,1.2.1400
+name,DESKTOP-6ESPJRT
+ip_addresses,"[172.16.89.129, 2001:0:5EF5:79FB:2886:1FF4:53EF:A67E]"
+mac_addresses,[00-0C-29-B4-64-14]
+state,Offline
+date_first_registered,2017-04-06T18:19:21
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,06f5289e-2f21-41b4-ba24-b7062bf5ac95
+agent_version,2.0.1430
+name,mh-cent7-64-demo-localdomain
+ip_addresses,[192.168.241.149]
+mac_addresses,[00-0C-29-3A-FD-0D]
+state,Offline
+date_first_registered,2017-04-05T18:32:37
+policy,"{u'id': u'a406ee2a-c6a7-4460-ac03-a5e720035845', u'name': u'MH APP CONTROL LINUX'}"
+id,040f01f2-016a-4013-b9d4-e3e428729852
+agent_version,2.0.1440
+name,dap-cylinuxdemo
+ip_addresses,[192.168.159.88]
+mac_addresses,[00-0C-29-7F-6F-84]
+state,Offline
+date_first_registered,2017-04-01T23:02:36
+policy,"{u'id': u'83f44a0c-6482-46b1-b46b-9acf70e6c8a2', u'name': u'Dappen AQT MP FW Script Dev'}"
+id,e30ffb7f-f5bc-4be8-9a0a-c030c9e49ec8
+agent_version,2.0.1430
+name,AX-CYLANCE-DEMO
+ip_addresses,"[169.254.46.220, ::1, 192.168.73.139]"
+mac_addresses,"[00-0C-29-75-22-AC, 00-0C-29-75-22-B6]"
+state,Offline
+date_first_registered,2017-03-30T14:52:01
+policy,"{u'id': u'5f569c65-69dc-4f5b-a48b-c821a34a553f', u'name': u'0-AX-PC'}"
+id,8f532f50-c662-46b2-b3c8-7b36ed77625a
+agent_version,2.0.1430
+name,AX-CYLANCE-DEMO
+ip_addresses,"[192.168.73.132, ::1, 10.50.50.10]"
+mac_addresses,"[00-0C-29-8D-70-C0, 00-0C-29-8D-70-CA]"
+state,Offline
+date_first_registered,2017-03-29T13:31:11
+policy,"{u'id': u'd4b962b3-316f-497b-a6b6-fb3a9e79da89', u'name': u'MoerG AQT+MP+FW+Script+Macro'}"
+id,1864b817-0e2d-44de-92a0-bb5ac984fc3c
+agent_version,2.0.1420
+name,AX-CYLANCE-DEMO
+ip_addresses,"[::1, 10.50.50.10, 192.168.73.132]"
+mac_addresses,"[00-0C-29-4C-24-84, 00-0C-29-4C-24-8E]"
+state,Offline
+date_first_registered,2017-03-29T04:43:22
+policy,"{u'id': u'd4b962b3-316f-497b-a6b6-fb3a9e79da89', u'name': u'MoerG AQT+MP+FW+Script+Macro'}"
+id,498befcb-12d1-4ee3-b76a-9f6735164679
+agent_version,2.0.1430
+name,VICTIM10
+ip_addresses,"[172.16.228.138, 2001:0:9D38:78CF:71:2E79:BD7F:9EE]"
+mac_addresses,[00-0C-29-28-83-A4]
+state,Offline
+date_first_registered,2017-03-24T20:09:50
+policy,"{u'id': u'622f636f-0a76-4d7e-836c-cd754d8d4ab4', u'name': u'DJ-STAGING-POLICY'}"
+id,99447c56-52b5-415f-9a09-ec72b0a60872
+agent_version,2.0.1420
+name,static-osx-demo
+ip_addresses,[192.168.159.168]
+mac_addresses,[00-0C-29-D3-29-33]
+state,Offline
+date_first_registered,2017-03-24T16:52:22
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,364ead75-3bcc-484d-98cc-76142df230f2
+agent_version,2.0.1420
+name,MH-DEV
+ip_addresses,"[192.168.159.150, 2001:0:9D38:90D7:1C73:1B2B:3F57:6069]"
+mac_addresses,[00-0C-29-AB-CB-29]
+state,Offline
+date_first_registered,2017-03-23T21:56:45
+policy,"{u'id': u'629a6217-af0d-4749-b48f-2b9c8b586c2b', u'name': u'MH ATQ + Memdef Term. - NO SC'}"
+id,4275710e-fd6c-46b9-a31f-d83ca74a5831
+agent_version,2.0.1420
+name,MS-UBT-CYL-VM
+ip_addresses,"[169.254.117.241, 192.168.241.173]"
+mac_addresses,"[00-0C-29-2E-74-08, 00-0C-29-2E-74-FE]"
+state,Offline
+date_first_registered,2017-03-23T09:09:58
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,1e6269af-5e4f-4746-add9-6c223ce93e75
+agent_version,2.0.1440
+name,MS-UBT-CYL-VM
+ip_addresses,"[10.10.10.7, 192.168.241.156]"
+mac_addresses,"[00-0C-29-3C-D9-67, 00-0C-29-3C-D9-71]"
+state,Offline
+date_first_registered,2017-03-23T08:41:38
+policy,"{u'id': u'09be4c61-9fd6-47f4-ba4a-aad3e9c42e43', u'name': u'sdubbel-malware-lab-Win10'}"
+id,7edbc104-f2af-4823-b3ee-bdd2541c1a73
+agent_version,2.0.1420
+name,DPRES-DEMO-14XX
+ip_addresses,[192.168.159.148]
+mac_addresses,[00-0C-29-CF-03-F9]
+state,Offline
+date_first_registered,2017-03-22T19:55:12
+policy,"{u'id': u'd53b792a-86f5-498e-a674-72aaaa10b174', u'name': u'DPRESBIT-DEMO OPTICSv2_ALERT'}"
+id,8a424759-b4c8-4883-b6cd-f0556d480fdf
+agent_version,2.0.1470
+name,PB-W7-PRO-PILOT
+ip_addresses,[192.168.159.188]
+mac_addresses,[00-0C-29-85-AC-89]
+state,Offline
+date_first_registered,2017-03-21T10:59:34
+policy,"{u'id': u'e99259e7-7db7-4c47-8a34-1c4b8e9d544a', u'name': u'PBAYLE_AQT+MP+BTD+FW+Script'}"
+id,a6c192cb-0359-48a5-9a40-6cb3040ca024
+agent_version,2.0.1470
+name,Carlie’s MacBook Pro
+ip_addresses,"[192.168.1.87, 2600:1700:CAA0:9CD0:473:56C8:6415:9BE0, 2600:1700:CAA0:9CD0::32, 2600:1700:CAA0:9CD0:96B:8B47:9653:32AF]"
+mac_addresses,[E0-F8-47-01-51-56]
+state,Offline
+date_first_registered,2017-03-21T00:48:15
+policy,"{u'id': u'6e71183a-a5af-4485-8964-c10765ea23c9', u'name': u'Gabe Lab - Mac'}"
+id,ac2c7fff-c58e-4769-afda-e66b5cace7ab
+agent_version,2.0.1480
+name,MH-1380
+ip_addresses,"[192.168.159.139, 2001:0:5CF2:8C02:1064:1C4:3F57:6074]"
+mac_addresses,[00-0C-29-7D-AE-F2]
+state,Offline
+date_first_registered,2017-03-16T20:27:42
+policy,"{u'id': u'877c6c48-fd3c-4c92-97f1-b0c3e6625972', u'name': u'MH ATQ MT SCB OAU'}"
+id,96ba11da-9f6c-41ac-b2f4-f1494a31b305
+agent_version,2.0.1450
+name,WIN7X64
+ip_addresses,"[2001:0:9D38:78CF:F3:35F4:261D:8806, 192.168.19.138]"
+mac_addresses,[00-0C-29-C1-99-AD]
+state,Offline
+date_first_registered,2017-03-15T17:32:32
+policy,"{u'id': u'09be4c61-9fd6-47f4-ba4a-aad3e9c42e43', u'name': u'sdubbel-malware-lab-Win10'}"
+id,5d51eea9-6489-43dd-82fd-ef23342c4975
+agent_version,2.0.1430
+name,EAW10-VM-PROT
+ip_addresses,"[192.168.241.191, 10.10.10.8]"
+mac_addresses,"[00-0C-29-C7-2C-99, 00-0C-29-C7-2C-A3]"
+state,Offline
+date_first_registered,2017-03-14T21:30:28
+policy,"{u'id': u'06b14e62-779c-4de0-b8bc-5f352f148677', u'name': u'EA-ALERT'}"
+id,f4564f27-2a72-4c95-a4c7-4b5645126667
+agent_version,2.0.1440
+name,PB-pilot
+ip_addresses,"[192.168.159.161, 2001:0:9D38:90D7:300A:2730:3F57:605E]"
+mac_addresses,[00-0C-29-18-1B-40]
+state,Offline
+date_first_registered,2017-03-14T18:57:06
+policy,"{u'id': u'e99259e7-7db7-4c47-8a34-1c4b8e9d544a', u'name': u'PBAYLE_AQT+MP+BTD+FW+Script'}"
+id,c22a150c-98dc-496c-ac50-2cbf84eccd32
+agent_version,2.0.1420
+name,TAKAPCTEST
+ip_addresses,[192.168.154.149]
+mac_addresses,[00-0C-29-44-06-AA]
+state,Offline
+date_first_registered,2017-03-09T08:32:17
+policy,"{u'id': u'51cccd0a-8f8e-40eb-bc4d-e71f5c4103f3', u'name': u'taka application test'}"
+id,3e8f652e-e7ce-4964-b771-3d2176300fa8
+agent_version,2.0.1460
+name,SW-PROTECT1440
+ip_addresses,[192.168.159.155]
+mac_addresses,[00-0C-29-9B-D0-52]
+state,Offline
+date_first_registered,2017-03-08T04:27:44
+policy,"{u'id': u'107ddbde-e727-404f-b132-7e1883e4425e', u'name': u'Swhite - FullProtect 1400 w/ SC'}"
+id,fa0c253f-8d43-4838-8fe6-60c8fe342034
+agent_version,2.0.1470
+name,RW-ESX-CYLANCE
+ip_addresses,[10.69.69.107]
+mac_addresses,[00-0C-29-F9-9F-0D]
+state,Offline
+date_first_registered,2017-03-06T06:05:47
+policy,"{u'id': u'6d9753b6-784a-4dfb-8a42-70ddc9fe64fc', u'name': u'Ryan W Demo'}"
+id,2252b570-aec2-4de0-ba75-028516727cc8
+agent_version,1.2.1370
+name,OTHER_AV_TESTS
+ip_addresses,"[2001:0:5CF2:8C15:10D2:6A0:3F57:6031, 192.168.159.206]"
+mac_addresses,[00-0C-29-08-0F-06]
+state,Offline
+date_first_registered,2017-03-02T15:28:40
+policy,"{u'id': u'0b5c6464-45d2-4a8b-bc86-3559c6acf8cd', u'name': u'DPRESBIT-DEMO AQT MP FW SC BTD'}"
+id,76bad5b9-56f5-4b43-8530-6e402edc04ea
+agent_version,2.0.1450
+name,JS-W10EU-DVM-MO
+ip_addresses,"[10.10.10.35, 192.168.241.167]"
+mac_addresses,"[00-0C-29-05-68-B5, 00-0C-29-05-68-BF]"
+state,Offline
+date_first_registered,2017-03-01T12:30:02
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,8e535cd2-3b36-4b11-99c4-5588158999ae
+agent_version,1.2.1418
+name,TEST-PC1
+ip_addresses,"[192.168.241.131, 10.10.10.66]"
+mac_addresses,"[00-0C-29-50-63-02, 00-0C-29-50-63-0C]"
+state,Offline
+date_first_registered,2017-02-28T18:19:13
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,c8b981dd-270c-4fa8-8ee9-7f8a59217613
+agent_version,1.2.1400
+name,TEST-PC2
+ip_addresses,"[192.168.241.130, 10.10.10.67]"
+mac_addresses,"[00-0C-29-DE-B8-E7, 00-0C-29-DE-B8-F1]"
+state,Offline
+date_first_registered,2017-02-28T18:19:09
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,19025f31-a785-46bd-802c-4a0b0fdabb40
+agent_version,1.2.1400
+name,DPRES-DEMO-1380
+ip_addresses,"[::1, 192.168.159.159]"
+mac_addresses,[00-0C-29-5B-9C-F9]
+state,Offline
+date_first_registered,2017-02-28T01:29:55
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,843f27a5-d714-4a2a-a1c9-316a6cde5700
+agent_version,1.2.1380
+name,HOST
+ip_addresses,"[2001:0:5CF2:8C15:2C95:1643:3F57:602F, 192.168.159.208]"
+mac_addresses,[00-50-56-2C-88-FB]
+state,Offline
+date_first_registered,2017-02-25T00:00:14
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,b9ab7efe-ba3d-460f-bd7d-e937d02e832a
+agent_version,1.2.1410
+name,1320-WIN7X64
+ip_addresses,[192.168.159.130]
+mac_addresses,[00-0C-29-36-91-F4]
+state,Offline
+date_first_registered,2017-02-24T11:47:06
+policy,"{u'id': u'b81da7b0-1989-430d-858b-e63d492c641a', u'name': u'**WEBBL-AQT-STAGING'}"
+id,6caafcbe-a722-4de9-aa78-071925fb7aad
+agent_version,1.2.1320
+name,DPRES-SE-DEMO-1
+ip_addresses,[192.168.159.181]
+mac_addresses,[00-0C-29-A4-8E-0D]
+state,Offline
+date_first_registered,2017-02-16T16:42:55
+policy,"{u'id': u'0b5c6464-45d2-4a8b-bc86-3559c6acf8cd', u'name': u'DPRESBIT-DEMO AQT MP FW SC BTD'}"
+id,ebe81049-3acf-4e89-98e7-3b4579f1f6c4
+agent_version,2.0.1480
+name,ALDERMAN_CP1290
+ip_addresses,[192.168.159.181]
+mac_addresses,[00-0C-29-20-18-8B]
+state,Offline
+date_first_registered,2017-02-16T12:20:29
+policy,"{u'id': u'a81bfe68-548c-4b11-9842-2deac603ec39', u'name': u'ALDERMAN-block'}"
+id,af2785e2-2de0-4d45-8f6c-8dd3c248eddc
+agent_version,1.2.1290
+name,ND-PROTECT-TEST
+ip_addresses,"[10.10.10.20, 192.168.241.222]"
+mac_addresses,"[00-0C-29-C1-A8-23, 00-0C-29-C1-A8-2D]"
+state,Offline
+date_first_registered,2017-02-15T22:43:25
+policy,"{u'id': u'f7df8cee-0321-4c6b-b8ab-e24945058b6d', u'name': u'ND-Prot-VM'}"
+id,bd896e10-daa4-49be-bc1a-2e63850a6110
+agent_version,2.0.1430
+name,JENNIFER-HP
+ip_addresses,"[2601:602:9C80:259B:4D71:76FB:D34A:1EEA, 192.168.1.103, 2001:0:4137:9E76:1CE9:2F60:B3E9:D719, 2601:602:9C80:259B:ADBE:7F0E:7318:F13D]"
+mac_addresses,[08-ED-B9-62-37-B5]
+state,Offline
+date_first_registered,2017-02-11T05:48:32
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,826e7bbb-fb09-4179-b248-6b69b9f47a44
+agent_version,1.2.1330
+name,W520V2
+ip_addresses,"[192.168.174.1, 10.10.70.115, 192.168.203.1]"
+mac_addresses,[F0-DE-F1-FD-2B-46]
+state,Offline
+date_first_registered,2017-02-06T19:04:31
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,915901b5-6233-4350-be58-10c872e01681
+agent_version,1.2.1400
+name,sdubbel-win2012core
+ip_addresses,[192.168.159.212]
+mac_addresses,[00-0C-29-1A-F5-6F]
+state,Offline
+date_first_registered,2017-02-06T10:13:39
+policy,"{u'id': u'975e7af0-0295-456f-9a2e-731b59168541', u'name': u'sdubbel-win2012core'}"
+id,483d9736-ab6d-458a-b5a4-e1792a377272
+agent_version,1.2.1410
+name,DESKTOP-BEF7F0N
+ip_addresses,"[192.168.86.171, 2001:0:9D38:953C:B4:25F6:9F09:13D7]"
+mac_addresses,[98-01-A7-93-09-F7]
+state,Offline
+date_first_registered,2017-02-03T20:17:04
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,c3f8a055-d407-4a7f-af23-662af0f05877
+agent_version,1.2.1410
+name,WINKMAC-STAGING
+ip_addresses,[192.168.159.230]
+mac_addresses,[00-0C-29-60-D4-D2]
+state,Offline
+date_first_registered,2017-02-03T15:25:06
+policy,"{u'id': u'6b3d01eb-59ab-41e5-b561-edbac3ac11ef', u'name': u'Winkler-SE-STAGING-Policy'}"
+id,7dea2ee8-52f4-4d62-8a59-aadf9810951b
+agent_version,1.2.1410
+name,SPC-PROTECT2-VM
+ip_addresses,[172.16.228.250]
+mac_addresses,[00-0C-29-89-0E-45]
+state,Offline
+date_first_registered,2017-01-26T15:14:51
+policy,"{u'id': u'b145410c-a3ed-4e3d-8b6f-9acd3a423e4b', u'name': u'SPC_DEFAULT'}"
+id,266ae1ac-b0ed-4974-aeb6-0aa1aafdd2a0
+agent_version,1.2.1410
+name,DESKTOP-B11OU81
+ip_addresses,[192.168.122.128]
+mac_addresses,[00-0C-29-92-E2-D1]
+state,Offline
+date_first_registered,2017-01-20T15:48:13
+policy,"{u'id': u'98ab7d21-b0ee-4881-8295-62d12bce153c', u'name': u'Robert Win10 Lab'}"
+id,215a9bfc-5a18-43ec-9e88-556608216bb2
+agent_version,2.0.1460
+name,MALERBAA-OPTICS
+ip_addresses,"[192.168.159.182, 2001:0:9D38:78CF:18AB:28BE:3F57:6049]"
+mac_addresses,[00-0C-29-E2-CA-56]
+state,Offline
+date_first_registered,2017-01-19T15:21:52
+policy,"{u'id': u'248c4b60-1ac4-4771-8f1d-d6d3ce3dd437', u'name': u'Malerba_Policy_Full'}"
+id,84f596e6-a500-45c0-b51b-a50b138abed8
+agent_version,2.0.1430
+name,MALERBAA-OPTV2
+ip_addresses,[192.168.159.169]
+mac_addresses,[00-0C-29-BE-89-EF]
+state,Offline
+date_first_registered,2017-01-16T19:05:15
+policy,"{u'id': u'b7ad73cc-1cea-4ad5-b139-5a3cd3fad7ec', u'name': u'Malerba_Alert'}"
+id,8f40aca0-7215-4a1b-a203-49f21c6c3a5b
+agent_version,2.0.1450
+name,WIN-OHB9ERCQVT9
+ip_addresses,[192.168.154.140]
+mac_addresses,[00-0C-29-A0-5C-02]
+state,Offline
+date_first_registered,2017-01-11T08:32:37
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,78202902-096b-44a7-85f0-c6631495bd01
+agent_version,2.0.1420
+name,PC10
+ip_addresses,"[172.16.228.138, 2001:0:9D38:6AB8:2850:D578:B939:7B6C]"
+mac_addresses,[00-0C-29-BA-BB-87]
+state,Offline
+date_first_registered,2017-01-09T17:48:19
+policy,"{u'id': u'ad1a6f2b-0aa6-479a-9029-da255a64c65e', u'name': u'DJ-DESKTOP-POLICY'}"
+id,4fe69eb0-1736-4684-a687-fa1bda5d4900
+agent_version,1.2.1410
+name,DC1
+ip_addresses,"[172.16.222.100, 2001:0:D5C:5A30:1884:2211:53EF:219B]"
+mac_addresses,[00-0C-29-D9-15-3D]
+state,Offline
+date_first_registered,2017-01-09T17:40:52
+policy,"{u'id': u'622f636f-0a76-4d7e-836c-cd754d8d4ab4', u'name': u'DJ-STAGING-POLICY'}"
+id,88a533f3-9794-43dc-907f-c5ebe8713f72
+agent_version,1.2.1410
+name,SPC-STAGE8-VM
+ip_addresses,"[172.16.228.203, 2001:0:338C:24F4:1CD9:2180:53EF:1B34]"
+mac_addresses,[00-0C-29-1E-FA-82]
+state,Offline
+date_first_registered,2017-01-09T15:54:53
+policy,"{u'id': u'004d7bb8-f80c-4ad7-94d6-98a6a325f208', u'name': u'SPC_STAGING'}"
+id,b062bfa2-ff62-4ded-a4fc-1c03eb26c889
+agent_version,1.2.1400
+name,DPRES-DEMO-1380
+ip_addresses,"[192.168.159.129, 2001:0:4137:9E76:3CA0:1CDD:3F57:607E]"
+mac_addresses,[00-0C-29-39-02-0F]
+state,Offline
+date_first_registered,2017-01-06T14:30:58
+policy,"{u'id': u'a7cc8e97-a404-45bb-a7d4-bac160304e8c', u'name': u'DPRESBIT-1410 AQT MP FW Script'}"
+id,32bdb1c4-db5f-4845-a3c2-de0907f11685
+agent_version,1.2.1390
+name,SPC-PROT-XP32
+ip_addresses,[172.16.228.198]
+mac_addresses,[00-0C-29-34-23-68]
+state,Offline
+date_first_registered,2017-01-05T22:44:25
+policy,"{u'id': u'b145410c-a3ed-4e3d-8b6f-9acd3a423e4b', u'name': u'SPC_DEFAULT'}"
+id,3a6c805e-2555-48eb-a8fa-95716872da39
+agent_version,1.2.1410
+name,MALERB-W7-TOOLS
+ip_addresses,[192.168.159.133]
+mac_addresses,[00-0C-29-D6-8A-70]
+state,Offline
+date_first_registered,2017-01-05T13:40:58
+policy,"{u'id': u'7ffbcb09-0c78-410f-81a6-52d2a353f246', u'name': u'Malerba_Policy_Tools'}"
+id,63082e66-d01b-426d-95bc-e1b90bb3e05a
+agent_version,2.0.1440
+name,AFM_DEVICECTRL
+ip_addresses,"[192.168.1.38, 169.254.192.71]"
+mac_addresses,"[5C-C9-D3-36-80-2C, 8C-DC-D4-C2-1F-A9]"
+state,Offline
+date_first_registered,2017-01-03T20:13:40
+policy,"{u'id': u'ded261e1-a60e-495b-b68f-f53334f124a7', u'name': u'AFM-Prot-VM'}"
+id,9e9c22cb-d3b8-4e89-98a5-dec4a74e0900
+agent_version,2.0.1470
+name,TD-PROT-1410-VM
+ip_addresses,"[10.10.10.10, 172.16.228.220]"
+mac_addresses,"[00-0C-29-74-1F-72, 00-0C-29-74-1F-7C]"
+state,Offline
+date_first_registered,2017-01-03T16:23:47
+policy,"{u'id': u'a9e92522-6644-4ef4-8eeb-7662b9b37414', u'name': u'TD-Optics-VM'}"
+id,9a74e533-c127-4cb7-85d2-7cbbbe88cc22
+agent_version,1.2.1410
+name,TDMAC-OPTICS-VM
+ip_addresses,"[10.10.10.9, 172.16.228.134]"
+mac_addresses,"[00-0C-29-0C-34-53, 00-0C-29-0C-34-5D]"
+state,Offline
+date_first_registered,2017-01-03T14:27:21
+policy,"{u'id': u'a9e92522-6644-4ef4-8eeb-7662b9b37414', u'name': u'TD-Optics-VM'}"
+id,ee443bb3-9022-46d7-aeff-b25e2f9d644e
+agent_version,2.0.1430
+name,DPRES-DEMO-1380
+ip_addresses,"[192.168.159.139, 2001:0:5CF2:8C15:8E3:2B83:3F57:6074]"
+mac_addresses,[00-0C-29-20-D9-FE]
+state,Offline
+date_first_registered,2016-12-29T15:31:19
+policy,"{u'id': u'26a2edb3-2ff9-4517-8b85-d507cfca0ebd', u'name': u'DPRESBIT-DEMO AQT MP FW NOUPDATE'}"
+id,ab6494d6-a0a6-41fc-86a7-c5cf1fcfbe0c
+agent_version,1.2.1390
+name,AFM-HACKED
+ip_addresses,"[10.10.10.130, 172.16.228.145]"
+mac_addresses,"[00-0C-29-24-96-73, 00-0C-29-24-96-7D]"
+state,Offline
+date_first_registered,2016-12-28T21:56:32
+policy,"{u'id': u'ded261e1-a60e-495b-b68f-f53334f124a7', u'name': u'AFM-Prot-VM'}"
+id,8f46ea36-311d-46a1-a866-71a0262510ee
+agent_version,1.2.1410
+name,ALDERMAN-CPDEMO
+ip_addresses,[192.168.159.146]
+mac_addresses,[00-0C-29-E7-BF-0A]
+state,Offline
+date_first_registered,2016-12-28T16:01:57
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,ba3bac10-66fe-4dd4-b209-2cb64b6dd009
+agent_version,1.2.1400
+name,AFM-PROT-DEMO2
+ip_addresses,"[10.10.10.35, 172.16.228.149]"
+mac_addresses,"[00-0C-29-A5-CF-61, 00-0C-29-A5-CF-6B]"
+state,Offline
+date_first_registered,2016-12-28T13:38:58
+policy,"{u'id': u'ded261e1-a60e-495b-b68f-f53334f124a7', u'name': u'AFM-Prot-VM'}"
+id,f202d4fc-e98c-4fea-aee2-a9a3a6f4e24a
+agent_version,1.2.1410
+name,ALDERMAN-CPDEMO-1450
+ip_addresses,[192.168.159.19]
+mac_addresses,[00-0C-29-D5-00-39]
+state,Offline
+date_first_registered,2016-12-28T11:35:25
+policy,"{u'id': u'a81bfe68-548c-4b11-9842-2deac603ec39', u'name': u'ALDERMAN-block'}"
+id,efd5322a-1810-4b44-97ae-215d7f1c2617
+agent_version,2.0.1480
+name,ANZ-SKING-DEMO
+ip_addresses,"[192.168.159.148, 2001:0:7A96:514:1482:2696:3F57:606B]"
+mac_addresses,[00-0C-29-9A-E3-86]
+state,Offline
+date_first_registered,2016-12-28T04:08:23
+policy,"{u'id': u'7784e2cc-d547-46c8-ace5-689c525255bb', u'name': u'ANZ-SKING-DEMO'}"
+id,05e45970-834a-443b-89c4-755656e73803
+agent_version,1.2.1410
+name,LAPTOP-60N53EQH
+ip_addresses,[192.168.1.13]
+mac_addresses,[34-F3-9A-64-1C-75]
+state,Offline
+date_first_registered,2016-12-27T18:15:35
+policy,"{u'id': u'9d24cf7e-1156-40c3-8819-67607e4b135f', u'name': u'Peter Ritter Policy Full Pro'}"
+id,202baaf9-0ffd-4e71-8792-e9f6580c00da
+agent_version,2.0.1470
+name,Stephen’s MacBook Pro
+ip_addresses,[192.168.1.110]
+mac_addresses,"[C6-96-0E-A6-36-52, AC-BC-32-C0-A3-03]"
+state,Offline
+date_first_registered,2016-12-27T10:36:19
+policy,"{u'id': u'7784e2cc-d547-46c8-ace5-689c525255bb', u'name': u'ANZ-SKING-DEMO'}"
+id,762b108a-7719-489e-9219-5ca66de29421
+agent_version,1.2.1400
+name,RACHEL-X230
+ip_addresses,[10.4.21.162]
+mac_addresses,[E0-9D-31-0D-91-20]
+state,Offline
+date_first_registered,2016-12-25T08:53:04
+policy,"{u'id': u'51e69d7a-0ad5-4270-a15c-d98169940e87', u'name': u'Ryan W Prod'}"
+id,c47daa1a-bfa6-461f-a91d-d9d976463b2b
+agent_version,2.0.1470
+name,SEP-CYL Side-by-Side
+ip_addresses,"[192.168.159.135, 2001:0:5CF2:8C15:4AD:310F:3F57:6078]"
+mac_addresses,[00-0C-29-9B-76-38]
+state,Offline
+date_first_registered,2016-12-22T15:41:58
+policy,"{u'id': u'c3fce213-4deb-443b-9d2c-caf3f36a98be', u'name': u'DPRESBIT-LINUX FW-EC_ALERT'}"
+id,efcd5e10-9b95-4adb-9a0b-300665d79f1c
+agent_version,1.2.1390
+name,DESKTOP-8PQSM1R
+ip_addresses,"[192.168.241.136, 2001:0:1766:9820:3CE7:242E:3F57:E77]"
+mac_addresses,[00-0C-29-D5-19-F8]
+state,Offline
+date_first_registered,2016-12-22T13:11:01
+policy,"{u'id': u'68395199-24b4-4119-b1f7-1e53935ef659', u'name': u'*WEBBL-AQT-MD-SC'}"
+id,9c826fec-a9bf-4c0a-975e-494c117b3a20
+agent_version,1.2.1410
+name,SPC-PROT1360-VM
+ip_addresses,[127.0.0.1]
+mac_addresses,[00-0C-29-DD-DF-B5]
+state,Offline
+date_first_registered,2016-12-21T21:30:37
+policy,"{u'id': u'b145410c-a3ed-4e3d-8b6f-9acd3a423e4b', u'name': u'SPC_DEFAULT'}"
+id,67f1f8e7-b28f-4ee5-a5fc-d4b9a4c28132
+agent_version,1.2.1380
+name,MAL-ML-C02R83JAG8WM
+ip_addresses,"[172.16.1.1, 192.168.159.1, 192.168.241.1, 10.0.1.27]"
+mac_addresses,"[00-50-56-C0-00-01, 00-50-56-C0-00-02, 00-50-56-C0-00-08, F4-5C-89-A5-93-CB, 2E-F8-46-04-CD-F6]"
+state,Offline
+date_first_registered,2016-12-21T20:04:07
+policy,"{u'id': u'671339ec-165b-44ab-a362-65f901feae04', u'name': u'Mac.MalwarePrevent+MemdefAlert'}"
+id,a2e7aa91-7ee1-41a5-b6f0-1201e0bae8ef
+agent_version,2.0.1440
+name,GD-WIN10
+ip_addresses,[192.168.241.132]
+mac_addresses,[00-0C-29-08-6A-2B]
+state,Offline
+date_first_registered,2016-12-21T14:09:08
+policy,"{u'id': u'de41e248-2e42-4afa-8eb7-c674ed8b84d1', u'name': u'Gabe Lab'}"
+id,fd995224-58cd-465a-9ba1-c0f7020e8dab
+agent_version,2.0.1480
+name,DESKTOP-UR0L692
+ip_addresses,"[192.168.1.110, 2001:0:34A1:D27:34BE:C01:7425:1524]"
+mac_addresses,[AC-BC-32-C0-A3-03]
+state,Offline
+date_first_registered,2016-12-21T00:36:07
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,38c14c69-8355-4227-8867-2a5220028adf
+agent_version,1.2.1400
+name,C8153717755
+ip_addresses,[10.160.180.143]
+mac_addresses,[00-50-56-1B-5E-18]
+state,Offline
+date_first_registered,2016-12-15T21:18:12
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,8928a0a4-80e1-4dfd-bbe1-977725dd0848
+agent_version,1.2.1400
+name,C1050960979
+ip_addresses,"[10.160.1.80, 2001:0:5EF5:79FB:451:473:BA3C:295D]"
+mac_addresses,[00-50-56-1E-BB-C5]
+state,Offline
+date_first_registered,2016-12-15T21:08:27
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,d85a37dc-62a8-42ec-beed-b1390f8bc57d
+agent_version,1.2.1400
+name,linux-demo
+ip_addresses,"[10.10.10.11, 192.168.241.166]"
+mac_addresses,"[00-0C-29-52-76-CC, 00-0C-29-52-76-D6]"
+state,Offline
+date_first_registered,2016-12-14T18:18:48
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,a6869e56-6339-4dc4-8b41-8b3758d57239
+agent_version,1.2.1400
+name,RAV-CYLANCE1
+ip_addresses,"[10.10.10.5, 2001:0:9D38:953C:7C:3FD5:F5F5:F5FA]"
+mac_addresses,[2C-C2-60-1C-5A-F7]
+state,Offline
+date_first_registered,2016-12-13T19:40:12
+policy,"{u'id': u'069e0b85-be94-4c26-b3e3-d8abaf552a49', u'name': u'RAVELLO-AQT+Mem/Script-Block'}"
+id,91b221e9-962e-42ce-b8ce-e2e9a9248fcd
+agent_version,2.0.1440
+name,ND-OPTICS-WIN7
+ip_addresses,"[10.10.10.20, 192.168.241.192]"
+mac_addresses,"[00-0C-29-77-BB-AA, 00-0C-29-77-BB-B4]"
+state,Offline
+date_first_registered,2016-12-12T16:05:27
+policy,"{u'id': u'ea0eb268-40ea-4bd9-8a22-93b4e4254ad8', u'name': u'ND-Optcs-Prot'}"
+id,bb628e8f-b5e7-48e9-a536-12b782795dee
+agent_version,1.2.1400
+name,QUINNPROTECT-OP
+ip_addresses,[192.168.159.129]
+mac_addresses,[00-0C-29-80-36-86]
+state,Offline
+date_first_registered,2016-12-10T21:02:13
+policy,"{u'id': u'743352e5-db20-4a3e-8fd3-29dd2c94b35e', u'name': u'Quinn AQT MP FW Script '}"
+id,1c20c864-de67-462a-b78a-bce2145a864e
+agent_version,3.0.1460
+name,QUINNPWOPTICSV2
+ip_addresses,[192.168.159.141]
+mac_addresses,[00-0C-29-FE-5B-2E]
+state,Offline
+date_first_registered,2016-12-10T20:44:25
+policy,"{u'id': u'743352e5-db20-4a3e-8fd3-29dd2c94b35e', u'name': u'Quinn AQT MP FW Script '}"
+id,920a4e32-a934-4bc2-9bd4-6d4dd6756b5a
+agent_version,2.0.1470
+name,DPRES-SE-OPTICS
+ip_addresses,"[192.168.159.211, 2001:0:4137:9E76:2883:607:3F57:602C]"
+mac_addresses,[00-0C-29-74-6B-0F]
+state,Offline
+date_first_registered,2016-12-09T19:27:20
+policy,"{u'id': u'd53b792a-86f5-498e-a674-72aaaa10b174', u'name': u'DPRESBIT-DEMO OPTICSv2_ALERT'}"
+id,71c3fc5f-b06a-4a4d-8d7a-e413858f3498
+agent_version,2.0.1430
+name,JASON-PC
+ip_addresses,"[192.168.100.110, 2001:268:C037:217D:4D4B:F6BD:840:70B9, 2001:268:C037:217D:5CA8:6A31:B0AE:2, 2001:268:C037:217D:792B:21FB:6A1B:38E]"
+mac_addresses,[E4-B3-18-61-99-B4]
+state,Offline
+date_first_registered,2016-12-09T06:28:42
+policy,"{u'id': u'9c9851a1-d366-4600-95c3-7f4e2fc7f713', u'name': u'JC-Policy'}"
+id,c568d383-80af-4663-a82d-42c49c7f95ba
+agent_version,1.2.1400
+name,NDWIN-OPTCS-VM
+ip_addresses,"[192.168.241.152, 2001:0:4137:9E76:C0E:1A21:9C05:2D46]"
+mac_addresses,[00-0C-29-9E-48-1F]
+state,Offline
+date_first_registered,2016-12-09T01:36:38
+policy,"{u'id': u'ea0eb268-40ea-4bd9-8a22-93b4e4254ad8', u'name': u'ND-Optcs-Prot'}"
+id,526afa85-83bf-40e2-ab86-1ce44b382020
+agent_version,1.2.1400
+name,GD-MAL-C02R21KRG8WL
+ip_addresses,"[192.168.241.1, 172.16.1.1, 172.18.60.205]"
+mac_addresses,"[00-50-56-C0-00-01, 00-50-56-C0-00-08, F4-5C-89-90-87-89, 66-21-D8-9B-A7-6D]"
+state,Offline
+date_first_registered,2016-12-08T14:37:03
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,ba27c72a-cd0c-4540-af0d-0a821c5687b0
+agent_version,2.0.1440
+name,JC-2012-Test
+ip_addresses,[192.168.45.135]
+mac_addresses,[00-0C-29-01-2D-78]
+state,Offline
+date_first_registered,2016-12-08T04:41:29
+policy,"{u'id': u'9c9851a1-d366-4600-95c3-7f4e2fc7f713', u'name': u'JC-Policy'}"
+id,1925936a-3b9b-423e-b98b-60833179a934
+agent_version,1.2.1400
+name,DAP-CYOPTICS
+ip_addresses,"[192.168.159.140, FD15:4BA5:5A2B:1002:410A:3030:255:40E8, FD15:4BA5:5A2B:1002:3D8B:71C2:766B:BBEA, 2001:0:5EF5:79FB:37:28D0:3F57:6073]"
+mac_addresses,[00-0C-29-09-C6-4D]
+state,Offline
+date_first_registered,2016-12-07T16:24:55
+policy,"{u'id': u'ca960d84-45cf-4252-a832-c22e0d71bf18', u'name': u'Dappen-OPTICS-Policy'}"
+id,7b9e0abb-8f35-4b83-8868-e3f155f90992
+agent_version,2.0.1440
+name,CYL-UBTKIT-CYLV
+ip_addresses,"[10.10.10.6, 172.16.53.155]"
+mac_addresses,"[00-0C-29-FD-65-C0, 00-0C-29-FD-65-CA]"
+state,Offline
+date_first_registered,2016-12-07T11:24:24
+policy,"{u'id': u'68395199-24b4-4119-b1f7-1e53935ef659', u'name': u'*WEBBL-AQT-MD-SC'}"
+id,c88e5501-e29f-4c39-9ca6-edf2f44cc7c5
+agent_version,2.0.1420
+name,RSUNDIN-OPTICS
+ip_addresses,[192.168.159.131]
+mac_addresses,[00-0C-29-A1-42-40]
+state,Offline
+date_first_registered,2016-12-05T13:19:14
+policy,"{u'id': u'6ffd5769-7a20-4ee6-a089-ada0192de256', u'name': u'rsundin - block all - 20171124'}"
+id,55e97d1e-87ab-47e0-883c-9999ec410130
+agent_version,1.2.1400
+name,mf-centos
+ip_addresses,"[192.168.122.1, 192.168.159.88]"
+mac_addresses,[00-0C-29-EA-1F-7D]
+state,Offline
+date_first_registered,2016-11-30T17:50:59
+policy,"{u'id': u'65c17ca6-7dd1-4502-9687-85e1c99b3a87', u'name': u'MF - Optics Test'}"
+id,c5b692e0-e69c-46a4-af75-cfcc545fe401
+agent_version,1.2.1400
+name,WIN-NCMGRUFMVG1
+ip_addresses,[192.168.154.135]
+mac_addresses,[00-0C-29-1B-72-FD]
+state,Offline
+date_first_registered,2016-11-30T11:30:56
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,f8e1fe92-c453-464f-83f2-36e806df328d
+agent_version,1.2.1400
+name,TMORWAY-X1
+ip_addresses,[192.168.1.178]
+mac_addresses,[7C-7A-91-9E-E0-76]
+state,Offline
+date_first_registered,2016-11-28T19:40:14
+policy,"{u'id': u'9d24cf7e-1156-40c3-8819-67607e4b135f', u'name': u'Peter Ritter Policy Full Pro'}"
+id,cd0e8e44-55ed-40db-abc4-5ff9565b1c42
+agent_version,2.0.1470
+name,MAL-LW-C02R712MG8WM
+ip_addresses,"[192.168.0.75, 10.1.10.10]"
+mac_addresses,"[2E-20-C4-FA-22-27, F4-5C-89-A5-2E-59]"
+state,Offline
+date_first_registered,2016-11-24T07:34:59
+policy,"{u'id': u'484c4fee-0f13-41d3-9e8e-d1eb710ffdaa', u'name': u'*WEBBL_MAC'}"
+id,7a585e7c-90fd-4c21-ad91-473809ec4082
+agent_version,2.0.1450
+name,SPC-PROTECT-NB
+ip_addresses,"[10.10.70.127, 2001:0:9D38:953C:206C:1CE:F5F5:B980]"
+mac_addresses,[A0-D3-7A-5A-8A-48]
+state,Offline
+date_first_registered,2016-11-23T17:37:30
+policy,"{u'id': u'b145410c-a3ed-4e3d-8b6f-9acd3a423e4b', u'name': u'SPC_DEFAULT'}"
+id,15d0ff7b-f524-46a4-a2ab-a0452e70970a
+agent_version,2.0.1440
+name,SPC-STAGING-VM
+ip_addresses,[172.16.228.202]
+mac_addresses,[00-0C-29-E9-C0-A3]
+state,Offline
+date_first_registered,2016-11-23T14:32:48
+policy,"{u'id': u'004d7bb8-f80c-4ad7-94d6-98a6a325f208', u'name': u'SPC_STAGING'}"
+id,7cc87055-a6e6-426d-a514-e299d3738eb0
+agent_version,1.2.1400
+name,SPC-PROTECT-VM
+ip_addresses,[172.16.228.142]
+mac_addresses,[00-0C-29-D1-BF-AB]
+state,Offline
+date_first_registered,2016-11-22T13:38:07
+policy,"{u'id': u'b145410c-a3ed-4e3d-8b6f-9acd3a423e4b', u'name': u'SPC_DEFAULT'}"
+id,6f81b51d-b489-44d5-97aa-6a7d255692e1
+agent_version,1.2.1410
+name,WINKMAC-OPTICS2
+ip_addresses,[192.168.159.138]
+mac_addresses,[00-0C-29-F3-0D-D3]
+state,Offline
+date_first_registered,2016-11-21T16:11:21
+policy,"{u'id': u'a836f88e-0810-4bb8-84ff-8de026278197', u'name': u'Winkler-SE-OPTICS-DETECT'}"
+id,43ff97f0-d65f-44a7-8dda-5b31364a9a50
+agent_version,2.0.1470
+name,JMS-VM-PROTECT
+ip_addresses,[192.168.159.132]
+mac_addresses,[00-0C-29-AD-A0-F0]
+state,Offline
+date_first_registered,2016-11-17T16:07:28
+policy,"{u'id': u'adae20d8-73fd-4d52-b7ff-de242d20e851', u'name': u'Sanders Full On'}"
+id,8d410b06-0dee-44e1-8168-36fd8e08a414
+agent_version,2.0.1470
+name,PB-WIN7X64-1400
+ip_addresses,"[192.168.159.165, 2001:0:9D38:6ABD:2C29:207F:3F57:605A]"
+mac_addresses,[00-0C-29-D0-C6-75]
+state,Offline
+date_first_registered,2016-11-16T14:30:36
+policy,"{u'id': u'b442da71-e9a2-4258-8679-27fd0c67b41d', u'name': u'PBAYLE_Ex Ctrl+SC+MP alert'}"
+id,599f3eb1-d3d0-4e7b-b4fa-d7259cfa7313
+agent_version,1.2.1400
+name,CFS-CYPRO1310
+ip_addresses,[192.168.159.166]
+mac_addresses,[00-0C-29-F4-FB-98]
+state,Offline
+date_first_registered,2016-11-15T17:32:59
+policy,"{u'id': u'8d9790af-7fde-462c-b89c-3bcad007fe3c', u'name': u'CFS-Demo_Policy'}"
+id,ee3088d9-0e9f-4d07-9474-5f9ef97b8ea8
+agent_version,1.2.1310
+name,CFS-Win10CyPro
+ip_addresses,[192.168.159.165]
+mac_addresses,[00-0C-29-7A-EB-56]
+state,Offline
+date_first_registered,2016-11-14T18:18:54
+policy,"{u'id': u'8d9790af-7fde-462c-b89c-3bcad007fe3c', u'name': u'CFS-Demo_Policy'}"
+id,9d234449-b530-4eca-b0cb-4014fd5373cf
+agent_version,2.0.1480
+name,WIN-GPH48NI2A1P
+ip_addresses,[192.168.154.134]
+mac_addresses,[00-0C-29-7D-43-22]
+state,Offline
+date_first_registered,2016-11-14T11:03:30
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,0d6bd473-6901-46c6-9ec0-d912e5fae02f
+agent_version,1.2.1400
+name,AW-STAGE-VM
+ip_addresses,[192.168.159.138]
+mac_addresses,[00-0C-29-AD-F7-3C]
+state,Offline
+date_first_registered,2016-11-09T22:45:02
+policy,"{u'id': u'530426ae-bb70-4750-bd57-ce17f3f1f3bf', u'name': u'aw-stage'}"
+id,d01ce4b9-6d95-4ee2-9b2f-dc261aac17ad
+agent_version,1.2.1400
+name,CCH-BRONTO
+ip_addresses,[192.168.159.162]
+mac_addresses,[00-0C-29-31-AF-F8]
+state,Offline
+date_first_registered,2016-11-09T21:02:18
+policy,"{u'id': u'a6132e27-5762-4848-92eb-28d82eac9ff7', u'name': u'CCH-BrontoPolicy'}"
+id,c36d41d3-5332-4941-ad2f-9a007cfdb94d
+agent_version,1.2.1320
+name,WEBBL-W10-OP
+ip_addresses,"[192.168.241.139, 2001:0:5EF5:79FB:3032:7FB2:ADE1:554D]"
+mac_addresses,[00-0C-29-BE-10-06]
+state,Offline
+date_first_registered,2016-11-08T14:59:29
+policy,"{u'id': u'68395199-24b4-4119-b1f7-1e53935ef659', u'name': u'*WEBBL-AQT-MD-SC'}"
+id,0bc17238-a6e3-4604-9954-3f134b75efda
+agent_version,1.2.1400
+name,MJONES-MacBook-Pro
+ip_addresses,"[192.168.0.67, 172.16.66.1, 192.168.159.1]"
+mac_addresses,"[2A-4A-DE-BF-AC-5E, C4-B3-01-D3-71-49, 00-50-56-C0-00-01, 00-50-56-C0-00-08]"
+state,Offline
+date_first_registered,2016-11-07T06:45:03
+policy,"{u'id': u'269b82f9-6a9e-4cab-9dbc-78575e89f560', u'name': u'MJ-Mac.MalwarePrvnt+MemdefAlrt'}"
+id,0b2a81df-90fa-4c21-a59f-05a4ffa1ac9c
+agent_version,1.2.1400
+name,TK_CY_DEMO2
+ip_addresses,"[192.168.241.151, 10.10.10.17]"
+mac_addresses,"[00-0C-29-0D-4B-76, 00-0C-29-0D-4B-80]"
+state,Offline
+date_first_registered,2016-11-06T16:10:10
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,9fbe91c3-3126-44fa-9bda-6774521457a4
+agent_version,1.2.1380
+name,ALDERMAN-CP1320
+ip_addresses,"[192.168.159.169, 2001:0:4137:9E76:1CA1:C6B:3F57:6056]"
+mac_addresses,[00-0C-29-01-EC-E2]
+state,Offline
+date_first_registered,2016-11-03T09:45:11
+policy,"{u'id': u'a81bfe68-548c-4b11-9842-2deac603ec39', u'name': u'ALDERMAN-block'}"
+id,d9c9239c-46ed-4293-9234-7c030ffbc25c
+agent_version,2.0.1450
+name,CFS-COS7-CyPro
+ip_addresses,"[192.168.159.158, 192.168.122.1]"
+mac_addresses,[00-0C-29-BD-EA-E2]
+state,Offline
+date_first_registered,2016-11-02T23:22:14
+policy,"{u'id': u'8d9790af-7fde-462c-b89c-3bcad007fe3c', u'name': u'CFS-Demo_Policy'}"
+id,1e6258b2-6f7b-49d8-b6a6-c0de62e6febc
+agent_version,2.0.1450
+name,EGV
+ip_addresses,[192.168.159.176]
+mac_addresses,[00-0C-29-2A-D0-96]
+state,Offline
+date_first_registered,2016-11-02T16:01:12
+policy,"{u'id': u'f07afdf2-d7d6-4339-8983-a27bc6336c06', u'name': u'Gidders Alert only '}"
+id,25f9c5fa-518b-473b-b3e6-765172dde6e9
+agent_version,2.0.1470
+name,OSX’s Mac
+ip_addresses,[192.168.241.133]
+mac_addresses,[00-0C-29-9D-CD-AD]
+state,Offline
+date_first_registered,2016-11-02T13:50:49
+policy,"{u'id': u'd62c1d38-8b5a-4948-a6aa-76d8a5e99149', u'name': u'0-AX-Mac'}"
+id,44b8e037-6bec-4f66-a73b-bd64a676201b
+agent_version,2.0.1430
+name,9TXFJC2
+ip_addresses,"[10.9.25.104, 192.168.232.1, 192.168.52.1]"
+mac_addresses,[E4-A4-71-2A-E0-90]
+state,Offline
+date_first_registered,2016-11-02T07:54:57
+policy,"{u'id': u'031e4efa-ba17-432f-b4d7-806754ac03e9', u'name': u'Taka Tokyo Policy'}"
+id,95dd15c1-12ea-4a11-968f-40224cad1c46
+agent_version,1.2.1380
+name,MJONES-DEMO01
+ip_addresses,"[192.168.159.129, 2001:0:9D38:6ABD:1879:2BCD:3F57:607E]"
+mac_addresses,[00-0C-29-4F-02-87]
+state,Offline
+date_first_registered,2016-11-02T06:12:19
+policy,"{u'id': u'0d771687-4765-4824-b2bd-e0b9cbd122e7', u'name': u'MJ-Protect_ALL'}"
+id,f09d78d2-b092-45c1-a441-f2607fd5a9d5
+agent_version,1.2.1400
+name,NEW-AW-VM-PCT
+ip_addresses,[192.168.159.147]
+mac_addresses,[00-0C-29-41-C3-93]
+state,Offline
+date_first_registered,2016-11-01T17:46:50
+policy,"{u'id': u'0e03bd98-7af0-47a7-9626-44fc1b791aa3', u'name': u'AW-DEMO'}"
+id,cd86848f-41f8-40d6-8fd5-132ab3ebabd7
+agent_version,1.2.1400
+name,CC-OPTICSVM
+ip_addresses,[192.168.159.156]
+mac_addresses,[00-0C-29-4B-3F-E5]
+state,Offline
+date_first_registered,2016-10-31T21:56:15
+policy,"{u'id': u'8fab6cbd-4c18-421d-a2e5-41c7c029222b', u'name': u'CCH-AQT+BTD+MP+SC+Optics'}"
+id,bd7efe95-16db-4244-9308-ff27cf438539
+agent_version,1.2.1400
+name,LANDON-DELL
+ip_addresses,"[::1, 127.0.0.1]"
+mac_addresses,[00-25-64-C9-A9-84]
+state,Offline
+date_first_registered,2016-10-31T17:01:05
+policy,"{u'id': u'51e69d7a-0ad5-4270-a15c-d98169940e87', u'name': u'Ryan W Prod'}"
+id,1aa7f64c-514a-4bc0-8a9b-a8d63f4dfa9e
+agent_version,1.2.1400
+name,NATARAJ
+ip_addresses,"[192.168.0.100, 2001:0:9D38:6AB8:86B:D1E:8354:C34A]"
+mac_addresses,[FC-AA-14-92-55-59]
+state,Offline
+date_first_registered,2016-10-27T04:36:09
+policy,"{u'id': u'9001c601-bae1-451b-8094-68d37b8bcebb', u'name': u'Singh Lab'}"
+id,01e30341-30d1-48ce-a14c-84e410606e35
+agent_version,1.2.1330
+name,BAYLEP-DEMOVM-1400-dead
+ip_addresses,[192.168.159.220]
+mac_addresses,[00-50-56-30-49-1E]
+state,Offline
+date_first_registered,2016-10-26T13:22:36
+policy,"{u'id': u'da5f30eb-150e-4cfe-ba75-f0e4e788344d', u'name': u'PBAYLE_Execution Control'}"
+id,771faca5-573c-4a30-a5c1-be2d52753542
+agent_version,1.2.1400
+name,SCOT
+ip_addresses,"[192.168.5.1, 192.168.25.1, 192.168.1.101]"
+mac_addresses,[AC-E0-10-F7-EA-5E]
+state,Offline
+date_first_registered,2016-10-26T09:34:58
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,6423df26-8720-41fc-947a-10af23cc6cd2
+agent_version,1.2.1330
+name,Seth A HP PC
+ip_addresses,[192.168.1.103]
+mac_addresses,[00-15-17-29-2F-54]
+state,Offline
+date_first_registered,2016-10-26T03:39:16
+policy,"{u'id': u'c38ac4a9-3b05-4e9f-88a0-cf74970fae66', u'name': u'Ryan W Prod - No Mem'}"
+id,bdf129ce-40f3-47da-b7b2-46fad5fe0eec
+agent_version,2.0.1470
+name,RSUNDIN-DEMO
+ip_addresses,[192.168.159.148]
+mac_addresses,[00-0C-29-4A-26-2E]
+state,Offline
+date_first_registered,2016-10-25T20:07:27
+policy,"{u'id': u'58d45585-adef-41b6-a09c-d67c0513be1e', u'name': u'rsundin'}"
+id,c45ea3b5-f5a3-4f1d-984c-810c07dd35cb
+agent_version,2.0.1450
+name,SAWOYA1370
+ip_addresses,[192.168.159.204]
+mac_addresses,[00-0C-29-82-98-EB]
+state,Offline
+date_first_registered,2016-10-24T17:01:54
+policy,"{u'id': u'8649fdd8-32be-404a-ab27-9276b8a62fea', u'name': u'SawoyaFULL'}"
+id,8f511479-b188-452c-bd8e-6223196d88c0
+agent_version,1.2.1370
+name,Andrea’s iMac
+ip_addresses,[192.168.111.115]
+mac_addresses,[A8-60-B6-07-D6-02]
+state,Offline
+date_first_registered,2016-10-22T18:59:52
+policy,"{u'id': u'6e71183a-a5af-4485-8964-c10765ea23c9', u'name': u'Gabe Lab - Mac'}"
+id,4ba6884f-ab85-4f3f-9e72-46de7a93f23a
+agent_version,1.2.1400
+name,SawoyaStage
+ip_addresses,[192.168.159.140]
+mac_addresses,[00-0C-29-1B-D7-5F]
+state,Offline
+date_first_registered,2016-10-22T03:12:30
+policy,"{u'id': u'66c70a54-c07c-40f9-87c2-363d4ff9de65', u'name': u'Sawoya - Staging'}"
+id,e45dcf0c-2a25-4722-9b70-69f9d0cebd24
+agent_version,2.0.1480
+name,DAP-CYDEMO
+ip_addresses,"[192.168.159.129, FD15:4BA5:5A2B:1002:D8D0:DF55:54B0:BB94, FD15:4BA5:5A2B:1002:4482:41B:AA7B:C57A, 2001:0:9D38:6AB8:4BF:5C6:3F57:607E]"
+mac_addresses,[00-0C-29-1C-A0-14]
+state,Offline
+date_first_registered,2016-10-21T18:09:32
+policy,"{u'id': u'83f44a0c-6482-46b1-b46b-9acf70e6c8a2', u'name': u'Dappen AQT MP FW Script Dev'}"
+id,cd5e4e90-936f-4858-840e-20c8104553ae
+agent_version,2.0.1450
+name,linux-GIDDERS
+ip_addresses,"[192.168.159.88, 192.168.122.1]"
+mac_addresses,[00-0C-29-B4-2B-A2]
+state,Offline
+date_first_registered,2016-10-19T14:41:04
+policy,"{u'id': u'a3f263c1-8ff7-4808-ae84-46e39a75e97b', u'name': u'Gidders Policy 9'}"
+id,99fa332d-a2e5-4f11-8ad8-a25f95c60102
+agent_version,1.2.1400
+name,WEBBL-WIN10
+ip_addresses,"[192.168.241.139, 2001:0:1760:E3E7:38AD:157F:3F57:E74]"
+mac_addresses,[00-0C-29-FC-C1-E8]
+state,Offline
+date_first_registered,2016-10-19T07:58:55
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,1610fe9b-92ba-44d3-b3d3-b1d9a7edc369
+agent_version,1.2.1380
+name,KEMAC-PROT-VM
+ip_addresses,"[10.10.10.6, 192.168.159.131]"
+mac_addresses,"[00-0C-29-6C-D4-C6, 00-0C-29-6C-D4-D0]"
+state,Offline
+date_first_registered,2016-10-18T16:51:25
+policy,"{u'id': u'7ad0d6bd-9126-4610-ab04-cd09cc177b96', u'name': u'KE-Prot-VM-0423'}"
+id,454dc2e5-47ff-47f3-b852-a64ca9143dc1
+agent_version,2.0.1470
+name,CYL-UBT-JPN-JC
+ip_addresses,"[::1, 169.254.209.54, 192.168.159.146]"
+mac_addresses,"[00-0C-29-2E-94-2D, 00-0C-29-2E-94-37]"
+state,Offline
+date_first_registered,2016-10-18T07:03:10
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,ef0d7625-8591-4e6c-b56e-1d73cba37e9e
+agent_version,1.2.1380
+name,fermata
+ip_addresses,[133.74.9.141]
+mac_addresses,[D8-A2-5E-8C-FC-72]
+state,Offline
+date_first_registered,2016-10-18T01:08:57
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,72ca5056-720d-4014-8960-4d882f1c50e5
+agent_version,1.2.1400
+name,GD-VINTAGE-LAB
+ip_addresses,[192.168.241.143]
+mac_addresses,[00-0C-29-B7-F6-E4]
+state,Offline
+date_first_registered,2016-10-17T18:03:16
+policy,"{u'id': u'de41e248-2e42-4afa-8eb7-c674ed8b84d1', u'name': u'Gabe Lab'}"
+id,9d91ce71-cdcb-4ca5-9f47-e5dafec5d15c
+agent_version,1.2.1320
+name,MAL-TI-C02S328GG8WL
+ip_addresses,[192.168.3.6]
+mac_addresses,"[98-01-A7-AF-A7-DB, E6-BA-E5-0F-8C-9C]"
+state,Offline
+date_first_registered,2016-10-17T08:09:08
+policy,"{u'id': u'671339ec-165b-44ab-a362-65f901feae04', u'name': u'Mac.MalwarePrevent+MemdefAlert'}"
+id,bfb934dd-08f1-4d23-b0c3-e9d38d902c38
+agent_version,1.2.1400
+name,OzChapi
+ip_addresses,[192.168.0.10]
+mac_addresses,"[24-F0-94-E6-1C-CE, 26-F3-E0-77-52-44]"
+state,Offline
+date_first_registered,2016-10-15T18:14:11
+policy,"{u'id': u'85dba301-4a64-4d63-82a7-1d2a5be79922', u'name': u'oz-policy-dev'}"
+id,9fd3d024-4d0f-4752-a184-00d60c06e23e
+agent_version,2.0.1440
+name,CYLANCE-VM
+ip_addresses,[192.168.159.133]
+mac_addresses,[00-50-56-27-ED-D0]
+state,Offline
+date_first_registered,2016-10-14T16:58:11
+policy,"{u'id': u'1f7d7bfa-6d85-499f-b22b-770a990e2e04', u'name': u'TG-Demo-Full'}"
+id,1f48dda5-175e-47c4-849c-174f0834a178
+agent_version,2.0.1450
+name,localhost.localdomain
+ip_addresses,[10.0.2.15]
+mac_addresses,[08-00-27-01-9A-2E]
+state,Offline
+date_first_registered,2016-10-14T02:06:39
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,81a205bd-0d67-453e-8837-6a9a1f5e07d5
+agent_version,2.0.1470
+name,DPRES-CENTOS7
+ip_addresses,"[192.168.159.88, 192.168.122.1]"
+mac_addresses,[00-0C-29-5A-DE-6B]
+state,Offline
+date_first_registered,2016-10-13T15:59:28
+policy,"{u'id': u'c3fce213-4deb-443b-9d2c-caf3f36a98be', u'name': u'DPRESBIT-LINUX FW-EC_ALERT'}"
+id,d6d1c368-49d3-4984-baf3-d20dd3a6a58a
+agent_version,2.0.1450
+name,MH-OPTICS
+ip_addresses,[192.168.159.135]
+mac_addresses,[00-0C-29-81-94-23]
+state,Offline
+date_first_registered,2016-10-10T20:41:42
+policy,"{u'id': u'aa9102e7-5a58-4337-a8c2-778d84ff3706', u'name': u'MH ATQ MT SCM MB OAU DCB'}"
+id,371f6916-e689-4af6-8a73-e4927e9555c4
+agent_version,2.0.1470
+name,CYL-AKLEIN-DEMO
+ip_addresses,[192.168.159.215]
+mac_addresses,[00-0C-29-8E-60-86]
+state,Offline
+date_first_registered,2016-10-10T19:07:14
+policy,"{u'id': u'973885e1-a9a6-40ad-8c31-f5dfb2c4a54f', u'name': u'Klein - Full'}"
+id,3fcefc6d-d955-42b0-9f50-e2e981e9c3f0
+agent_version,2.0.1470
+name,lofgren-linux
+ip_addresses,[192.168.159.88]
+mac_addresses,[00-0C-29-C9-91-ED]
+state,Offline
+date_first_registered,2016-10-10T16:43:08
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,8a120101-065e-428f-b876-837f5eabb49c
+agent_version,2.0.1480
+name,AFMMAC-OPTICS
+ip_addresses,"[10.10.10.156, 172.16.228.142]"
+mac_addresses,"[00-0C-29-44-C1-65, 00-0C-29-44-C1-6F]"
+state,Offline
+date_first_registered,2016-10-10T13:55:40
+policy,"{u'id': u'9b97e118-e286-41bd-97ec-80f29c45579b', u'name': u'AFM-OPTICS'}"
+id,8cacb220-64a0-4b74-8db9-fe6916fc19ee
+agent_version,2.0.1440
+name,MLOCKE_Optics
+ip_addresses,[192.168.159.207]
+mac_addresses,[00-0C-29-1D-29-3E]
+state,Offline
+date_first_registered,2016-10-09T16:12:12
+policy,"{u'id': u'378df439-6721-49c7-955e-0a9254ed4e71', u'name': u'Locke AQT MP FW SC w/ Optics'}"
+id,07748c33-ce45-4a53-9fd1-d6c8a0ba902f
+agent_version,1.2.1400
+name,WEBBL-WIN10
+ip_addresses,[192.168.159.182]
+mac_addresses,[00-0C-29-DD-55-75]
+state,Offline
+date_first_registered,2016-10-09T06:50:21
+policy,"{u'id': u'3ee3c7f9-8774-41ec-a23a-063dd9e0ed98', u'name': u'*WEBBL_Full'}"
+id,1032d99c-ba9c-4ddf-a914-3ea235a462ce
+agent_version,3.0.1460
+name,localhost.localdomain
+ip_addresses,[192.168.179.128]
+mac_addresses,[00-0C-29-03-89-E0]
+state,Offline
+date_first_registered,2016-10-08T17:49:31
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,071d864a-6942-4266-8a5f-14115d663082
+agent_version,1.2.1400
+name,CYL-UBT-JPN-KO
+ip_addresses,"[10.10.10.5, 169.254.86.108, 172.16.4.172]"
+mac_addresses,"[00-0C-29-6C-73-98, 00-0C-29-6C-73-A2]"
+state,Offline
+date_first_registered,2016-10-07T04:53:58
+policy,"{u'id': u'2238167e-7a8e-4e8f-aa0a-c47c5f188395', u'name': u'Otobe Demo'}"
+id,ed007e5a-af26-48f5-9f82-1fbdb4747de2
+agent_version,2.0.1470
+name,CYL-UBT-JPN-JC
+ip_addresses,"[::1, 192.168.241.221]"
+mac_addresses,[00-0C-29-28-81-AC]
+state,Offline
+date_first_registered,2016-10-07T04:45:40
+policy,"{u'id': u'6d9753b6-784a-4dfb-8a42-70ddc9fe64fc', u'name': u'Ryan W Demo'}"
+id,706315ed-3592-4de7-88ea-00de9ba9f9ea
+agent_version,1.2.1380
+name,CYL-UBT-JPN-JC
+ip_addresses,"[::1, 10.10.10.5, 192.168.241.216]"
+mac_addresses,"[00-0C-29-23-96-9E, 00-0C-29-23-96-A8]"
+state,Offline
+date_first_registered,2016-10-07T04:20:18
+policy,"{u'id': u'6d9753b6-784a-4dfb-8a42-70ddc9fe64fc', u'name': u'Ryan W Demo'}"
+id,fdae7fb2-ad79-4644-88f1-e4da6e479043
+agent_version,1.2.1380
+name,RESEARCH-PC
+ip_addresses,[192.168.159.196]
+mac_addresses,[00-0C-29-BF-27-BC]
+state,Offline
+date_first_registered,2016-10-06T03:03:13
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,d952d670-8021-4a0e-9954-b1d5daf62bf4
+agent_version,1.2.1390
+name,FGT-TMORWAY
+ip_addresses,[192.168.1.2]
+mac_addresses,[A0-88-B4-58-58-CC]
+state,Offline
+date_first_registered,2016-10-05T07:59:14
+policy,"{u'id': u'9d24cf7e-1156-40c3-8819-67607e4b135f', u'name': u'Peter Ritter Policy Full Pro'}"
+id,c9a91834-4ae5-41e9-a5a2-bc2f5e43e5d4
+agent_version,2.0.1470
+name,LENOVO-PC
+ip_addresses,"[192.168.7.26, 2001:0:4137:9E76:10F6:2E8D:B33B:3FC2]"
+mac_addresses,[AC-E0-10-D4-01-C9]
+state,Offline
+date_first_registered,2016-10-01T22:23:08
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,6810c7eb-d20a-4aa4-8345-7df53248a102
+agent_version,1.2.1330
+name,ALDERMAN-CPWINX
+ip_addresses,"[192.168.159.168, 2001:0:4137:9E76:3CCB:3DF1:3F57:6057]"
+mac_addresses,[00-0C-29-21-33-91]
+state,Offline
+date_first_registered,2016-09-29T21:33:52
+policy,"{u'id': u'a81bfe68-548c-4b11-9842-2deac603ec39', u'name': u'ALDERMAN-block'}"
+id,d23f32b6-12dc-444a-bf3d-9679b9848d8d
+agent_version,2.0.1440
+name,CCH-PROTECTDEMO
+ip_addresses,[192.168.159.130]
+mac_addresses,[00-0C-29-B1-66-7B]
+state,Offline
+date_first_registered,2016-09-29T03:38:53
+policy,"{u'id': u'2b34c527-9452-4be0-9acb-c2726e0f00b1', u'name': u'CCH-AQT+BTD+MP+SC'}"
+id,055d11bf-bd8a-4442-b34e-0ddb33f2b605
+agent_version,2.0.1450
+name,BWcentos7
+ip_addresses,"[192.168.0.47, 192.168.122.1]"
+mac_addresses,[08-00-27-F5-25-D5]
+state,Offline
+date_first_registered,2016-09-28T21:50:06
+policy,"{u'id': u'390ccb95-e73c-4a96-9177-74161e5d38f9', u'name': u'WaldenBlockall-allowScriptOct31'}"
+id,6d4d7bc6-f27b-4d0b-b0c2-b66024071036
+agent_version,1.2.1400
+name,RT-Centos7-Test1
+ip_addresses,"[192.168.241.175, 192.168.122.1]"
+mac_addresses,[00-0C-29-B6-08-90]
+state,Offline
+date_first_registered,2016-09-27T19:18:04
+policy,"{u'id': u'89255cb8-132b-4b7c-b26d-eb43bdf9f054', u'name': u'RT- Block All'}"
+id,fd832292-b46b-4bcc-89b2-38ba515aaccc
+agent_version,1.2.1400
+name,DESKTOP-R1A53BU
+ip_addresses,"[192.168.241.155, 172.16.1.130]"
+mac_addresses,"[00-0C-29-D9-4D-08, 00-0C-29-D9-4D-FE]"
+state,Offline
+date_first_registered,2016-09-27T18:31:24
+policy,"{u'id': u'f7df8cee-0321-4c6b-b8ab-e24945058b6d', u'name': u'ND-Prot-VM'}"
+id,8307b34a-f1ab-4c12-9e5d-c70826ecab4e
+agent_version,1.2.1380
+name,AFM-TRAIN
+ip_addresses,"[10.10.10.30, 172.16.228.136]"
+mac_addresses,"[00-0C-29-B8-9E-58, 00-0C-29-B8-9E-62]"
+state,Offline
+date_first_registered,2016-09-27T13:09:55
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,7c53d9e3-1749-4160-bc08-a4db60766d4b
+agent_version,1.2.1390
+name,Mike and Pat Laptop
+ip_addresses,"[10.0.0.86, 2601:8C0:C000:65AE:A9AF:5C94:9BA0:9ADD, 2601:8C0:C000:65AE:C8F5:72E8:94C2:104D]"
+mac_addresses,[24-EC-99-BF-36-6C]
+state,Offline
+date_first_registered,2016-09-26T18:21:48
+policy,"{u'id': u'51e69d7a-0ad5-4270-a15c-d98169940e87', u'name': u'Ryan W Prod'}"
+id,b7592739-99bb-4898-905b-065d99fc2014
+agent_version,2.0.1450
+name,KEMAC-PROT64
+ip_addresses,"[10.10.10.11, 192.168.159.178, ::1]"
+mac_addresses,"[00-0C-29-8F-1C-28, 00-0C-29-8F-1C-32]"
+state,Offline
+date_first_registered,2016-09-24T07:24:58
+policy,"{u'id': u'7ad0d6bd-9126-4610-ab04-cd09cc177b96', u'name': u'KE-Prot-VM-0423'}"
+id,18cf16fc-9bd1-4d84-aaa8-947b63993f74
+agent_version,2.0.1430
+name,HALO
+ip_addresses,"[192.168.1.170, 172.20.10.3]"
+mac_addresses,"[8A-6B-6E-02-FC-44, E4-F8-9C-4A-FC-59]"
+state,Offline
+date_first_registered,2016-09-21T02:12:39
+policy,"{u'id': u'782dd456-6735-43d1-8068-6efc8789f8b8', u'name': u'0-AX-P'}"
+id,7e30cbb8-4ac6-457f-b5eb-e04e9913446d
+agent_version,3.0.1460
+name,KE-PROTECT10-VM
+ip_addresses,"[10.10.10.9, 192.168.159.169]"
+mac_addresses,"[00-0C-29-55-FB-47, 00-0C-29-55-FB-51]"
+state,Offline
+date_first_registered,2016-09-19T23:35:42
+policy,"{u'id': u'390ccb95-e73c-4a96-9177-74161e5d38f9', u'name': u'WaldenBlockall-allowScriptOct31'}"
+id,46307d27-9c1c-40e5-88af-fc891f352570
+agent_version,2.0.1440
+name,TB-MALWAREBOX
+ip_addresses,"[192.168.159.172, 2001:0:9D38:90D7:3003:39FD:3F57:6053]"
+mac_addresses,[00-50-56-36-79-66]
+state,Offline
+date_first_registered,2016-09-19T16:18:58
+policy,"{u'id': u'16b666bc-83b2-4d5e-95c5-6521c4c2e98b', u'name': u'TB-Full Protection Demo'}"
+id,993c52e8-e363-43b6-91f0-9c89f2ca252e
+agent_version,2.0.1450
+name,TEST_XP_X64_NOS
+ip_addresses,[192.168.241.139]
+mac_addresses,[00-0C-29-91-E1-AE]
+state,Offline
+date_first_registered,2016-09-17T15:24:49
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,34a0d4ec-98fe-4805-8078-61b3fabece5b
+agent_version,1.2.1390
+name,AW-VM-CR-PRTCT
+ip_addresses,[192.168.159.180]
+mac_addresses,[00-0C-29-9D-37-45]
+state,Offline
+date_first_registered,2016-09-16T17:37:26
+policy,"{u'id': u'b2ce585e-3655-42cb-93d4-a44997247f32', u'name': u'TS-P1'}"
+id,acc5c060-d52e-4bb7-a9c8-f52022dcf284
+agent_version,1.2.1390
+name,DPRES-DEMO-1310
+ip_addresses,"[192.168.159.137, 2001:0:5CF2:8C15:3877:2547:3F57:6076]"
+mac_addresses,[00-0C-29-33-57-EF]
+state,Offline
+date_first_registered,2016-09-15T18:04:31
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,dedf478a-465f-45b9-bdb2-d86aaaade3fa
+agent_version,1.2.1310
+name,RS-Win2K3-Server
+ip_addresses,[192.168.159.132]
+mac_addresses,[00-0C-29-EC-7B-0C]
+state,Offline
+date_first_registered,2016-09-14T18:20:25
+policy,"{u'id': u'afdb2821-1a88-4171-b841-c62daec7b685', u'name': u'00-RS-WinServer'}"
+id,868682ac-4cb4-45c7-91e7-5ad423f45202
+agent_version,1.2.1390
+name,AW-VM-PROTECT
+ip_addresses,[192.168.159.179]
+mac_addresses,[00-0C-29-20-C5-9D]
+state,Offline
+date_first_registered,2016-09-13T20:10:31
+policy,"{u'id': u'0e03bd98-7af0-47a7-9626-44fc1b791aa3', u'name': u'AW-DEMO'}"
+id,1ee6b0b9-3f28-40fd-8f6f-5d1d531ce6d4
+agent_version,1.2.1310
+name,RS-WinXP
+ip_addresses,[192.168.159.159]
+mac_addresses,[00-0C-29-F2-9D-92]
+state,Offline
+date_first_registered,2016-09-13T18:41:45
+policy,"{u'id': u'8ee66797-f64c-4ec9-80fe-64ccd16f4e92', u'name': u'00-RS-WIN-AQT-MP-SC*'}"
+id,1a9cfc92-c2c0-4d1a-b5f1-0e4a2a238041
+agent_version,1.2.1380
+name,TDMAC-STAG-VM
+ip_addresses,"[10.10.10.1, 172.16.228.147]"
+mac_addresses,"[00-0C-29-F9-5D-05, 00-0C-29-F9-5D-F1]"
+state,Offline
+date_first_registered,2016-09-12T16:45:51
+policy,"{u'id': u'59612b6f-f6a2-4a5b-80e6-52296adfb514', u'name': u'TD-Staging-VM'}"
+id,59261651-9875-4077-b04a-d272076863ae
+agent_version,2.0.1440
+name,TDMAC-PROT-VM
+ip_addresses,"[10.10.10.6, 172.16.228.160]"
+mac_addresses,"[00-0C-29-7E-35-D1, 00-0C-29-7E-35-DB]"
+state,Offline
+date_first_registered,2016-09-12T16:42:53
+policy,"{u'id': u'068062f7-c003-4f03-aa07-a15252ec7cd3', u'name': u'TD-Prot-VM'}"
+id,36826458-7995-4fe1-aa55-044cec360cdc
+agent_version,1.2.1380
+name,BAYLE-W7X86
+ip_addresses,[192.168.159.183]
+mac_addresses,[00-50-56-38-D4-5A]
+state,Offline
+date_first_registered,2016-09-12T13:17:43
+policy,"{u'id': u'e99259e7-7db7-4c47-8a34-1c4b8e9d544a', u'name': u'PBAYLE_AQT+MP+BTD+FW+Script'}"
+id,58d530d8-4720-4516-9023-5208a0ec2dc5
+agent_version,1.2.1380
+name,BAYLEP-DEMOVM
+ip_addresses,[192.168.159.182]
+mac_addresses,[00-50-56-23-88-04]
+state,Offline
+date_first_registered,2016-09-12T13:02:04
+policy,"{u'id': u'81c86bc2-5a2d-4a3d-9613-8580ccf882cf', u'name': u'PBAYLE_AQT+MP+FW+Script'}"
+id,a350cf43-c96e-497d-ba80-12e5dc88c9c6
+agent_version,1.2.1380
+name,AFMMAC-PROT-VM
+ip_addresses,"[10.10.10.6, 172.16.228.156]"
+mac_addresses,"[00-0C-29-FB-33-7E, 00-0C-29-FB-33-88]"
+state,Offline
+date_first_registered,2016-09-09T12:56:32
+policy,"{u'id': u'ded261e1-a60e-495b-b68f-f53334f124a7', u'name': u'AFM-Prot-VM'}"
+id,9b8aac28-d563-49fc-b0d2-b34e33e2ec8a
+agent_version,2.0.1470
+name,KEMAC-STAG-VM
+ip_addresses,"[10.10.10.1, 192.168.159.129]"
+mac_addresses,"[00-0C-29-DC-39-C9, 00-0C-29-DC-39-DD]"
+state,Offline
+date_first_registered,2016-09-07T22:21:20
+policy,"{u'id': u'a56b8652-3ecc-46b8-a157-0222f1dce152', u'name': u'KE-STAG-VM-1'}"
+id,14355624-3cf8-43ea-b4aa-bad61673d85e
+agent_version,2.0.1470
+name,AFMMAC-STAG-VM
+ip_addresses,"[10.10.10.1, 172.16.228.163]"
+mac_addresses,"[00-0C-29-42-82-4B, 00-0C-29-42-82-5F]"
+state,Offline
+date_first_registered,2016-09-07T14:10:44
+policy,"{u'id': u'ded261e1-a60e-495b-b68f-f53334f124a7', u'name': u'AFM-Prot-VM'}"
+id,773a348e-2c75-4221-90b0-cc1f68af91a7
+agent_version,1.2.1410
+name,AFM-TRAIN
+ip_addresses,"[172.16.228.136, 10.10.10.30]"
+mac_addresses,"[00-0C-29-04-63-0A, 00-0C-29-04-63-14]"
+state,Offline
+date_first_registered,2016-09-07T13:57:43
+policy,"{u'id': u'ded261e1-a60e-495b-b68f-f53334f124a7', u'name': u'AFM-Prot-VM'}"
+id,993fe2e3-f65b-4165-ada2-5bddaee8c390
+agent_version,1.2.1400
+name,WIN-OGBH8JS6FOB
+ip_addresses,"[192.168.0.222, 2001:0:5CF2:8C02:304A:3AE2:3F57:FF21]"
+mac_addresses,[00-50-56-88-60-C0]
+state,Offline
+date_first_registered,2016-09-05T20:19:05
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,d4068a22-ea19-4733-85f6-0aa01ce6ebfc
+agent_version,1.2.1330
+name,KevinE Demo Host
+ip_addresses,[192.168.159.131]
+mac_addresses,[00-0C-29-88-6F-46]
+state,Offline
+date_first_registered,2016-09-01T15:22:36
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,87a49cba-5b72-45e8-9297-b55804b34564
+agent_version,1.2.1390
+name,PATTIFORDEMO
+ip_addresses,[192.168.159.183]
+mac_addresses,[00-0C-29-C5-99-9F]
+state,Offline
+date_first_registered,2016-08-31T21:14:32
+policy,"{u'id': u'ee21cf0d-6065-4834-9d32-f4a511f6beaa', u'name': u'Sauder - AQT for Demo'}"
+id,c224777e-e68e-4823-8038-c9d7cdee2f1f
+agent_version,1.2.1370
+name,1380demo
+ip_addresses,[172.16.53.132]
+mac_addresses,[00-0C-29-D4-AF-F7]
+state,Offline
+date_first_registered,2016-08-24T06:02:45
+policy,"{u'id': u'6d9753b6-784a-4dfb-8a42-70ddc9fe64fc', u'name': u'Ryan W Demo'}"
+id,f9ec869f-8c21-4b1b-891f-02eb8d92fe5e
+agent_version,1.2.1380
+name,Malware’s Mac
+ip_addresses,[172.16.228.128]
+mac_addresses,[00-0C-29-63-8A-1D]
+state,Offline
+date_first_registered,2016-08-23T18:51:38
+policy,"{u'id': u'1f7d7bfa-6d85-499f-b22b-770a990e2e04', u'name': u'TG-Demo-Full'}"
+id,143c02fe-ce65-4f88-b80d-4a735884197f
+agent_version,1.2.1390
+name,rsundin mlwr-demo
+ip_addresses,"[192.168.1.220, 172.16.1.1, 192.168.179.1, 192.168.241.1]"
+mac_addresses,"[F4-5C-89-8B-48-99, 00-50-56-C0-00-01, 00-50-56-C0-00-02, 00-50-56-C0-00-08]"
+state,Offline
+date_first_registered,2016-08-23T10:17:34
+policy,"{u'id': u'6ffd5769-7a20-4ee6-a089-ada0192de256', u'name': u'rsundin - block all - 20171124'}"
+id,90d4f0cd-344e-4d93-a93c-82b0ee43cf55
+agent_version,2.0.1470
+name,WIN-OGBH8JS6FOB
+ip_addresses,"[192.168.198.133, 2001:0:5CF2:8C02:1CB1:51A:3F57:397A]"
+mac_addresses,[00-0C-29-AB-FF-84]
+state,Offline
+date_first_registered,2016-08-22T22:13:18
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,0292c752-a407-40c9-8bc9-8febaf744971
+agent_version,1.2.1330
+name,BAKRI
+ip_addresses,"[192.168.198.132, 2001:0:5CF2:8C02:468:3597:3F57:397B]"
+mac_addresses,[00-0C-29-F0-84-30]
+state,Offline
+date_first_registered,2016-08-22T21:21:25
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,9079eb57-e01f-4203-a185-0d54c37ba3b1
+agent_version,1.2.1350
+name,BAKRI
+ip_addresses,"[192.168.198.132, 2001:0:5CF2:8C02:3C3C:169F:3F57:397B]"
+mac_addresses,[00-0C-29-F4-51-E6]
+state,Offline
+date_first_registered,2016-08-22T19:47:53
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,8d3df596-8fb8-4d55-b597-ac2ae312a1a6
+agent_version,1.2.1350
+name,DESKTOP-7H6A2MI
+ip_addresses,"[192.168.159.180, 2001:0:9D38:953C:3C09:27F6:B995:2F6E]"
+mac_addresses,[00-0C-29-2A-57-00]
+state,Offline
+date_first_registered,2016-08-20T18:18:58
+policy,"{u'id': u'a7cc8e97-a404-45bb-a7d4-bac160304e8c', u'name': u'DPRESBIT-1410 AQT MP FW Script'}"
+id,8b9c2f8e-ed66-42bb-923d-4cced1a2f01f
+agent_version,2.0.1450
+name,RW-W8-VM
+ip_addresses,[172.16.188.128]
+mac_addresses,[00-0C-29-EE-BC-DC]
+state,Offline
+date_first_registered,2016-08-20T00:19:25
+policy,"{u'id': u'51e69d7a-0ad5-4270-a15c-d98169940e87', u'name': u'Ryan W Prod'}"
+id,c77b7e68-27f6-4267-9805-7b202575e3ca
+agent_version,2.0.1470
+name,RW-MACBOOK-CYLA
+ip_addresses,[10.69.69.102]
+mac_addresses,[00-0C-29-29-F4-56]
+state,Offline
+date_first_registered,2016-08-19T23:55:47
+policy,"{u'id': u'6d9753b6-784a-4dfb-8a42-70ddc9fe64fc', u'name': u'Ryan W Demo'}"
+id,fd54a74e-561a-4ed1-a073-269d57688dee
+agent_version,1.2.1370
+name,JLP0001_STAGE
+ip_addresses,[192.168.159.181]
+mac_addresses,[00-0C-29-E2-49-CB]
+state,Offline
+date_first_registered,2016-08-15T21:18:54
+policy,"{u'id': u'4c4714f6-e40b-49f2-9eb9-89ed8fdf7678', u'name': u'Leadford_Stage'}"
+id,61bbcbe8-3772-4d8c-b656-699144febfd1
+agent_version,2.0.1470
+name,TK_CY_DEMO
+ip_addresses,"[10.10.10.7, 192.168.241.206]"
+mac_addresses,"[00-0C-29-5A-9E-09, 00-0C-29-5A-9E-FF]"
+state,Offline
+date_first_registered,2016-08-06T22:22:38
+policy,"{u'id': u'031e4efa-ba17-432f-b4d7-806754ac03e9', u'name': u'Taka Tokyo Policy'}"
+id,1d6de907-0ad9-454d-b3e0-69d47b829c88
+agent_version,1.2.1380
+name,NDMAC-STAG-VM
+ip_addresses,"[10.10.10.1, 192.168.241.249]"
+mac_addresses,"[00-0C-29-7E-C4-9A, 00-0C-29-7E-C4-AE]"
+state,Offline
+date_first_registered,2016-08-04T00:28:34
+policy,"{u'id': u'970642bb-d679-4aa2-b614-35f50168b3ee', u'name': u'ND-Stag-VM'}"
+id,6e2f1022-7ee1-4d98-b7fb-c6f08148a850
+agent_version,2.0.1480
+name,NDMAC-PROT-VM
+ip_addresses,"[10.10.10.6, 192.168.241.149]"
+mac_addresses,"[00-0C-29-94-8E-92, 00-0C-29-94-8E-9C]"
+state,Offline
+date_first_registered,2016-08-04T00:26:16
+policy,"{u'id': u'f7df8cee-0321-4c6b-b8ab-e24945058b6d', u'name': u'ND-Prot-VM'}"
+id,fa070c60-121f-4024-8646-3981f08727c0
+agent_version,1.2.1380
+name,TAKAPC
+ip_addresses,"[192.168.229.1, 192.168.93.1, 192.168.3.5]"
+mac_addresses,[00-23-4E-3F-EC-0A]
+state,Offline
+date_first_registered,2016-08-03T17:52:01
+policy,"{u'id': u'c5155a62-5765-4ef0-91ca-183aa2e45278', u'name': u'taka 192.169.93.1'}"
+id,f0fd410f-c8fe-477b-94b0-716208fe46ed
+agent_version,1.2.1380
+name,SDUBBEL-MALWARE-DEMOLAB
+ip_addresses,[192.168.159.247]
+mac_addresses,[00-0C-29-03-3A-8E]
+state,Offline
+date_first_registered,2016-08-03T11:33:41
+policy,"{u'id': u'57ff08f4-e361-40cd-bf10-d6c3248d5c24', u'name': u'sdubbel-malware-lab-W10-optics-allow_PS'}"
+id,204bd22b-2257-4109-bd29-07b1f91746d6
+agent_version,2.0.1480
+name,sdubbel-demo-HOST-MBP
+ip_addresses,"[192.168.1.103, 172.16.34.1, 192.168.159.1, 192.168.19.1]"
+mac_addresses,"[98-01-A7-9D-2B-67, 00-50-56-C0-00-01, 00-50-56-C0-00-02, 00-50-56-C0-00-08]"
+state,Offline
+date_first_registered,2016-08-03T10:47:57
+policy,"{u'id': u'8fc5e524-ff2f-4c4a-af80-266e81a7b76a', u'name': u'sdubbel-demo-mbp'}"
+id,de423398-73d5-4ffe-bee2-bdb24fcd8c94
+agent_version,2.0.1480
+name,TK-UBT-STG
+ip_addresses,"[192.168.11.90, 192.168.241.147]"
+mac_addresses,"[00-0C-29-1A-31-78, 00-0C-29-1A-31-8C]"
+state,Offline
+date_first_registered,2016-08-03T02:14:24
+policy,"{u'id': u'5cb29149-3d64-4cb0-a4eb-627fa7c5dd5b', u'name': u'taka UBT Stating Policy'}"
+id,8c4b9da1-20e9-4785-94a5-8ef43cbc4951
+agent_version,2.0.1480
+name,EAMAC-STAG-VM
+ip_addresses,"[10.10.10.1, 192.168.241.130]"
+mac_addresses,"[00-0C-29-92-5D-13, 00-0C-29-92-5D-27]"
+state,Offline
+date_first_registered,2016-08-02T22:17:59
+policy,"{u'id': u'cf106c0c-8227-4b8e-815d-b8bb71f88db7', u'name': u'EA-STAG-VM'}"
+id,69d1166e-28ae-464c-bc7b-f67ac0c922e0
+agent_version,2.0.1480
+name,CSMAC-PROT-VM
+ip_addresses,"[10.10.10.6, 192.168.241.135]"
+mac_addresses,"[00-0C-29-4D-7D-76, 00-0C-29-4D-7D-80]"
+state,Offline
+date_first_registered,2016-08-01T16:51:23
+policy,"{u'id': u'0faf2e51-57f7-4997-9c00-8c3d8aba2721', u'name': u'CS-Prot-VM'}"
+id,082d4191-9688-4fbb-97c7-da311cd224a3
+agent_version,1.2.1390
+name,CSMAC-STAG-VM
+ip_addresses,"[10.10.10.1, 192.168.241.134]"
+mac_addresses,"[00-0C-29-6C-CC-0D, 00-0C-29-6C-CC-21]"
+state,Offline
+date_first_registered,2016-08-01T16:41:31
+policy,"{u'id': u'8929e3ae-de0d-4e75-a55f-ca475a2cba85', u'name': u'CS-STAG-VM'}"
+id,968bf445-12dc-46d6-8da5-53ea9bf6d4ee
+agent_version,1.2.1390
+name,LOFGREN-DEMO
+ip_addresses,[192.168.159.128]
+mac_addresses,[00-0C-29-7A-66-76]
+state,Offline
+date_first_registered,2016-07-29T16:10:19
+policy,"{u'id': u'0fb2e236-814f-4ce1-9b5a-7512edac7a6b', u'name': u'LOFGREN-DEMO'}"
+id,53700489-0fc1-4721-b786-2612cae0f294
+agent_version,2.0.1480
+name,LOFGREN-STAGING
+ip_addresses,[192.168.159.202]
+mac_addresses,[00-0C-29-ED-FF-13]
+state,Offline
+date_first_registered,2016-07-29T16:09:44
+policy,"{u'id': u'863673a6-80a7-4a7a-815d-e0fe4a2c096c', u'name': u'LOFGREN-STAGING'}"
+id,886c552a-6124-4146-888e-f5e461f46366
+agent_version,2.0.1480
+name,RT-VICTIM4
+ip_addresses,[192.168.241.171]
+mac_addresses,[00-0C-29-BF-ED-28]
+state,Offline
+date_first_registered,2016-07-28T18:58:51
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,2c31477d-7bb8-46dd-abc1-8b04029e224d
+agent_version,1.2.1330
+name,RT-VICTIM5
+ip_addresses,[192.168.241.170]
+mac_addresses,[00-0C-29-0F-91-45]
+state,Offline
+date_first_registered,2016-07-28T18:34:38
+policy,"{u'id': u'd2fcfd49-968d-4268-ab18-e3a119d4c8aa', u'name': u'RT-Block no FW'}"
+id,0f8f3b38-51d2-45e8-8ec9-f56e4a109c0a
+agent_version,1.2.1330
+name,EGCYLANCEPRO
+ip_addresses,[192.168.159.147]
+mac_addresses,[00-0C-29-52-AE-EA]
+state,Offline
+date_first_registered,2016-07-28T15:04:08
+policy,"{u'id': u'a3f263c1-8ff7-4808-ae84-46e39a75e97b', u'name': u'Gidders Policy 9'}"
+id,1a932029-2b52-4463-90b5-1d0a1b1cf4b0
+agent_version,1.2.1400
+name,TK_CY_DEMO
+ip_addresses,"[10.10.10.7, 192.168.241.134]"
+mac_addresses,"[00-0C-29-1E-44-89, 00-0C-29-1E-44-93]"
+state,Offline
+date_first_registered,2016-07-27T17:06:58
+policy,"{u'id': u'031e4efa-ba17-432f-b4d7-806754ac03e9', u'name': u'Taka Tokyo Policy'}"
+id,7e4add21-987e-46ff-a568-7f74cd4eb551
+agent_version,1.2.1380
+name,WINKMAC-1310DEM
+ip_addresses,[192.168.159.139]
+mac_addresses,[00-0C-29-A7-13-0E]
+state,Offline
+date_first_registered,2016-07-26T20:42:17
+policy,"{u'id': u'f50fe36a-9426-4a1d-aefa-da7783dfac86', u'name': u'Winkler-SE-Demo-Policy'}"
+id,96249b22-ae82-4297-b38c-61794bef339c
+agent_version,1.2.1310
+name,WINKMAC-OPTICS
+ip_addresses,[192.168.159.158]
+mac_addresses,[00-0C-29-29-D6-32]
+state,Offline
+date_first_registered,2016-07-26T20:12:40
+policy,"{u'id': u'5fb681c1-081a-4d50-b9e2-8ca49aee366a', u'name': u'Winkler-SE-OPTICS-PROTECT'}"
+id,7526a719-810f-422c-9076-f7e6ad425abd
+agent_version,2.0.1470
+name,DPRES-DEMO-1380
+ip_addresses,"[::1, 192.168.159.132]"
+mac_addresses,[00-0C-29-20-D9-FE]
+state,Offline
+date_first_registered,2016-07-26T16:18:37
+policy,"{u'id': u'26a2edb3-2ff9-4517-8b85-d507cfca0ebd', u'name': u'DPRESBIT-DEMO AQT MP FW NOUPDATE'}"
+id,6d24f00b-2619-4169-a851-d6157c7c5186
+agent_version,2.0.1450
+name,DPRESBIT-DEMO-1390
+ip_addresses,"[192.168.159.172, 2001:0:5CF2:8C15:1034:C61:3F57:6053]"
+mac_addresses,[00-0C-29-50-5C-D8]
+state,Offline
+date_first_registered,2016-07-24T20:14:20
+policy,"{u'id': u'b3986f17-5012-4665-9822-1f19e4293670', u'name': u'DPRESBIT-OPTICS AQT MP FW Script'}"
+id,135cbd6b-9a6c-4d3b-bac4-845fa7eb4291
+agent_version,1.2.1400
+name,BWHOST2
+ip_addresses,"[172.16.1.66, 192.168.159.134]"
+mac_addresses,"[00-0C-29-41-49-3B, 00-0C-29-41-49-45]"
+state,Offline
+date_first_registered,2016-07-11T20:46:16
+policy,"{u'id': u'8e707313-4092-4a69-877f-ffdb00adcc9e', u'name': u'WaldenBlockallnoBTD Nov1'}"
+id,342b8eae-ff8a-45e8-a4c0-9735bef1f5f0
+agent_version,2.0.1440
+name,ZLINK-DEMO-HOST
+ip_addresses,[192.168.159.130]
+mac_addresses,[00-0C-29-41-49-4B]
+state,Offline
+date_first_registered,2016-07-11T20:43:01
+policy,"{u'id': u'22429e1b-c20e-4df4-b36f-f99e65f1d833', u'name': u'Link - AQT-only'}"
+id,fc023394-bae8-4900-97b1-a228429d45bb
+agent_version,2.0.1440
+name,WIN-9QAB7T3FG2P
+ip_addresses,[192.168.159.157]
+mac_addresses,[00-0C-29-4C-0B-7F]
+state,Offline
+date_first_registered,2016-07-08T22:32:21
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,44a35934-6e57-491d-aa46-b8109a411a0b
+agent_version,1.2.1390
+name,WEBBL-XPSP3
+ip_addresses,[192.168.159.133]
+mac_addresses,[00-0C-29-D5-C4-55]
+state,Offline
+date_first_registered,2016-06-29T16:40:58
+policy,"{u'id': u'3ee3c7f9-8774-41ec-a23a-063dd9e0ed98', u'name': u'*WEBBL_Full'}"
+id,559ea282-7265-4693-a7d7-c3fb59b5fd03
+agent_version,1.2.1380
+name,WEBBL Malware Mac
+ip_addresses,[192.168.159.131]
+mac_addresses,[00-0C-29-7E-8E-75]
+state,Offline
+date_first_registered,2016-06-29T12:34:33
+policy,"{u'id': u'68395199-24b4-4119-b1f7-1e53935ef659', u'name': u'*WEBBL-AQT-MD-SC'}"
+id,16dcb4b0-c3b5-46fd-8fef-418d07f4d5b3
+agent_version,2.0.1470
+name,RT-1380-TEST1
+ip_addresses,"[192.168.241.188, 2001:0:9D38:953C:38B5:46:3F57:E43]"
+mac_addresses,[00-0C-29-2D-3F-F5]
+state,Offline
+date_first_registered,2016-06-28T16:16:51
+policy,"{u'id': u'89255cb8-132b-4b7c-b26d-eb43bdf9f054', u'name': u'RT- Block All'}"
+id,0e151bd7-7fba-47c4-80e1-d6a55891cfe6
+agent_version,1.2.1390
+name,SW-PROTECT1380
+ip_addresses,[192.168.159.187]
+mac_addresses,[00-0C-29-D8-F9-DB]
+state,Offline
+date_first_registered,2016-06-17T22:37:53
+policy,"{u'id': u'6cf36093-069e-48f1-aad1-4dccd3774756', u'name': u'Swhite - Full Protection'}"
+id,9f0ebf37-33ec-43f4-ab6b-a5b776e6d7ee
+agent_version,1.2.1380
+name,RT-OPTICSEA1
+ip_addresses,[192.168.241.179]
+mac_addresses,[00-0C-29-7D-4A-5B]
+state,Offline
+date_first_registered,2016-06-10T19:49:54
+policy,"{u'id': u'89255cb8-132b-4b7c-b26d-eb43bdf9f054', u'name': u'RT- Block All'}"
+id,86cda3e0-23b2-4c20-a0f5-e2ad382b255a
+agent_version,1.2.1400
+name,Robert’s OSX Lab
+ip_addresses,"[10.0.0.39, 2601:C0:8000:F7CE:186E:57E0:38B3:F5C2, 2601:C0:8000:F7CE::7CF2, 2601:C0:8000:F7CE:BDD6:E249:262D:1FD6]"
+mac_addresses,[38-C9-86-41-D4-49]
+state,Offline
+date_first_registered,2016-06-10T18:37:22
+policy,"{u'id': u'c9727574-d3e9-4a3b-b808-2d49427ceb17', u'name': u'Robert OSX Lab Policy'}"
+id,e0986101-d4cd-49c6-98bf-6fe2471050f9
+agent_version,2.0.1470
+name,Zlink Malware Mac Pro
+ip_addresses,[192.168.1.167]
+mac_addresses,[AC-BC-32-CF-62-AF]
+state,Offline
+date_first_registered,2016-06-07T14:41:06
+policy,"{u'id': u'671339ec-165b-44ab-a362-65f901feae04', u'name': u'Mac.MalwarePrevent+MemdefAlert'}"
+id,9eafaa49-8b45-4815-9de0-51a5f5f50c3c
+agent_version,2.0.1470
+name,1380-WIN8
+ip_addresses,"[192.168.43.29, 2001:0:9D38:90D7:1C2B:2BAA:3F57:D4E2]"
+mac_addresses,[00-15-5D-14-8A-00]
+state,Offline
+date_first_registered,2016-06-03T11:25:43
+policy,"{u'id': u'8766c34b-97df-4c8e-b2e9-014946623332', u'name': u'Ryan W Lab'}"
+id,d6623363-533d-4e76-b88e-746101b67675
+agent_version,1.2.1380
+name,Mikkel's Virtual Mac
+ip_addresses,[192.168.159.147]
+mac_addresses,[00-0C-29-7C-06-96]
+state,Offline
+date_first_registered,2016-06-02T23:42:49
+policy,"{u'id': u'877c6c48-fd3c-4c92-97f1-b0c3e6625972', u'name': u'MH ATQ MT SCB OAU'}"
+id,077cefec-5bc2-4919-aac0-784997be40cb
+agent_version,1.2.1390
+name,ALDERMAN-DEMOHO
+ip_addresses,[192.168.159.146]
+mac_addresses,[00-0C-29-9F-4E-A5]
+state,Offline
+date_first_registered,2016-06-02T16:08:24
+policy,"{u'id': u'606722f7-e2f4-49a1-9524-56d1eca95915', u'name': u'Alderman+file_exclude'}"
+id,235b1b4d-ef32-4b63-a15d-4be8c1872c5d
+agent_version,1.2.1370
+name,MAL-JA-C02RN19PG8WL
+ip_addresses,[192.168.1.18]
+mac_addresses,"[00-50-56-C0-00-01, 00-50-56-C0-00-02, 98-01-A7-8B-6A-07, 0E-20-B5-A8-BB-3D, 00-50-56-C0-00-08]"
+state,Offline
+date_first_registered,2016-06-02T12:46:41
+policy,"{u'id': u'606722f7-e2f4-49a1-9524-56d1eca95915', u'name': u'Alderman+file_exclude'}"
+id,df3731d0-6f7d-4a99-af5b-97ec573e86b3
+agent_version,2.0.1440
+name,RT-VICTIM4
+ip_addresses,[192.168.241.163]
+mac_addresses,[00-0C-29-9F-2E-4E]
+state,Offline
+date_first_registered,2016-06-02T11:37:23
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,d577ecee-94bf-4104-b895-0f30f5915a39
+agent_version,1.2.1330
+name,SW-PROTECT
+ip_addresses,[192.168.159.138]
+mac_addresses,[00-0C-29-A7-27-86]
+state,Offline
+date_first_registered,2016-06-01T16:19:39
+policy,"{u'id': u'6cf36093-069e-48f1-aad1-4dccd3774756', u'name': u'Swhite - Full Protection'}"
+id,2cde914a-cdd8-48f8-a4fe-9727572f2735
+agent_version,1.2.1370
+name,SW-STAGING
+ip_addresses,[192.168.159.161]
+mac_addresses,[00-0C-29-57-93-82]
+state,Offline
+date_first_registered,2016-06-01T16:18:10
+policy,"{u'id': u'd18a7016-b74d-42da-a60f-a21cc7b54a41', u'name': u'SW - Staging'}"
+id,e6a1b21f-ca6a-4f33-a1ac-426a92bd61bb
+agent_version,2.0.1440
+name,RW-UBT4-TREND
+ip_addresses,"[::1, 10.69.69.100]"
+mac_addresses,[00-0C-29-66-6B-09]
+state,Offline
+date_first_registered,2016-06-01T11:58:15
+policy,"{u'id': u'8766c34b-97df-4c8e-b2e9-014946623332', u'name': u'Ryan W Lab'}"
+id,c41827ac-ec02-4b97-8d10-545524816ce0
+agent_version,1.2.1380
+name,WEBBL-UBTVM
+ip_addresses,[172.16.53.199]
+mac_addresses,[00-0C-29-4B-60-67]
+state,Offline
+date_first_registered,2016-05-25T12:06:20
+policy,"{u'id': u'68395199-24b4-4119-b1f7-1e53935ef659', u'name': u'*WEBBL-AQT-MD-SC'}"
+id,49e807ec-0556-47f8-b744-70d4b15d5016
+agent_version,1.2.1370
+name,LENOVO-PC
+ip_addresses,"[192.168.7.26, 2001:0:9D38:6AB8:34E4:1CD4:B33B:3FC2]"
+mac_addresses,[AC-E0-10-D4-01-C9]
+state,Offline
+date_first_registered,2016-05-21T03:34:08
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,80255ddc-4a5f-499c-bc00-fd144badba4e
+agent_version,1.2.1330
+name,CYLANCE
+ip_addresses,[10.69.69.100]
+mac_addresses,[00-0C-29-B1-AB-DF]
+state,Offline
+date_first_registered,2016-05-09T22:10:46
+policy,"{u'id': u'6d9753b6-784a-4dfb-8a42-70ddc9fe64fc', u'name': u'Ryan W Demo'}"
+id,a674d6d8-5bbc-4104-b888-30d2b1287438
+agent_version,1.2.1370
+name,RW-TRASHCAN-ANA
+ip_addresses,[10.69.69.106]
+mac_addresses,[00-0C-29-F6-1B-E3]
+state,Offline
+date_first_registered,2016-05-07T07:14:00
+policy,"{u'id': u'8766c34b-97df-4c8e-b2e9-014946623332', u'name': u'Ryan W Lab'}"
+id,a767a5ec-37af-4cea-8903-c506d0b0d0ca
+agent_version,1.2.1400
+name,MH-OPTX-DEMO
+ip_addresses,"[192.168.159.137, 2001:0:5CF2:8C02:3C31:2A8D:3F57:6076]"
+mac_addresses,[00-0C-29-E0-16-80]
+state,Offline
+date_first_registered,2016-05-05T19:35:40
+policy,"{u'id': u'877c6c48-fd3c-4c92-97f1-b0c3e6625972', u'name': u'MH ATQ MT SCB OAU'}"
+id,f3242004-bfd6-4008-be0f-260be2e23ace
+agent_version,1.2.1400
+name,MH-PROTECT
+ip_addresses,"[::1, 192.168.159.156]"
+mac_addresses,[00-0C-29-6F-71-FC]
+state,Offline
+date_first_registered,2016-05-05T19:05:18
+policy,"{u'id': u'877c6c48-fd3c-4c92-97f1-b0c3e6625972', u'name': u'MH ATQ MT SCB OAU'}"
+id,27c591bd-f030-442e-939e-d30a4175b437
+agent_version,1.2.1370
+name,RS-OSX10-Demo’s Mac
+ip_addresses,[192.168.159.151]
+mac_addresses,[00-0C-29-DE-73-64]
+state,Offline
+date_first_registered,2016-05-05T03:15:14
+policy,"{u'id': u'2eca7ed1-01e4-45d6-9de7-4b412c55d681', u'name': u'01-RS-OSX-AQT-MP***'}"
+id,3b0cb69d-31f2-4693-ba01-5dcb66501ef8
+agent_version,2.0.1470
+name,JS-VM-DEMO
+ip_addresses,"[192.168.159.165, 2001:0:5EF5:79FB:2C06:683:3F57:605B, 192.168.159.164]"
+mac_addresses,"[00-0C-29-81-69-35, 00-0C-29-81-69-3F]"
+state,Offline
+date_first_registered,2016-05-04T13:07:06
+policy,"{u'id': u'6da81185-ad8e-432b-9eb6-fa3e8755726d', u'name': u'Sanders Staging - no BTD'}"
+id,5c1bf9a2-2a9b-46a6-8722-af27efdf11a9
+agent_version,2.0.1440
+name,BT-STAGING
+ip_addresses,[192.168.159.130]
+mac_addresses,[00-0C-29-81-0D-F8]
+state,Offline
+date_first_registered,2016-04-27T20:56:04
+policy,"{u'id': u'dec0f5ee-c0ab-4d51-b1da-1264373d0054', u'name': u'BT - Staging - SC Off'}"
+id,a5b93987-cde1-448b-9caf-9c33ac8eef2f
+agent_version,2.0.1430
+name,BILLS-DEMO
+ip_addresses,"[192.168.159.246, 11.1.1.189]"
+mac_addresses,"[00-0C-29-A3-01-2F, 00-0C-29-A3-01-39]"
+state,Offline
+date_first_registered,2016-04-25T18:43:50
+policy,"{u'id': u'dde10115-4276-4df8-be29-463508946750', u'name': u'Bill-Demo-Policy'}"
+id,9e3fef86-7d42-45fa-bb63-b51317371895
+agent_version,2.0.1470
+name,MH-VW7-1
+ip_addresses,[192.168.159.139]
+mac_addresses,[00-0C-29-F0-6A-2E]
+state,Offline
+date_first_registered,2016-04-04T23:53:46
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,17200471-1b0f-452c-906b-a6fd7c56bc5f
+agent_version,1.2.1370
+name,SR-STAGING-W7
+ip_addresses,[192.168.200.203]
+mac_addresses,[00-0C-29-9B-54-9B]
+state,Offline
+date_first_registered,2016-04-04T23:50:36
+policy,"{u'id': u'87824f0e-1520-447e-9814-128b5eff9da2', u'name': u'RICHARDS:DEMOHOST'}"
+id,f622b941-dce4-4761-a750-ae2ba5d52f49
+agent_version,1.2.1400
+name,WEBB-WIN7X86-OL
+ip_addresses,[192.168.159.221]
+mac_addresses,[00-0C-29-0E-A6-B6]
+state,Offline
+date_first_registered,2016-03-28T08:15:16
+policy,"{u'id': u'3ee3c7f9-8774-41ec-a23a-063dd9e0ed98', u'name': u'*WEBBL_Full'}"
+id,c3928b65-d799-4a67-9406-f5ab12287ae2
+agent_version,1.2.1418
+name,GSINGHHOST
+ip_addresses,"[192.168.159.222, 2001:0:9D38:6ABD:2439:2FDF:3F57:6021]"
+mac_addresses,[00-0C-29-D3-F4-51]
+state,Offline
+date_first_registered,2016-03-24T23:03:29
+policy,"{u'id': u'545d0767-0881-4323-a594-8dee4af3bd2b', u'name': u'GS-Host Policy'}"
+id,9ac81288-1d71-41e8-8a18-eeb35e0e4afe
+agent_version,1.2.1370
+name,Michael_Locke_Protect_Optics_VM
+ip_addresses,[192.168.159.130]
+mac_addresses,[00-0C-29-00-F2-96]
+state,Offline
+date_first_registered,2016-03-24T17:30:24
+policy,"{u'id': u'905ede5b-e6e5-4a34-bcf4-74d68856a8d3', u'name': u'Locke AQT MP FW Script'}"
+id,baaf8ca0-b222-4a06-8bf3-ce88604e2d8c
+agent_version,2.0.1470
+name,Michael_Locke_Staging_Server
+ip_addresses,"[192.168.241.138, 192.168.159.232]"
+mac_addresses,"[00-0C-29-2A-46-98, 00-0C-29-2A-46-A2]"
+state,Offline
+date_first_registered,2016-03-24T17:22:23
+policy,"{u'id': u'908bbd2d-d88d-4afb-a49c-ae3b5c4c60bd', u'name': u'Locke Staging Server Policy'}"
+id,00022b40-29dc-4765-b7fe-8ae60a1acbdf
+agent_version,2.0.1470
+name,MAL-GS-C02R51NVG8WL
+ip_addresses,[192.168.0.111]
+mac_addresses,"[F4-5C-89-A3-88-AB, 32-99-E9-13-F3-2B]"
+state,Offline
+date_first_registered,2016-03-18T01:03:42
+policy,"{u'id': u'671339ec-165b-44ab-a362-65f901feae04', u'name': u'Mac.MalwarePrevent+MemdefAlert'}"
+id,84066064-24e5-47c9-ac60-7154cec82b13
+agent_version,1.2.1370
+name,RT-VICTIM4
+ip_addresses,[10.0.0.4]
+mac_addresses,[2C-C2-60-33-F6-2B]
+state,Offline
+date_first_registered,2016-03-08T04:01:12
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,34482b3b-1c03-4e32-a67f-46551e4ea636
+agent_version,1.2.1330
+name,WEBBL-STAGING
+ip_addresses,[192.168.159.176]
+mac_addresses,[00-0C-29-58-50-6E]
+state,Offline
+date_first_registered,2016-03-04T16:34:10
+policy,"{u'id': u'b81da7b0-1989-430d-858b-e63d492c641a', u'name': u'**WEBBL-AQT-STAGING'}"
+id,3c3095f4-c51d-4687-8248-d82f5e5f1eba
+agent_version,2.0.1440
+name,WEBBL-DEMOVM
+ip_addresses,[192.168.159.139]
+mac_addresses,[00-50-56-23-88-04]
+state,Offline
+date_first_registered,2016-03-02T09:26:23
+policy,"{u'id': u'68395199-24b4-4119-b1f7-1e53935ef659', u'name': u'*WEBBL-AQT-MD-SC'}"
+id,6dc9fda4-a258-4426-8404-7ec830ca3520
+agent_version,1.2.1370
+name,WIN-OGBH8JS6FOB
+ip_addresses,[172.16.53.187]
+mac_addresses,[00-0C-29-42-A1-63]
+state,Offline
+date_first_registered,2016-02-29T18:12:35
+policy,"{u'id': u'4285e8cc-b0a4-4fb2-a8f9-a4b924987527', u'name': u'RSA_22_Demo'}"
+id,572a75c6-f5a3-4289-97ad-e80273d8c84e
+agent_version,1.2.1370
+name,Music-DEMO-Win7
+ip_addresses,[192.168.159.172]
+mac_addresses,[00-0C-29-08-5D-76]
+state,Offline
+date_first_registered,2016-02-18T12:21:42
+policy,"{u'id': u'd94301f8-f8cf-403e-8216-e72ae6b41ed4', u'name': u'Music AQT+MP+FW+Script'}"
+id,79bbd045-577d-4929-a191-882e8a87a3ed
+agent_version,2.0.1480
+name,RW_T440
+ip_addresses,[10.0.1.218]
+mac_addresses,[28-D2-44-4D-3D-16]
+state,Offline
+date_first_registered,2016-02-14T04:53:26
+policy,"{u'id': u'51e69d7a-0ad5-4270-a15c-d98169940e87', u'name': u'Ryan W Prod'}"
+id,5e49db11-f60f-4835-8fb8-50c159d58523
+agent_version,2.0.1470
+name,CYLANCE
+ip_addresses,[10.69.69.100]
+mac_addresses,[00-0C-29-B0-19-A2]
+state,Offline
+date_first_registered,2016-02-10T08:53:54
+policy,"{u'id': u'6d9753b6-784a-4dfb-8a42-70ddc9fe64fc', u'name': u'Ryan W Demo'}"
+id,9d2fd11d-3e95-4df8-bd75-9eff433bda8a
+agent_version,1.2.1370
+name,DELL-FRS
+ip_addresses,[192.168.7.115]
+mac_addresses,[10-02-B5-3D-1D-A5]
+state,Offline
+date_first_registered,2016-02-06T22:13:15
+policy,"{u'id': u'03ee1ed8-c52c-4e3a-984f-f1542e0f856c', u'name': u'Dell-FRS-Staging'}"
+id,43972153-2bc8-440f-92d0-bd145e3558bb
+agent_version,2.0.1470
+name,WIN-OGBH8JS6FOB
+ip_addresses,[192.168.241.150]
+mac_addresses,[00-0C-29-49-B2-18]
+state,Offline
+date_first_registered,2016-02-04T18:17:49
+policy,"{u'id': u'4285e8cc-b0a4-4fb2-a8f9-a4b924987527', u'name': u'RSA_22_Demo'}"
+id,1a83a607-1c47-4783-aaae-1e62baf11810
+agent_version,1.2.1330
+name,BAKRI
+ip_addresses,[172.16.53.136]
+mac_addresses,[00-0C-29-68-72-ED]
+state,Offline
+date_first_registered,2016-02-02T16:00:34
+policy,"{u'id': u'4285e8cc-b0a4-4fb2-a8f9-a4b924987527', u'name': u'RSA_22_Demo'}"
+id,5f2ab0f3-5d37-4319-96a3-22939afa2d8d
+agent_version,1.2.1370
+name,LENOVO-PC
+ip_addresses,"[192.168.7.26, 2001:0:5EF5:79FB:1CD5:2D45:3F57:F8E5]"
+mac_addresses,[AC-E0-10-D4-01-C9]
+state,Offline
+date_first_registered,2016-01-23T02:28:20
+policy,"{u'id': u'c194be9b-64b2-4087-89a5-9140ac94c351', u'name': u'TechMarketing'}"
+id,af18c122-6271-4093-99d0-8d98d20bd0ab
+agent_version,1.2.1330
+name,BLG-PC
+ip_addresses,"[127.0.0.1, 2600:8802:4201:1D90:44A3:AC4F:E3C6:115E, 2600:8802:4201:1D90:DD86:DF1E:8D30:219C]"
+mac_addresses,[00-24-D6-56-11-36]
+state,Offline
+date_first_registered,2016-01-23T02:21:11
+policy,"{u'id': u'c194be9b-64b2-4087-89a5-9140ac94c351', u'name': u'TechMarketing'}"
+id,9645117e-5a72-454c-b3f2-6b9d20211b9a
+agent_version,1.2.1330
+name,TESTRAV--TOOLS
+ip_addresses,"[10.10.10.1, 2001:0:9D38:953C:2C2A:14A2:F5F5:F5FE]"
+mac_addresses,[2C-C2-60-1C-5A-F7]
+state,Offline
+date_first_registered,2016-01-17T18:52:58
+policy,"{u'id': u'de10b179-0ed9-4cb8-8b29-fc7b287a6c63', u'name': u'Ravello_test_preX memD only'}"
+id,372fdaf2-034b-4a1b-91a7-422cd0177ff5
+agent_version,1.2.1330
+name,E6420-PC
+ip_addresses,[192.168.0.10]
+mac_addresses,[68-A3-C4-F7-23-96]
+state,Offline
+date_first_registered,2016-01-12T16:49:12
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,b2e3c5ff-aff1-46f9-aefc-8cecc8a47d43
+agent_version,1.2.1330
+name,T410
+ip_addresses,[10.140.84.47]
+mac_addresses,[50-63-13-C3-A0-21]
+state,Offline
+date_first_registered,2015-12-25T00:28:53
+policy,"{u'id': u'51e69d7a-0ad5-4270-a15c-d98169940e87', u'name': u'Ryan W Prod'}"
+id,9ba7474f-284a-4f80-bd69-ad1957549bf0
+agent_version,2.0.1470
+name,ZLINK-DEMO-MAC
+ip_addresses,[192.168.159.136]
+mac_addresses,[00-0C-29-D8-AC-F8]
+state,Offline
+date_first_registered,2015-12-17T18:38:03
+policy,"{u'id': u'7e9a42ef-ebb1-4e96-8c25-ba4723bb6aa9', u'name': u'Link - AQT+MD-BTD'}"
+id,13648155-bb8a-4eba-8147-d2add51a54ff
+agent_version,2.0.1470
+name,Zack MacBook Pro
+ip_addresses,[192.168.0.26]
+mac_addresses,"[5A-C0-69-76-84-D6, B8-E8-56-30-CA-AC]"
+state,Offline
+date_first_registered,2015-12-07T22:31:13
+policy,"{u'id': u'671339ec-165b-44ab-a362-65f901feae04', u'name': u'Mac.MalwarePrevent+MemdefAlert'}"
+id,f111001f-3b61-481f-9ae3-aecb352667cb
+agent_version,1.2.1330
+name,RT-NAV
+ip_addresses,[192.168.14.137]
+mac_addresses,[00-0C-29-81-51-20]
+state,Offline
+date_first_registered,2015-12-07T01:26:07
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,ac841413-3eec-47dd-b4c4-6d701ebdd2bb
+agent_version,1.2.1320
+name,PROTECTDEMO
+ip_addresses,[192.168.159.130]
+mac_addresses,[00-0C-29-D7-40-C7]
+state,Offline
+date_first_registered,2015-12-03T19:37:49
+policy,"{u'id': u'743352e5-db20-4a3e-8fd3-29dd2c94b35e', u'name': u'Quinn AQT MP FW Script '}"
+id,6bf66fd5-c377-4d5d-8601-c133550fb5d3
+agent_version,1.2.1370
+name,RT-NAV
+ip_addresses,[192.168.241.128]
+mac_addresses,[00-0C-29-96-5A-8C]
+state,Offline
+date_first_registered,2015-12-01T01:37:12
+policy,"{u'id': u'89255cb8-132b-4b7c-b26d-eb43bdf9f054', u'name': u'RT- Block All'}"
+id,1553e7ca-de08-4269-a201-e9f46527bdee
+agent_version,1.2.1320
+name,RT-TOOLS
+ip_addresses,[10.0.2.15]
+mac_addresses,[08-00-27-19-22-80]
+state,Offline
+date_first_registered,2015-12-01T01:18:50
+policy,"{u'id': u'f90860ca-dee8-493d-8873-7e82e70074f1', u'name': u'RT-Tools'}"
+id,9f68d1d4-f288-482f-9799-91e75ab30874
+agent_version,1.2.1320
+name,RT-VICTIM4
+ip_addresses,[192.168.241.133]
+mac_addresses,[00-0C-29-A2-4F-33]
+state,Offline
+date_first_registered,2015-12-01T01:18:33
+policy,"{u'id': u'89255cb8-132b-4b7c-b26d-eb43bdf9f054', u'name': u'RT- Block All'}"
+id,dbe495ab-ed38-4667-8edd-6f8e9032a8de
+agent_version,1.2.1330
+name,RT-TESTVM5
+ip_addresses,[192.168.241.153]
+mac_addresses,[00-0C-29-3F-C5-82]
+state,Offline
+date_first_registered,2015-12-01T01:18:19
+policy,"{u'id': u'd2fcfd49-968d-4268-ab18-e3a119d4c8aa', u'name': u'RT-Block no FW'}"
+id,81f68377-82f3-4b60-b3e4-0aeea96e584e
+agent_version,1.2.1330
+name,AJNT-HP
+ip_addresses,[192.168.255.94]
+mac_addresses,[68-5D-43-A4-89-CC]
+state,Offline
+date_first_registered,2015-11-26T04:49:06
+policy,"{u'id': u'a170c31e-058f-478a-8546-90c7db0cbc7b', u'name': u'TMusersPolicy'}"
+id,23b0e476-cb60-43f4-9aa8-804d6764dfb0
+agent_version,1.2.1320
+name,R2-85D858B5A74D
+ip_addresses,[192.168.220.155]
+mac_addresses,[00-0C-29-99-8B-06]
+state,Offline
+date_first_registered,2015-11-25T21:16:23
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,c604a9c2-dd02-4c91-b52f-117035c86095
+agent_version,1.2.1320
+name,NICI_TOWER
+ip_addresses,[10.4.20.155]
+mac_addresses,[44-37-E6-DA-9E-4C]
+state,Offline
+date_first_registered,2015-11-21T21:37:22
+policy,"{u'id': u'51e69d7a-0ad5-4270-a15c-d98169940e87', u'name': u'Ryan W Prod'}"
+id,b15e8df4-1301-410d-b74e-3516ce3677f3
+agent_version,2.0.1470
+name,AX-CYLANCE-DEMO
+ip_addresses,"[::1, 10.50.50.10, 192.168.73.137]"
+mac_addresses,"[00-0C-29-BD-F4-9C, 00-0C-29-BD-F4-A6]"
+state,Offline
+date_first_registered,2015-11-09T17:21:58
+policy,"{u'id': u'5f569c65-69dc-4f5b-a48b-c821a34a553f', u'name': u'0-AX-PC'}"
+id,0f66e8df-d98f-43cc-b8e9-c26323bb2910
+agent_version,1.2.1418
+name,TITAN
+ip_addresses,"[192.168.1.173, 2001:0:4137:9E76:CB5:2BF9:9F0E:7477]"
+mac_addresses,[60-57-18-1D-6C-DA]
+state,Offline
+date_first_registered,2015-11-06T19:51:00
+policy,"{u'id': u'782dd456-6735-43d1-8068-6efc8789f8b8', u'name': u'0-AX-P'}"
+id,43d10c05-37a0-466d-a8ed-ba6bba8f9620
+agent_version,1.2.1400
+name,DT-MacbookPro
+ip_addresses,[192.168.255.95]
+mac_addresses,"[A2-E8-ED-4B-D3-F8, AC-BC-32-9D-B7-1F]"
+state,Offline
+date_first_registered,2015-10-24T08:08:51
+policy,"{u'id': u'c194be9b-64b2-4087-89a5-9140ac94c351', u'name': u'TechMarketing'}"
+id,fa17c85c-f406-486f-bfde-4d8e2bed7671
+agent_version,1.2.1310
+name,Bryan’s MacBook Pro
+ip_addresses,[10.180.179.227]
+mac_addresses,"[86-A8-49-63-BB-6F, A4-5E-60-D0-58-F7]"
+state,Offline
+date_first_registered,2015-10-16T19:41:19
+policy,"{u'id': u'293ecf05-bec6-414c-9e9a-714b2ab8e0c8', u'name': u'Bryan'}"
+id,fa824e23-cd3a-4e1b-9694-ed5fce23bf7c
+agent_version,1.2.1310
+name,BG-MKT-NDZ52
+ip_addresses,"[::1, 127.0.0.1]"
+mac_addresses,[94-65-9C-3E-1A-ED]
+state,Offline
+date_first_registered,2015-10-14T23:47:07
+policy,"{u'id': u'293ecf05-bec6-414c-9e9a-714b2ab8e0c8', u'name': u'Bryan'}"
+id,874aad93-40a9-4f4c-8fdc-ddc5eb02019c
+agent_version,1.2.1310
+name,Nicole’s iMac
+ip_addresses,"[192.168.0.17, 192.168.0.6]"
+mac_addresses,"[3C-07-54-69-98-72, 7C-C3-A1-9D-EE-44]"
+state,Offline
+date_first_registered,2015-10-13T01:53:49
+policy,"{u'id': u'671339ec-165b-44ab-a362-65f901feae04', u'name': u'Mac.MalwarePrevent+MemdefAlert'}"
+id,35b1cb24-80d2-49cc-8b75-b3bc079fc2c9
+agent_version,1.2.1310
+name,DTECHMAN
+ip_addresses,"[10.10.17.182, 2001:0:4137:9E76:14CC:5578:D99E:800E]"
+mac_addresses,[28-18-78-D3-8D-97]
+state,Offline
+date_first_registered,2015-10-07T14:12:26
+policy,"{u'id': u'c194be9b-64b2-4087-89a5-9140ac94c351', u'name': u'TechMarketing'}"
+id,cc38f396-ee8d-4cdd-a4ef-58543dc92f96
+agent_version,1.2.1310
+name,RAT1
+ip_addresses,"[10.4.18.21, 2001:0:338C:2B9F:3019:A4AC:388D:1897]"
+mac_addresses,[00-25-90-AC-88-04]
+state,Offline
+date_first_registered,2015-09-24T20:45:30
+policy,"{u'id': u'51e69d7a-0ad5-4270-a15c-d98169940e87', u'name': u'Ryan W Prod'}"
+id,2921eddd-e7f9-4f3a-b150-bbb2929995df
+agent_version,1.2.1350
+name,CY
+ip_addresses,"[192.168.102.130, 2001:0000:5CF2:8C15:389C:0416:3F57:997D]"
+mac_addresses,[00-0C-29-50-8E-22]
+state,Offline
+date_first_registered,2015-09-24T12:18:47
+policy,"{u'id': u'4ebc5509-ccee-47b6-a590-29ba9197a523', u'name': u'Xenos - Full'}"
+id,3797e0ab-5be1-4b85-856e-b501885dfae6
+agent_version,1.1.1270
+name,DEPLOY_TEST_1
+ip_addresses,[192.168.159.138]
+mac_addresses,[00-0C-29-1B-91-35]
+state,Offline
+date_first_registered,2015-09-23T04:59:55
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,9af72d49-ef34-4203-a108-03614689a780
+agent_version,1.2.1310
+name,RW-SE-3NZ52
+ip_addresses,"[10.4.21.112, 2001:0:9D38:6AB8:20CD:995B:388D:1897]"
+mac_addresses,[20-47-47-C4-6B-CD]
+state,Offline
+date_first_registered,2015-09-22T15:23:48
+policy,"{u'id': u'51e69d7a-0ad5-4270-a15c-d98169940e87', u'name': u'Ryan W Prod'}"
+id,a4eba755-c475-4e03-9d19-4c9736206795
+agent_version,1.2.1380
+name,RW-SURFACEPRO
+ip_addresses,"[192.168.43.225, 2600:380:7754:EF50:18EC:4EEA:28CD:B62F, 2600:380:7754:EF50:E880:C509:A0C0:7BE8]"
+mac_addresses,[60-45-BD-CC-AE-32]
+state,Offline
+date_first_registered,2015-09-21T17:04:59
+policy,"{u'id': u'51e69d7a-0ad5-4270-a15c-d98169940e87', u'name': u'Ryan W Prod'}"
+id,42197ef3-d980-43fe-825f-a1e2dd98c522
+agent_version,2.0.1450
+name,RW_LENOVO_TOWER
+ip_addresses,[10.4.18.99]
+mac_addresses,[D0-27-88-90-32-FF]
+state,Offline
+date_first_registered,2015-09-19T19:14:20
+policy,"{u'id': u'51e69d7a-0ad5-4270-a15c-d98169940e87', u'name': u'Ryan W Prod'}"
+id,eaebadb5-57dc-4c5d-96f5-af527f02df20
+agent_version,1.2.1400
+name,OUTLOOK
+ip_addresses,"[192.168.1.169, 2001:0:5CF2:8C15:1857:A5A:3F57:FE56]"
+mac_addresses,[20-10-7A-3C-42-E6]
+state,Offline
+date_first_registered,2015-09-16T11:48:54
+policy,"{u'id': u'0bf5d247-ff09-4653-8153-8af6c895e590', u'name': u'Default'}"
+id,c5f158cd-51f0-430f-a973-a99be81ccae6
+agent_version,1.2.1310
+name,KH-PROTECTDEMO
+ip_addresses,"[192.168.159.149, 2001:0:9D38:6AB8:246C:1974:3F57:606A]"
+mac_addresses,[00-0C-29-D7-B3-42]
+state,Offline
+date_first_registered,2015-09-15T03:50:10
+policy,"{u'id': u'cb906a1e-43d0-40d2-b615-f688d64d128e', u'name': u'KrisLab2-Audit Only'}"
+id,6ac0d079-42e9-49f2-bf83-51b7a30b704e
+agent_version,2.0.1430
+name,KH-STAGING
+ip_addresses,[192.168.159.152]
+mac_addresses,[00-0C-29-E0-3B-72]
+state,Offline
+date_first_registered,2015-09-15T03:47:08
+policy,"{u'id': u'cb906a1e-43d0-40d2-b615-f688d64d128e', u'name': u'KrisLab2-Audit Only'}"
+id,3d262d60-c574-4bee-b7cb-ab72244ca26e
+agent_version,2.0.1470
+name,TOUR-STAGING
+ip_addresses,[192.168.248.129]
+mac_addresses,[00-0C-29-FC-35-F3]
+state,Offline
+date_first_registered,2015-09-11T20:54:11
+policy,"{u'id': u'532e688c-47cf-47b5-912f-20d7857e0739', u'name': u'Staging-DoNotCHANGE!'}"
+id,3fdf2efa-a400-454e-b759-5c37250db6af
+agent_version,1.2.1300
+name,MH-STAGING
+ip_addresses,"[169.254.4.110, 192.168.159.200]"
+mac_addresses,"[00-0C-29-46-C4-4D, 02-00-4C-4F-4F-50]"
+state,Offline
+date_first_registered,2015-09-11T04:50:48
+policy,"{u'id': u'0289fdfd-3464-4dd9-9218-5a7a75900552', u'name': u'MH-Staging'}"
+id,0bf19e88-2233-4648-8faa-476a8fd847b1
+agent_version,2.0.1480
+name,ROBERT-VM
+ip_addresses,"[::1, 10.50.50.21, 192.168.116.129]"
+mac_addresses,"[00-0C-29-6A-E2-F4, 00-0C-29-6A-E2-FE]"
+state,Offline
+date_first_registered,2015-08-24T15:49:37
+policy,"{u'id': u'1bd095d0-b3e3-4fa1-ad65-ce88cbb4253c', u'name': u'Roberts Policy 1'}"
+id,38277f43-0a25-4620-b2d0-142c9b4bfefa
+agent_version,1.2.1400
+name,PROTECT_WIN7X64
+ip_addresses,[192.168.150.128]
+mac_addresses,[00-0C-29-F6-95-69]
+state,Offline
+date_first_registered,2015-08-23T21:06:34
+policy,"{u'id': u'cb906a1e-43d0-40d2-b615-f688d64d128e', u'name': u'KrisLab2-Audit Only'}"
+id,a64ac283-171f-4f06-b757-1d8ef9f7ed87
+agent_version,1.2.1300
+name,GD-VM
+ip_addresses,"[192.168.241.156, 2001:0:4137:9E76:3C76:1A16:3F57:E63]"
+mac_addresses,[00-0C-29-B8-31-F5]
+state,Offline
+date_first_registered,2015-08-23T02:19:42
+policy,"{u'id': u'de41e248-2e42-4afa-8eb7-c674ed8b84d1', u'name': u'Gabe Lab'}"
+id,03bd5919-7982-4bd3-9069-ff4cab8fe6fe
+agent_version,2.0.1450

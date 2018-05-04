@@ -14,7 +14,10 @@ import requests  # requests version 2.18.4 as of the time of authoring
 from datetime import datetime, timedelta
 import os.path
 import csv
-import pandas
+import pandas as pd
+
+""" USE CASES """
+
 
 """ TODO LIST """
 """ Not checking a lot of input params, need to add that """
@@ -22,6 +25,12 @@ import pandas
 """ Search for TODO in the code """
 
 """ GLOBAL PARAMS """
+creds = {
+    "tenant": "",
+    "app_id": "",
+    "app_secret": "",
+    "region": ""
+}
 tenant = ""
 app_id = ""
 app_secret =""
@@ -56,35 +65,40 @@ PAGE_SIZE = 200
 
 def load_creds(file):
     # get saved creds if they exist
-    global tenant, app_id, app_secret, region
+    global creds, tenant, app_id, app_secret, region
     print "loading creds"
     # TODO don't hard code creds file, make this default but allow to override on CLI
-    file = open(file, "r")
-    creds = dict()
-    t = file.readline()
-    if t.split()[0] == "tenant":
-        tenant = t.split()[2]
-    i = file.readline()
-    if i.split()[0] == "app_id":
-        app_id = i.split()[2]
-    s = file.readline()
-    if s.split()[0] == "app_secret":
-        app_secret = s.split()[2]
-    r = file.readline()
-    if r.split()[0] == "region":
-        if len(r.split()) > 2:
-            region = r.split()[2]
-    file.close()
+    with open(file) as infile:
+        creds = json.load(infile)
+    #file = open(file, "r")
+    # creds = dict()
+    #t = file.readline()
+    #if t.split()[0] == "tenant":
+    #    tenant = t.split()[2]
+    #i = file.readline()
+    #if i.split()[0] == "app_id":
+    #    app_id = i.split()[2]
+    #s = file.readline()
+    #if s.split()[0] == "app_secret":
+    #    app_secret = s.split()[2]
+    #r = file.readline()
+    #if r.split()[0] == "region":
+    #    if len(r.split()) > 2:
+    #        region = r.split()[2]
+    #file.close()
 
-def save_creds():
+def save_creds(file=""):
     # save creds
-    global tenant, app_id, app_secret, region
-    file = open("PyCy.conf", "w")
-    file.write("tenant = " + tenant + "\n")
-    file.write("app_id = " + app_id + "\n")
-    file.write("app_secret = " + app_secret + "\n")
-    file.write("region = " + region + "\n")
-    file.close()
+    global creds, tenant, app_id, app_secret, region
+    if file == "":
+        file = "CyPy.json"
+    with open(file, "w") as out:
+        creds.json_dump(filei, out)
+    # file.write("tenant = " + tenant + "\n")
+    # file.write("app_id = " + app_id + "\n")
+    # file.write("app_secret = " + app_secret + "\n")
+    # file.write("region = " + region + "\n")
+    # file.close()
     print "saved creds"
 
 def set_creds(t, i, s, r=""):
@@ -126,52 +140,60 @@ def get_data(data_type, args=""):
     filters = ""
     fields = ""
     args_sections = args.split(" ")
-    # TODO - bug if file or fields are passed with no filter...
+    # TODO - bug if file and/or fields are passed with no filter...
     if len(args_sections) > 0:
         filters = args_sections[0]
     if len(args_sections) > 1:
         # Find fields and/or file
         a = args_sections[1].split("=")
         if a[0] == "fields":
-            fields = a[0].split(",")
+            fields = a[1]
         elif a[0] == "file":
             file = a[1]
     if len(args_sections) > 2:
         # Find fields and/or file
         a = args_sections[2].split("=")
         if a[0] == "fields":
-            fields = a[0].split(",")
+            fields = a[1]
         elif a[0] == "file":
             file = a[1]
     # Get 1st page of data
     r = requests.get(url + "?page_size=" + str(PAGE_SIZE), headers=device_headers)
     json_data = json.loads(r.text)
-    results = {'page_items':[]}
-    results['page_items'] = json_data['page_items']
+    rows = {'page_items':[]}
+    rows['page_items'] = json_data['page_items']
     # If there are multiple pages, go ahead and pull them in too
     pages = json_data['total_pages']
     if pages > 1:
         for x in range (2, pages + 1):
             r = requests.get(url + "?page_size=" + str(PAGE_SIZE) + "&page=" + str(x), headers=device_headers)
             json_data = json.loads(r.text)
-            results['page_items'] = results['page_items'] + json_data['page_items']
+            rows['page_items'] = rows['page_items'] + json_data['page_items']
+
+    # Use pandas dataframe to manipulate data
+    df = pd.DataFrame.from_dict(rows['page_items'])
+    print "#### DESCRIBE DATAFRAME ####"
+    print df.dtypes.index
 
     # If there are filters defined, run them
     if filters != "":
-        results = filter_data(results, filters)
+        df = filter_data(df, filters)
 
     # If desired fields are defined, run them
+    print " fields = " + fields
     if fields != "":
+        print "Fields defined, need to remove unwanted fields"
         #filter and order fields
         # TODO need to write field_data function
-        results = field_data(results, fields)
+        df = field_data(df, fields)
 
     # If an output file is defined, go ahead and write to file
     if file != "":
         # Write data to file based on extension
-        write_to_file(results, file)
+        write_to_file(rows, file)
 
-    return results
+    # return rows
+    return df
 
 def get_data_by_id(data_type, id, args=""):
     """ Gets data for a specific ID.  Data_types supported: USER, DEVICE, DEVICETHREATS, ZONEDEVICES, POLICY, ZONE, THREAT, THREATDEVICES, and THREATDOWNLOAD."""
@@ -235,27 +257,31 @@ def delete_data(data_type, id):
 
 def filter_data(data, filters):
     """Take a results set and match on all filters (i.e. AND not OR)"""
-    results = {'page_items':[]}
+    """This is currently case sensitive, need to move to regex or something to make it case insensitive"""
     filter = dict()
     f = filters.split(',')
     for token in f:
         pieces = token.split('=')
         filter[pieces[0]] = pieces[1]
-    for line in data['page_items']:
-        # to AND all the fields to filter on, we have to calculate how many fields are being tested, and if that many hits are found, then it is a valid match
-        hits = 0
-        bar = len(filter)
-        for key,val in filter.items():
-            if filter[key].lower() in line[key].lower():
-                print "  found " + filter[key] + " in " + line[key]
-                hits += 1
-        if hits == bar:
-            results['page_items'] = results['page_items'] + line.items()
-    return results
+    for key,val in filter.items():
+        print " key = " + key + " val = " + val
+        data = data[data[key].str.contains(val)]
+    return data
 
-def field_data(results, fields):
+def field_data(data, fields):
     """Strip data down to just fields requested and in the order requested"""
-    return results
+    all_fields = data.columns.values.tolist()
+    target_fields = fields.split(",")
+    target_field_count = len(fields)
+    for col in all_fields:
+        bar = 0
+        for field in target_fields:
+            if col == field:
+              bar += 1
+        if bar < 1:
+            data.pop(col)
+
+    return data
 
 def write_to_file(results, filename):
     """"Write the results to file based on extension"""
@@ -267,7 +293,7 @@ def write_to_file(results, filename):
         # Need to flatten this data out, nested attributes mess up dumping to csv.  Need to format or strip fields that comtain hashes not strings
         df = pandas.DataFrame.from_dict(results['page_items'])
         out = open(filename, 'w')
-        df.to_csv(out)
+        df.to_csv(out, header=True, index=False, encoding='utf-8')
         # TODO this is broken, not parsing json format (nesting) correctly or something
         #with open(filename, 'w') as outfile:
         #    csvwriter = csv.writer(outfile)
