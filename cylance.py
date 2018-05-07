@@ -67,25 +67,8 @@ def load_creds(file):
     # get saved creds if they exist
     global creds, tenant, app_id, app_secret, region
     print "loading creds"
-    # TODO don't hard code creds file, make this default but allow to override on CLI
     with open(file) as infile:
         creds = json.load(infile)
-    #file = open(file, "r")
-    # creds = dict()
-    #t = file.readline()
-    #if t.split()[0] == "tenant":
-    #    tenant = t.split()[2]
-    #i = file.readline()
-    #if i.split()[0] == "app_id":
-    #    app_id = i.split()[2]
-    #s = file.readline()
-    #if s.split()[0] == "app_secret":
-    #    app_secret = s.split()[2]
-    #r = file.readline()
-    #if r.split()[0] == "region":
-    #    if len(r.split()) > 2:
-    #        region = r.split()[2]
-    #file.close()
 
 def save_creds(file=""):
     # save creds
@@ -94,12 +77,6 @@ def save_creds(file=""):
         file = "CyPy.json"
     with open(file, "w") as out:
         creds.json_dump(filei, out)
-    # file.write("tenant = " + tenant + "\n")
-    # file.write("app_id = " + app_id + "\n")
-    # file.write("app_secret = " + app_secret + "\n")
-    # file.write("region = " + region + "\n")
-    # file.close()
-    print "saved creds"
 
 def set_creds(t, i, s, r=""):
     global tenant, app_id, app_secret, region
@@ -184,13 +161,12 @@ def get_data(data_type, args=""):
     if fields != "":
         print "Fields defined, need to remove unwanted fields"
         #filter and order fields
-        # TODO need to write field_data function
         df = field_data(df, fields)
 
     # If an output file is defined, go ahead and write to file
     if file != "":
         # Write data to file based on extension
-        write_to_file(rows, file)
+        write_to_file(df, file)
 
     # return rows
     return df
@@ -266,6 +242,9 @@ def filter_data(data, filters):
     for key,val in filter.items():
         print " key = " + key + " val = " + val
         data = data[data[key].str.contains(val)]
+    # put fields in the order they were asked for
+    #field_order = filter.items()
+    #data = data[field_order]
     return data
 
 def field_data(data, fields):
@@ -275,6 +254,7 @@ def field_data(data, fields):
     target_field_count = len(fields)
     for col in all_fields:
         bar = 0
+        # go through all target fields and delete the column if no matches
         for field in target_fields:
             if col == field:
               bar += 1
@@ -283,31 +263,17 @@ def field_data(data, fields):
 
     return data
 
-def write_to_file(results, filename):
+def write_to_file(data, filename):
     """"Write the results to file based on extension"""
     ext = os.path.splitext(filename)[1][1:].strip().lower() 
     if ext == "json":
         with open(filename, 'w') as outfile:
-            json.dump(results, outfile)        
+            outfile.write(data.to_json(orient='records', lines=True))
     if ext == "csv":
-        # Need to flatten this data out, nested attributes mess up dumping to csv.  Need to format or strip fields that comtain hashes not strings
-        df = pandas.DataFrame.from_dict(results['page_items'])
+        # Need to flatten this data out, nested attributes mess up dumping to csv.  Need to format or strip fields that contain hashes not strings
         out = open(filename, 'w')
-        df.to_csv(out, header=True, index=False, encoding='utf-8')
-        # TODO this is broken, not parsing json format (nesting) correctly or something
-        #with open(filename, 'w') as outfile:
-        #    csvwriter = csv.writer(outfile)
-        #    count = 0
-        #    data = results['page_items']
-        #    for line in data:
-        #        print line
-        #        if count == 0:
-        #            header = line.keys()
-        #            csvwriter.writerow(header)        
-        #            count += 1
-        #            outfile.close()
-        #        csvwriter.writerow(line.values())
-        #outfile.close()
+        data.to_csv(out, header=True, index=False, encoding='utf-8')
+        out.close()
         """ Should return success or failure"""
 
 def get_token():
@@ -337,8 +303,6 @@ def get_token():
     encoded = jwt.encode(claims, app_secret, algorithm='HS256')
     payload = {"auth_token": encoded}
     headers = {"Content-Type": "application/json; charset=utf-8"}
-    # print "tenant: " + tid_val + " app_id: " + app_id + " app_secret: " + app_secret
-    # print "url:    " + URLS['BASE_URL'] + region + URLS['AUTH_URL']
     resp = requests.post(URLS['BASE_URL'] + region + URLS['AUTH_URL'], headers=headers, data=json.dumps(payload))
     auth_token = json.loads(resp.text)['access_token']  # access_token to be passed to GET request
     device_headers = {"Content-Type": "application/json; charset=utf-8", "Authorization": "Bearer " + str(auth_token)}
