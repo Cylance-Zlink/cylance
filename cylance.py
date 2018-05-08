@@ -31,9 +31,9 @@ creds = {
     "app_secret": "",
     "region": ""
 }
-tenant = ""
-app_id = ""
-app_secret =""
+#tenant = ""
+#app_id = ""
+#app_secret =""
 auth_token = ""
 device_headers = {"Content-Type": "application/json; charset=utf-8", "Authorization": "Bearer " + str(auth_token)}
 timeout_datetime = datetime.utcnow()
@@ -65,28 +65,30 @@ PAGE_SIZE = 200
 
 def load_creds(file):
     # get saved creds if they exist
-    global creds, tenant, app_id, app_secret, region
+    global creds
     print "loading creds"
     with open(file) as infile:
         creds = json.load(infile)
 
 def save_creds(file=""):
     # save creds
-    global creds, tenant, app_id, app_secret, region
+    # TODO: retuen success or fail
+    global creds
     if file == "":
-        file = "CyPy.json"
+        file = "config.json"
     with open(file, "w") as out:
-        creds.json_dump(filei, out)
+        json.dump(creds, out)
+    out.close()
+    os.chmod(file, 0o600)
 
-def set_creds(t, i, s, r=""):
-    global tenant, app_id, app_secret, region
-    tenant = t
-    app_id = i
-    app_secret = s
-    region = r
+def set_creds(tenant, app_id, app_secret, region=""):
+    global creds
+    creds['tenant'] = tenant
+    creds['app_id'] = app_id
+    creds['app_secret'] = app_secret
+    creds['region'] = region
     if tenant == "":
-        load_creds("CyPy.conf")
-    # print "t: " + tenant + ", " + app_id + ", " + app_secret
+        load_creds("config.json")
 
 def get_regions():
     return regions.keys()
@@ -97,7 +99,7 @@ def get_region():
 
 def set_region(reg):
     global region
-    region = regions[reg]
+    creds['region'] = regions[reg]
 
 def get_data(data_type, args=""):
     """Pull data from console (all bulk gets)"""
@@ -110,7 +112,7 @@ def get_data(data_type, args=""):
     if timeout_datetime < datetime.utcnow():  # need to auth/re-auth
         auth_token = get_token()
     # Build URL from function and region
-    url = URLS['BASE_URL'] + region + URLS[data_type]
+    url = URLS['BASE_URL'] + creds['region'] + URLS[data_type]
 
     # function variables
     file = ""
@@ -180,13 +182,13 @@ def get_data_by_id(data_type, id, args=""):
         auth_token = get_token()
     # Build URL from function and region
     if data_type in { 'USER', 'DEVICE', 'POLICY', 'ZONE', 'THREAT' }:
-        url = URLS['BASE_URL'] + region + URLS[data_type] + "/" + id
+        url = URLS['BASE_URL'] + creds['region'] + URLS[data_type] + "/" + id
     elif data_type in { 'ZONEDEVICES', 'THREATDEVICES' }:
-        url = URLS['BASE_URL'] + region + URLS[data_type] + "/" + id + "/devices?page=1&page_size=" + str(PAGE_SIZE)
+        url = URLS['BASE_URL'] + creds['region'] + URLS[data_type] + "/" + id + "/devices?page=1&page_size=" + str(PAGE_SIZE)
     elif data_type == "DEVICETHREATS":
-        url = URLS['BASE_URL'] + region + URLS[data_type] + "/" + id + "/threats?page=1&page_size=" + str(PAGE_SIZE)
+        url = URLS['BASE_URL'] + creds['region'] + URLS[data_type] + "/" + id + "/threats?page=1&page_size=" + str(PAGE_SIZE)
     # elif data_type == "THREATDOWNLOAD":
-    #    url = URLS['BASE_URL'] + region + URLS[data_type] + "/" + id + "/threats?page=1&page_size=" + str(PAGE_SIZE)
+    #    url = URLS['BASE_URL'] + creds['region'] + URLS[data_type] + "/" + id + "/threats?page=1&page_size=" + str(PAGE_SIZE)
         
     r = requests.get(url, headers=device_headers)
     # TODO need to support multi page responses like in get_data()
@@ -278,7 +280,7 @@ def write_to_file(data, filename):
 
 def get_token():
     # get jwt token
-    global tenant, app_id, app_secret, region, auth_token, device_headers
+    global creds, auth_token, device_headers
     global timeout_datetime
     timeout = 1800  # 30 minutes from now
     now = datetime.utcnow()
@@ -286,9 +288,9 @@ def get_token():
     epoch_time = int((now - datetime(1970, 1, 1)).total_seconds())
     epoch_timeout = int((timeout_datetime - datetime(1970, 1, 1)).total_seconds())
     jti_val = str(uuid.uuid4())
-    tid_val = tenant
-    app_id = app_id
-    app_secret = app_secret
+    tid_val = creds['tenant']
+    app_id = creds['app_id']
+    app_secret = creds['app_secret']
     claims = {
         "exp": epoch_timeout,
         "iat": epoch_time,
