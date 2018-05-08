@@ -174,28 +174,28 @@ def get_data(data_type, args=""):
     return df
 
 def get_data_by_id(data_type, id, args=""):
-    """ Gets data for a specific ID.  Data_types supported: USER, DEVICE, DEVICETHREATS, ZONEDEVICES, POLICY, ZONE, THREAT, THREATDEVICES, and THREATDOWNLOAD."""
+    """ Gets data for a specific ID.  Data_types supported: USERS, DEVICES, DEVICETHREATS, ZONEDEVICES, POLICIES, ZONES, THREATS, THREATDEVICES, and THREATDOWNLOADS."""
     """ standard args for filtering, fields and file output"""
     """ First check if auth token is about to expire and refresh if necessary """
     global auth_token, device_headers
     if timeout_datetime < datetime.utcnow():  # need to auth/re-auth
         auth_token = get_token()
     # Build URL from function and region
-    if data_type in { 'USER', 'DEVICE', 'POLICY', 'ZONE', 'THREAT' }:
+    if data_type in { 'USERS', 'DEVICES', 'POLICIES', 'ZONES', 'THREATS' }:
         url = URLS['BASE_URL'] + creds['region'] + URLS[data_type] + "/" + id
     elif data_type in { 'ZONEDEVICES', 'THREATDEVICES' }:
         url = URLS['BASE_URL'] + creds['region'] + URLS[data_type] + "/" + id + "/devices?page=1&page_size=" + str(PAGE_SIZE)
     elif data_type == "DEVICETHREATS":
         url = URLS['BASE_URL'] + creds['region'] + URLS[data_type] + "/" + id + "/threats?page=1&page_size=" + str(PAGE_SIZE)
-    # elif data_type == "THREATDOWNLOAD":
+    # elif data_type == "THREATDOWNLOADS":
     #    url = URLS['BASE_URL'] + creds['region'] + URLS[data_type] + "/" + id + "/threats?page=1&page_size=" + str(PAGE_SIZE)
         
     r = requests.get(url, headers=device_headers)
-    # TODO need to support multi page responses like in get_data()
+    # TODO need to support multi page responses like in get_data() ?  Not sure there are multi-page results, validate need first
     json_data = json.loads(r.text)
-    results = json_data['page_items']
+    df = pd.DataFrame.from_dict(json_data, orient='index')
 
-    return results
+    return df
 
 def update_data(data_type, id, data):
     """Update an entity. Supports USER, DEVICE, POLICY."""
@@ -243,10 +243,7 @@ def filter_data(data, filters):
         filter[pieces[0]] = pieces[1]
     for key,val in filter.items():
         print " key = " + key + " val = " + val
-        data = data[data[key].str.contains(val)]
-    # put fields in the order they were asked for
-    #field_order = filter.items()
-    #data = data[field_order]
+        data = data[data[key].str.contains(val, case=False)]
     return data
 
 def field_data(data, fields):

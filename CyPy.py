@@ -42,9 +42,19 @@ class MyPrompt(Cmd):
         """Get all Users.\nOptions:\n  email=<string> (contains <string>)\n  first_name=<string>\n  last_name=<string>\n  has_logged_in=<True|False>\n  user_role=<role> (e.g. Administrator is 00000000-0000-0000-0000-000000000002)\n  date_last_login=<date> (e.g.  2018-01- for Jan 2018)\n  date_email_confirmed=<date> (e.g.  2018-01- for Jan 2018)\n  date_created=<date> (e.g.  2018-01- for Jan 2018)\n  date_modified=<date> (e.g.  2018-01- for Jan 2018)\n  out <filename> (suports .json and .csv)\nOptions should be in the format: <field1>=<value1>,<field2>=<value2>,etc"""
         print cylance.get_data("USERS", args)
 
+    def do_getUser(self, args):
+        """Get User by ID.\n getUser id=<id> or getUser email=<email address>"""
+        fields = args.split("=")
+        print cylance.get_data_by_id("USERS", fields[1])
+
     def do_getDevices(self, args):
         """Get all Devices.\nOptions:\n  name=<string> (i.e. name contains <string>)\n  date_first_registered=<date> (e.g.  2018-01- for Jan 2018)\n  id=<devicce id>\n  version=<version>\n  state=<Online|Offline>\n  out=<filename> (suports .json and .csv)"""
         print cylance.get_data("DEVICES", args)
+
+    def do_getDevice(self, args):
+        """Get Device by ID.\n getDevice id=<id>\n"""
+        fields = args.split("=")
+        print cylance.get_data_by_id("DEVICES", fields[1])
 
     def do_getPolicies(self, args):
         """Get all Policies.\nOptions:\n  name=<string> (i.e. name contains <string>)\n  <field2=XXX>\n  <field3=YYY>\n  <field4=ZZZ>\n  out=<filename> (suports .json and .csv)"""
