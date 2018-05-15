@@ -105,7 +105,7 @@ def get_data(data_type, args=""):
     """Pull data from console (all bulk gets)"""
     """args come in the form of:"""
     """  <filter1=value,filterN=value> <fields=field1,fieldN> <out=outputfile.json|.csv> """
-    """  e.g. filter1=aaa,filter2=bbb fields=email,first_name,last_name file=users.csv"""
+    """  e.g. filter1=aaa,filter2=bbb fields=email,first_name,last_name out=users.csv"""
 
     """ First check if auth token is about to expire and refresh if necessary """
     global auth_token, device_headers
@@ -223,7 +223,7 @@ def delete_data(data_type, id):
     if timeout_datetime < datetime.utcnow():  # need to auth/re-auth
         auth_token = get_token()
     # Build URL from function and region
-    if data_type in { 'USER', 'DEVICE', 'POLICY', 'ZONE' }:
+    if data_type in { 'USERS', 'DEVICES', 'POLICY', 'ZONE' }:
         url = URLS['BASE_URL'] + region + URLS[data_type] + "/" + id
     else: 
         return "bad data_type: " + data_type + " for delete_data"

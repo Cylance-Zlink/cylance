@@ -47,6 +47,19 @@ class MyPrompt(Cmd):
         fields = args.split("=")
         print cylance.get_data_by_id("USERS", fields[1])
 
+    def do_deleteUser(self, args):
+        """Delete User by ID.\n deleteUser id=XXX\n deleteUser in=users.csv"""
+        print "deleteUser " + args
+        fields = args.split("=")
+        print "0 = " + fields[0] + " 1 = " + fields[1]
+        if fields[0] == 'in':
+            with open(fields[1]) as f:
+                line = f.readlines().strip()
+                if len(lines) == 36:
+                    print cylance.delete_data("USER", line)
+        elif fields[0] == 'id':
+            print cylance.delete_data("USERS", args)
+
     def do_getDevices(self, args):
         """Get all Devices.\nOptions:\n  name=<string> (i.e. name contains <string>)\n  date_first_registered=<date> (e.g.  2018-01- for Jan 2018)\n  id=<devicce id>\n  version=<version>\n  state=<Online|Offline>\n  out=<filename> (suports .json and .csv)"""
         print cylance.get_data("DEVICES", args)
