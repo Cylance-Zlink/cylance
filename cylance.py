@@ -104,7 +104,7 @@ def set_region(reg):
 def get_data(data_type, args=""):
     """Pull data from console (all bulk gets)"""
     """args come in the form of:"""
-    """  <filter1=value,filterN=value> <fields=field1,fieldN> <file=outputfile.json|.csv> """
+    """  <filter1=value,filterN=value> <fields=field1,fieldN> <out=outputfile.json|.csv> """
     """  e.g. filter1=aaa,filter2=bbb fields=email,first_name,last_name file=users.csv"""
 
     """ First check if auth token is about to expire and refresh if necessary """
@@ -127,14 +127,14 @@ def get_data(data_type, args=""):
         a = args_sections[1].split("=")
         if a[0] == "fields":
             fields = a[1]
-        elif a[0] == "file":
+        elif a[0] == "out":
             file = a[1]
     if len(args_sections) > 2:
         # Find fields and/or file
         a = args_sections[2].split("=")
         if a[0] == "fields":
             fields = a[1]
-        elif a[0] == "file":
+        elif a[0] == "out":
             file = a[1]
     # Get 1st page of data
     r = requests.get(url + "?page_size=" + str(PAGE_SIZE), headers=device_headers)
@@ -166,6 +166,7 @@ def get_data(data_type, args=""):
         df = field_data(df, fields)
 
     # If an output file is defined, go ahead and write to file
+    print " filename = " + file
     if file != "":
         # Write data to file based on extension
         write_to_file(df, file)
@@ -259,11 +260,11 @@ def field_data(data, fields):
               bar += 1
         if bar < 1:
             data.pop(col)
-
     return data
 
 def write_to_file(data, filename):
     """"Write the results to file based on extension"""
+    print "writing to " + filename
     ext = os.path.splitext(filename)[1][1:].strip().lower() 
     if ext == "json":
         with open(filename, 'w') as outfile:
