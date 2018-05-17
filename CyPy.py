@@ -60,6 +60,13 @@ class MyPrompt(Cmd):
         elif fields[0] == 'id':
             print cylance.delete_data("USERS", args)
 
+    def do_updateUser(self, args):
+        """Update User by ID.\n updateUser id=XXX in=user.json"""
+        all_args = args.split()
+        id_k,id_v = all_args[0].split("=")
+        print "updating user id = " + id_v
+        print cylance.update_data("USERS", all_args[0], all_args[1])
+
     def do_getDevices(self, args):
         """Get all Devices.\nOptions:\n  name=<string> (i.e. name contains <string>)\n  date_first_registered=<date> (e.g.  2018-01- for Jan 2018)\n  id=<devicce id>\n  version=<version>\n  state=<Online|Offline>\n  out=<filename> (suports .json and .csv)"""
         print cylance.get_data("DEVICES", args)

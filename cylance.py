@@ -195,7 +195,6 @@ def get_data_by_id(data_type, id, args=""):
     # TODO need to support multi page responses like in get_data() ?  Not sure there are multi-page results, validate need first
     json_data = json.loads(r.text)
     df = pd.DataFrame.from_dict(json_data, orient='index')
-
     return df
 
 def update_data(data_type, id, data):
@@ -206,15 +205,21 @@ def update_data(data_type, id, data):
     if timeout_datetime < datetime.utcnow():  # need to auth/re-auth
         auth_token = get_token()
     # Build URL from function and region
-    if data_type in { 'USER', 'DEVICE', 'POLICY', 'ZONE' }:
+    if data_type in { 'USERS', 'DEVICES', 'POLICIES', 'ZONES' }:
         url = URLS['BASE_URL'] + region + URLS[data_type] + "/" + id
     else:
         return "bad data_type: " + data_type + " for update_data"
-    r = requests.put(url, header=device_headers)
-    if r.code == "200":
+    # if data is an input file, slurp that in
+    print data
+    if data.startswith("in="):
+        file = data.split("=")[1]
+        with open(file) as infile:
+            data = json.load(infile)
+    r = requests.put(url, data=data, headers=device_headers)
+    if r.status_code == "200":
         return "success"
     else:
-        return "failed"
+        return "failed" + r.text
 
 def delete_data(data_type, id):
     """delete an entity by id.  Supported data_types are USER, DEVICE, POLICY, ZONE"""
