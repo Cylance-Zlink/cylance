@@ -3,3 +3,5 @@
 *.json
 *.csv
 .DS_Store
+*.log
+

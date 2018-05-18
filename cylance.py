@@ -15,6 +15,7 @@ from datetime import datetime, timedelta
 import os.path
 import csv
 import pandas as pd
+import logging
 
 """ USE CASES """
 
@@ -25,15 +26,18 @@ import pandas as pd
 """ Search for TODO in the code """
 
 """ GLOBAL PARAMS """
+# LOG PARAMS
+LOG_FILE = "cylance_api.log"
+# Logging level, can be CRITICAL, ERROR, WARNING, INFO, DEBUG
+LOG_LEVEL = logging.DEBUG
+logging.basicConfig(filename=LOG_FILE,level=LOG_LEVEL)
+
 creds = {
     "tenant": "",
     "app_id": "",
     "app_secret": "",
     "region": ""
 }
-#tenant = ""
-#app_id = ""
-#app_secret =""
 auth_token = ""
 device_headers = {"Content-Type": "application/json; charset=utf-8", "Authorization": "Bearer " + str(auth_token)}
 timeout_datetime = datetime.utcnow()
@@ -72,14 +76,16 @@ FIELD_UPDATE_MAP = {
 def load_creds(file):
     # get saved creds if they exist
     global creds
-    # print "loading creds"
+    logging.info("loading creds")
     with open(file) as infile:
         creds = json.load(infile)
+    # TODO: return success or failure
 
 def save_creds(file=""):
     # save creds
     # TODO: retuen success or fail
     global creds
+    logging.info("saving creds to: " + file)
     if file == "":
         file = "config.json"
     with open(file, "w") as out:
@@ -118,9 +124,11 @@ def get_data(data_type, args=""):
     if creds['tenant'] == "":
         return "Authorization credentials not set"
     if timeout_datetime < datetime.utcnow():  # need to auth/re-auth
+        logging.info("timeout exceeded, need to renew auth token")
         auth_token = get_token()
     # Build URL from function and region
     url = URLS['BASE_URL'] + creds['region'] + URLS[data_type]
+    logging.debug("using URL: " + url)
 
     # function variables
     file = ""
@@ -128,6 +136,7 @@ def get_data(data_type, args=""):
     fields = ""
     args_sections = args.split(" ")
     # TODO - bug if file and/or fields are passed with no filter...
+    # this could be a lot cleaner, also rethink the syntax for passing variables to see if there is a better way
     if len(args_sections) > 0:
         filters = args_sections[0]
     if len(args_sections) > 1:
@@ -153,6 +162,7 @@ def get_data(data_type, args=""):
     # If there are multiple pages, go ahead and pull them in too
     pages = json_data['total_pages']
     if pages > 1:
+        logging.debug("getting more pages of results from: " + url)
         for x in range (2, pages + 1):
             r = requests.get(url + "?page_size=" + str(PAGE_SIZE) + "&page=" + str(x), headers=device_headers)
             json_data = json.loads(r.text)
@@ -165,22 +175,22 @@ def get_data(data_type, args=""):
 
     # If there are filters defined, run them
     if filters != "":
+        logging.debug("have filter: " + filters + " calling filter_data()")
         df = filter_data(df, filters)
 
     # If desired fields are defined, run them
     # print " fields = " + fields
     if fields != "":
-        # print "Fields defined, need to remove unwanted fields"
+        logging.debug("Fields defined, need to remove unwanted fields, calling field_data()")
         #filter and order fields
         df = field_data(df, fields)
 
     # If an output file is defined, go ahead and write to file
     # print " filename = " + file
     if file != "":
+        logging.info("write to file requested: " + file + ". Calling write_to_file()")
         # Write data to file based on extension
         write_to_file(df, file)
-
-    # return rows
     return df
 
 def get_data_by_id(data_type, id, args=""):
@@ -189,6 +199,7 @@ def get_data_by_id(data_type, id, args=""):
     """ First check if auth token is about to expire and refresh if necessary """
     global auth_token, device_headers
     if timeout_datetime < datetime.utcnow():  # need to auth/re-auth
+        logging.info("timeout exceeded, need to renew auth token")
         auth_token = get_token()
     # Build URL from function and region
     if data_type in { 'USERS', 'DEVICES', 'POLICIES', 'ZONES', 'THREATS' }:
@@ -212,6 +223,7 @@ def update_data(data_type, id, data):
     """ First check if auth token is about to expire and refresh if necessary """
     global auth_token, device_headers
     if timeout_datetime < datetime.utcnow():  # need to auth/re-auth
+        logging.info("timeout exceeded, need to renew auth token")
         auth_token = get_token()
     # Build URL from function and region
     if data_type in { 'USERS', 'DEVICES', 'POLICIES', 'ZONES' }:
@@ -246,6 +258,7 @@ def delete_data(data_type, id):
     """ First check if auth token is about to expire and refresh if necessary """
     global auth_token, device_headers
     if timeout_datetime < datetime.utcnow():  # need to auth/re-auth
+        logging.info("timeout exceeded, need to renew auth token")
         auth_token = get_token()
     # Build URL from function and region
     if data_type in { 'USERS', 'DEVICES', 'POLICY', 'ZONE' }:
