@@ -115,6 +115,8 @@ def get_data(data_type, args=""):
 
     """ First check if auth token is about to expire and refresh if necessary """
     global auth_token, device_headers
+    if creds['tenant'] == "":
+        return "Authorization credentials not set"
     if timeout_datetime < datetime.utcnow():  # need to auth/re-auth
         auth_token = get_token()
     # Build URL from function and region
@@ -272,6 +274,7 @@ def filter_data(data, filters):
 
 def field_data(data, fields):
     """Strip data down to just fields requested and in the order requested"""
+    # TODO: fields seem to be in arbitrary order, make sure they come out are in the order requested
     all_fields = data.columns.values.tolist()
     target_fields = fields.split(",")
     target_field_count = len(fields)
