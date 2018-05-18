@@ -224,8 +224,7 @@ def update_data(data_type, id, data):
             data = json.load(infile, 'utf-8')
     else:
         data = json.loads(data)
-    # Byteify() will convert all the unicode to utf-8
-    data = byteify(data)
+    data = convert_unicode_to_utf8(data)
     data_tobe_updated = {} 
     for f in FIELD_UPDATE_MAP[data_type]:
         if f in data:
@@ -300,12 +299,12 @@ def write_to_file(data, filename):
         out.close()
         """ Should return success or failure"""
 
-def byteify(input):
+def convert_unicode_to_utf8(input):
     if isinstance(input, dict):
-        return {byteify(key): byteify(value)
+        return {convert_unicode_to_utf8(key): convert_unicode_to_utf8(value)
                 for key, value in input.iteritems()}
     elif isinstance(input, list):
-        return [byteify(element) for element in input]
+        return [convert_unicode_to_utf8(element) for element in input]
     elif isinstance(input, unicode):
         return input.encode('utf-8')
     else:
