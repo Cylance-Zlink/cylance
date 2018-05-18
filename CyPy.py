@@ -22,9 +22,9 @@ class MyPrompt(Cmd):
     def do_auth(self, arg):
         """Set authentication credentials for cloud.  Shell automatically checks expiration and renews token periodically.  \nExample:\n auth <tenant> <app_id> <app_secret> [region suffix].  Region suffixes are -apne1, -au, -euc1, -us, -sae1"""
         args = arg.split()
-        print "len of args is " + str(len(args))
-        for x in args:
-            print x
+        #print "len of args is " + str(len(args))
+        # for x in args:
+        #    print x
         cylance.set_creds(*args)
 
     def do_saveConfig(self, arg):
@@ -57,9 +57,9 @@ class MyPrompt(Cmd):
 
     def do_deleteUser(self, args):
         """Delete User by ID.\n deleteUser id=XXX\n deleteUser in=users.csv"""
-        print "deleteUser " + args
+        # print "deleteUser " + args
         fields = args.split("=")
-        print "0 = " + fields[0] + " 1 = " + fields[1]
+        # print "0 = " + fields[0] + " 1 = " + fields[1]
         if fields[0] == 'in':
             with open(fields[1]) as f:
                 line = f.readlines().strip()
@@ -72,7 +72,7 @@ class MyPrompt(Cmd):
         """Update User by ID.\n updateUser id=XXX in=user.json"""
         all_args = args.split()
         id_k,id_v = all_args[0].split("=")
-        print "updating user id = " + id_v
+        # print "updating user id = " + id_v
         print cylance.update_data("USERS", all_args[0], all_args[1])
 
     def do_getDevices(self, args):
