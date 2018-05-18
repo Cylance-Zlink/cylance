@@ -72,7 +72,7 @@ FIELD_UPDATE_MAP = {
 def load_creds(file):
     # get saved creds if they exist
     global creds
-    print "loading creds"
+    # print "loading creds"
     with open(file) as infile:
         creds = json.load(infile)
 
@@ -142,6 +142,7 @@ def get_data(data_type, args=""):
             fields = a[1]
         elif a[0] == "out":
             file = a[1]
+    # TODO: need to wrap requests.get() in a try in case auth wasn't done first or otherwise don't have an auth token
     # Get 1st page of data
     r = requests.get(url + "?page_size=" + str(PAGE_SIZE), headers=device_headers)
     json_data = json.loads(r.text)
@@ -157,22 +158,22 @@ def get_data(data_type, args=""):
 
     # Use pandas dataframe to manipulate data
     df = pd.DataFrame.from_dict(rows['page_items'])
-    print "#### DESCRIBE DATAFRAME ####"
-    print df.dtypes.index
+    # print "#### DESCRIBE DATAFRAME ####"
+    # print df.dtypes.index
 
     # If there are filters defined, run them
     if filters != "":
         df = filter_data(df, filters)
 
     # If desired fields are defined, run them
-    print " fields = " + fields
+    # print " fields = " + fields
     if fields != "":
-        print "Fields defined, need to remove unwanted fields"
+        # print "Fields defined, need to remove unwanted fields"
         #filter and order fields
         df = field_data(df, fields)
 
     # If an output file is defined, go ahead and write to file
-    print " filename = " + file
+    # print " filename = " + file
     if file != "":
         # Write data to file based on extension
         write_to_file(df, file)
@@ -216,7 +217,7 @@ def update_data(data_type, id, data):
     else:
         return "bad data_type: " + data_type + " for update_data"
     # if data is an input file, slurp that in
-    print data
+    # print data
     if data.startswith("in="):
         file = data.split("=")[1]
         with open(file) as infile:
@@ -231,8 +232,8 @@ def update_data(data_type, id, data):
             data_tobe_updated[f] = data[f]
         else:
             data_tobe_updated[f] = ""
-    print "Update user with this data"
-    print data_tobe_updated
+    # print "Update user with this data"
+    # print data_tobe_updated
     r = requests.put(url, data=data_tobe_updated, headers=device_headers)
     if r.status_code == "200":
         return "success"
@@ -266,7 +267,7 @@ def filter_data(data, filters):
         pieces = token.split('=')
         filter[pieces[0]] = pieces[1]
     for key,val in filter.items():
-        print " key = " + key + " val = " + val
+        # print " key = " + key + " val = " + val
         data = data[data[key].str.contains(val, case=False)]
     return data
 
@@ -287,7 +288,7 @@ def field_data(data, fields):
 
 def write_to_file(data, filename):
     """"Write the results to file based on extension"""
-    print "writing to " + filename
+    # print "writing to " + filename
     ext = os.path.splitext(filename)[1][1:].strip().lower() 
     if ext == "json":
         with open(filename, 'w') as outfile:
