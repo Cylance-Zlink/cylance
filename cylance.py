@@ -46,7 +46,7 @@ regions = {
     'US-Government': '-us', 
     'South America': '-sae1'
 }
-region = "" 
+# region = "" 
 URLS = {
     "BASE_URL": "https://protectapi", 
     "AUTH_URL": ".cylance.com/auth/v2/token", 
@@ -62,6 +62,12 @@ URLS = {
     "SAFE": ".cylance.com/globallists/v2" 
 }
 PAGE_SIZE = 200
+
+# Fields required for UPDATE of particular device type
+FIELD_UPDATE_MAP = {
+    "USERS": {"email":"", "user_role":"", "first_name":"", "last_name":"", "zones":[]},
+    "DEVICES": {"name":"", "policy_id":"", "add_zones_id":[], "remove_zone_ids":[]}
+}
 
 def load_creds(file):
     # get saved creds if they exist
@@ -214,8 +220,20 @@ def update_data(data_type, id, data):
     if data.startswith("in="):
         file = data.split("=")[1]
         with open(file) as infile:
-            data = json.load(infile)
-    r = requests.put(url, data=data, headers=device_headers)
+            data = json.load(infile, 'utf-8')
+    else:
+        data = json.loads(data)
+    # Byteify() will convert all the unicode to utf-8
+    data = byteify(data)
+    data_tobe_updated = {} 
+    for f in FIELD_UPDATE_MAP[data_type]:
+        if f in data:
+            data_tobe_updated[f] = data[f]
+        else:
+            data_tobe_updated[f] = ""
+    print "Update user with this data"
+    print data_tobe_updated
+    r = requests.put(url, data=data_tobe_updated, headers=device_headers)
     if r.status_code == "200":
         return "success"
     else:
@@ -281,6 +299,17 @@ def write_to_file(data, filename):
         out.close()
         """ Should return success or failure"""
 
+def byteify(input):
+    if isinstance(input, dict):
+        return {byteify(key): byteify(value)
+                for key, value in input.iteritems()}
+    elif isinstance(input, list):
+        return [byteify(element) for element in input]
+    elif isinstance(input, unicode):
+        return input.encode('utf-8')
+    else:
+        return input
+
 def get_token():
     # get jwt token
     global creds, auth_token, device_headers
@@ -308,7 +337,7 @@ def get_token():
     encoded = jwt.encode(claims, app_secret, algorithm='HS256')
     payload = {"auth_token": encoded}
     headers = {"Content-Type": "application/json; charset=utf-8"}
-    resp = requests.post(URLS['BASE_URL'] + region + URLS['AUTH_URL'], headers=headers, data=json.dumps(payload))
+    resp = requests.post(URLS['BASE_URL'] + creds['region'] + URLS['AUTH_URL'], headers=headers, data=json.dumps(payload))
     auth_token = json.loads(resp.text)['access_token']  # access_token to be passed to GET request
     device_headers = {"Content-Type": "application/json; charset=utf-8", "Authorization": "Bearer " + str(auth_token)}
     return auth_token

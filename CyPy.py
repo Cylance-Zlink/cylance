@@ -10,6 +10,7 @@ __license__ = "GPL"
 from cmd import Cmd
 import json
 import cylance
+import subprocess
 
 class MyPrompt(Cmd):
     tenant = ""
@@ -37,6 +38,13 @@ class MyPrompt(Cmd):
         args = arg.split("=")
         # TODO: Do some error checking here to see if this is a legit file 
         cylance.load_creds(args[1])
+
+    def do_shell(self, args):
+        """shell <command> <args>\n run a shell command, e.g. cat users.csv | grep <email>"""
+        try:
+            print subprocess.check_output(args, shell=True)
+        except subprocess.CalledProcessError as e:
+            print e.output
     
     def do_getUsers(self, args):
         """Get all Users.\nOptions:\n  email=<string> (contains <string>)\n  first_name=<string>\n  last_name=<string>\n  has_logged_in=<True|False>\n  user_role=<role> (e.g. Administrator is 00000000-0000-0000-0000-000000000002)\n  date_last_login=<date> (e.g.  2018-01- for Jan 2018)\n  date_email_confirmed=<date> (e.g.  2018-01- for Jan 2018)\n  date_created=<date> (e.g.  2018-01- for Jan 2018)\n  date_modified=<date> (e.g.  2018-01- for Jan 2018)\n  out=<filename> (suports .json and .csv)\nOptions should be in the format: <field1>=<value1>,<field2>=<value2>,etc"""
