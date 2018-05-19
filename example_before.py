@@ -7,7 +7,7 @@ import time
 from time import gmtime, strftime, sleep
 from datetime import datetime, timedelta
 
-# Script to get device list avery 60 seconds
+# Script to get offline devices
 
 # CONFIGURATION
 tenant = ""         # Tenant ID
@@ -65,8 +65,29 @@ def main_loop():
             r = requests.get(GETDEVICES_URL + "&page=" + str(x), headers=device_headers)
             json_data = json.loads(r.text)
             results['page_items'] = results['page_items'] + json_data['page_items']
-    print results
+    # We don't want to work with unicode, especially in Python 2.7 on Macs
+    results = convert_unicode_to_utf8(results)
 
-while True:
-    main_loop()
-    time.sleep(60)
+# ***** PART 3 - FIND OFFLINE DEVICES ***** #
+    offline = {'page_items':[]}
+    for item in results['page_items']:
+        if item['state'] == "Offline":
+            offline['page_items'].append(item)
+
+# ***** PART 4 - WRITE RESULTS TO FILE ***** #
+    with open("ex_before.json", "w") as outfile:
+        json.dump(offline, outfile)
+
+# function to convert unicode to utf-8 or you probably won't like the output 
+def convert_unicode_to_utf8(input):
+    if isinstance(input, dict):
+        return {convert_unicode_to_utf8(key): convert_unicode_to_utf8(value)
+                for key, value in input.iteritems()}
+    elif isinstance(input, list):
+        return [convert_unicode_to_utf8(element) for element in input]
+    elif isinstance(input, unicode):
+        return input.encode('utf-8')
+    else:
+        return input
+
+main_loop()
