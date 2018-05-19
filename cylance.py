@@ -29,7 +29,7 @@ import logging
 # LOG PARAMS
 LOG_FILE = "cylance_api.log"
 # Logging level, can be CRITICAL, ERROR, WARNING, INFO, DEBUG
-LOG_LEVEL = loggingWARNING.
+LOG_LEVEL = logging.WARNING
 logging.basicConfig(filename=LOG_FILE,level=LOG_LEVEL)
 
 creds = {
