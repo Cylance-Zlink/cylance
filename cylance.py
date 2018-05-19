@@ -29,7 +29,7 @@ import logging
 # LOG PARAMS
 LOG_FILE = "cylance_api.log"
 # Logging level, can be CRITICAL, ERROR, WARNING, INFO, DEBUG
-LOG_LEVEL = logging.WARNING
+LOG_LEVEL = logging.DEBUG
 logging.basicConfig(filename=LOG_FILE,level=LOG_LEVEL)
 
 creds = {
@@ -254,7 +254,7 @@ def update_data(data_type, id, data):
     # print "Update user with this data"
     # print data_tobe_updated
     r = requests.put(url, data=data_tobe_updated, headers=device_headers)
-    if r.status_code == "200":
+    if r.status_code == 200:
         return "success"
     else:
         return "failed" + r.text
@@ -268,14 +268,20 @@ def delete_data(data_type, id):
         auth_token = get_token()
     # Build URL from function and region
     if data_type in { 'USERS', 'DEVICES', 'POLICY', 'ZONE' }:
-        url = URLS['BASE_URL'] + region + URLS[data_type] + "/" + id
+        url = URLS['BASE_URL'] + creds['region'] + URLS[data_type] + "/" + id
     else: 
+        logging.debug("unknown data_type: " + data_type + " in delete_data()")
         return "bad data_type: " + data_type + " for delete_data"
-    r = requests.delete(url, header=device_headers)
-    if r.code == "200":
+    logging.info("deleting data: " + url)
+    r = requests.delete(url, headers=device_headers)
+    logging.info("status_code: " + str(r.status_code))
+    logging.info("text: " + r.text)
+    if r.status_code == 200:
+        logging.info("successfully deleted data: " + url)
         return "success"
     else:
-        return "failed"
+        logging.info("failed to delete: " + url + " " + r.text)
+        return "failed: " + r.text
 
 def filter_data(data, filters):
     """Take a results set and match on all filters (i.e. AND not OR)"""

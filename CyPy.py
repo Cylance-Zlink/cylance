@@ -57,7 +57,7 @@ class MyPrompt(Cmd):
 
     def do_deleteUser(self, args):
         """Delete User by ID.\n deleteUser id=XXX\n deleteUser in=users.csv"""
-        # print "deleteUser " + args
+        print "deleteUser " + args
         fields = args.split("=")
         # print "0 = " + fields[0] + " 1 = " + fields[1]
         if fields[0] == 'in':
@@ -66,7 +66,7 @@ class MyPrompt(Cmd):
                 if len(lines) == 36:
                     print cylance.delete_data("USER", line)
         elif fields[0] == 'id':
-            print cylance.delete_data("USERS", args)
+            print cylance.delete_data("USERS", fields[1])
 
     def do_updateUser(self, args):
         """Update User by ID.\n updateUser id=XXX in=user.json"""
