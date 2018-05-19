@@ -4,4 +4,4 @@
 *.csv
 .DS_Store
 *.log
-
+*.swp
