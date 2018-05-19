@@ -214,7 +214,13 @@ def get_data_by_id(data_type, id, args=""):
     r = requests.get(url, headers=device_headers)
     # TODO need to support multi page responses like in get_data() ?  Not sure there are multi-page results, validate need first
     json_data = json.loads(r.text)
+    json_data = convert_unicode_to_utf8(json_data)
+    print "Returned data"
+    print(type(json_data))
+    print json_data
     df = pd.DataFrame.from_dict(json_data, orient='index')
+    # TODO: loading data to df only works for 2 nested ayers deep, so breaks on policy details, need to accomodate highly nested data
+    # df = pd.DataFrame([json_data]) # this helps but does not fix the issue
     return df
 
 def update_data(data_type, id, data):
@@ -270,7 +276,6 @@ def delete_data(data_type, id):
         return "success"
     else:
         return "failed"
-
 
 def filter_data(data, filters):
     """Take a results set and match on all filters (i.e. AND not OR)"""

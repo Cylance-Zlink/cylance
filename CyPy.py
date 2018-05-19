@@ -89,6 +89,11 @@ class MyPrompt(Cmd):
         # TODO fix comments above for help
         print cylance.get_data("POLICIES", args)
 
+    def do_getPolicy(self, args):
+        """Get Policy by ID.\nExample:\n getPolicy id=XYZ out=policy.json"""
+        fields = args.split("=")
+        print cylance.get_data_by_id("POLICIES", fields[1])
+
     def do_getZones(self, args):
         """Get all Zones.\nOptions:\n  name=<string> (i.e. name contains <string>)\n  <field2=XXX>\n  <field3=YYY>\n  <field4=ZZZ>\n  out=<filename> (suports .json and .csv)"""
         # TODO fix comments above for help
