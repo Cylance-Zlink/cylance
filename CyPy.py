@@ -64,7 +64,7 @@ class MyPrompt(Cmd):
             with open(fields[1]) as f:
                 line = f.readlines().strip()
                 if len(lines) == 36:
-                    print cylance.delete_data("USER", line)
+                    print cylance.delete_data("USERS", line)
         elif fields[0] == 'id':
             print cylance.delete_data("USERS", fields[1])
 
@@ -83,6 +83,19 @@ class MyPrompt(Cmd):
         """Get Device by ID.\n getDevice id=<id>\n"""
         fields = args.split("=")
         print cylance.get_data_by_id("DEVICES", fields[1])
+
+    def do_deleteDevice(self, args):
+        """Delete Device by ID.\n deleteDevice id=XXX\n deleteDevice in=devices.csv"""
+        print "deleteDevice " + args
+        fields = args.split("=")
+        # print "0 = " + fields[0] + " 1 = " + fields[1]
+        if fields[0] == 'in':
+            with open(fields[1]) as f:
+                line = f.readlines().strip()
+                if len(lines) == 36:
+                    print cylance.delete_data("DEVICES", line)
+        elif fields[0] == 'id':
+            print cylance.delete_data("DEVICES", fields[1])
 
     def do_getPolicies(self, args):
         """Get all Policies.\nOptions:\n  name=<string> (i.e. name contains <string>)\n  <field2=XXX>\n  <field3=YYY>\n  <field4=ZZZ>\n  out=<filename> (suports .json and .csv)"""

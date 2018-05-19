@@ -267,8 +267,12 @@ def delete_data(data_type, id):
         logging.info("timeout exceeded, need to renew auth token")
         auth_token = get_token()
     # Build URL from function and region
-    if data_type in { 'USERS', 'DEVICES', 'POLICY', 'ZONE' }:
+    if data_type in { 'USERS', 'POLICIES', 'ZONES' }:
         url = URLS['BASE_URL'] + creds['region'] + URLS[data_type] + "/" + id
+    elif data_type in { 'DEVICES' }:
+       # This works totally differently then deleting a user by ID, need to put it in a JSON request, see api guide for details
+       logging.info("unsupported data type: " + data_type + " in delete_data()") 
+       return "unsupported data type: " + data_type + " in delete_data()" 
     else: 
         logging.debug("unknown data_type: " + data_type + " in delete_data()")
         return "bad data_type: " + data_type + " for delete_data"
