@@ -1,6 +1,6 @@
 import cylance as cy
 
-# Script to get device list avery 60 seconds
+# Script to get offline devices and write to file
 
 # CONF
 tenant = ""         # Tenant ID

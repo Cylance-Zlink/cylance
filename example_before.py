@@ -7,7 +7,7 @@ import time
 from time import gmtime, strftime, sleep
 from datetime import datetime, timedelta
 
-# Script to get offline devices
+# Script to get offline devices and write to file
 
 # CONFIGURATION
 tenant = ""         # Tenant ID
