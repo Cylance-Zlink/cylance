@@ -15,6 +15,6 @@ def main_loop():
     cy.get_token()
 
 # ***** PART 2 and 3 - GET OFFLINE DEVICES  ***** #
-    print cy.get_data("DEVICES", 'state=offline out=ex_after.json')
+    print cy.get_data("DEVICES", 'state=offline out=devices_after.json')
 
 main_loop()

@@ -75,7 +75,7 @@ def main_loop():
             offline['page_items'].append(item)
 
 # ***** PART 4 - WRITE RESULTS TO FILE ***** #
-    with open("ex_before.json", "w") as outfile:
+    with open("devices_before.json", "w") as outfile:
         json.dump(offline, outfile)
 
 # function to convert unicode to utf-8 or you probably won't like the output 
