@@ -1,5 +1,4 @@
 import cylance as cy
-import time
 
 # Script to get device list avery 60 seconds
 
