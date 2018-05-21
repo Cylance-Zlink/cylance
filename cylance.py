@@ -18,11 +18,15 @@ import pandas as pd
 import logging
 
 """ USE CASES """
-
+# Download users/devices/threats, format and write to file for ingestion in downstream systems
+# Find devices which have been offline for X days and delete
+# Automate provisioning of new users, deletion of ex-users
+# Policy backup or migration to another tenant
+# complex zoning of devices
 
 """ TODO LIST """
 """ Not checking a lot of input params, need to add that """
-""" Make get_data_by_id function return multiplae pages of data just like get_data function, actually, probabyly just merge the 2 functions by adding id as an optional parameter in get_data()"""
+""" Make get_data_by_id function return multiplae pages of data just like get_data function"""
 """ Search for TODO in the code """
 
 """ GLOBAL PARAMS """
