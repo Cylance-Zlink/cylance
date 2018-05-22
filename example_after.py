@@ -14,7 +14,7 @@ def main_loop():
     # Note, get_token() only needs to be called once, the cylance module takes care of expiration and renewal of token automagically
     cy.get_token()
 
-# ***** PART 2 and 3 - GET OFFLINE DEVICES  ***** #
+# ***** PART 2, 3 and 4 - GET OFFLINE DEVICES  ***** #
     print cy.get_data("DEVICES", 'state=offline out=devices_after.json')
 
 main_loop()
