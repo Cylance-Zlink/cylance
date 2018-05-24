@@ -48,7 +48,6 @@ def main_loop():
     jwt_token = json.loads(resp.text)['access_token']  # access_token to be passed to GET request
 
 # ***** PART 2 - GET DEVICES  ***** #
-    device_id = "INSERT DEVICE ID"  # Device ID obtained from Cylance console
     GETDEVICES_URL = "https://protectapi.cylance.com/devices/v2/?page_size=200"
     device_headers = {"Content-Type": "application/json; charset=utf-8", "Authorization": "Bearer " + str(jwt_token)}
 
