@@ -122,8 +122,8 @@ def set_region(reg):
 def get_data(data_type, args=""):
     """Pull data from console (all bulk gets)"""
     """args come in the form of:"""
-    """  <filter1=value,filterN=value> <fields=field1,fieldN> <out=outputfile.json|.csv> """
-    """  e.g. filter1=aaa,filter2=bbb fields=email,first_name,last_name out=users.csv"""
+    """  <filter1=value,filterN=value> <fields=field1,fieldN> <pages=X> <out=outputfile.json|.csv> """
+    """  e.g. filter1=aaa,filter2=bbb fields=email,first_name,last_name pages=2 out=users.csv"""
 
     """ First check if auth token is about to expire and refresh if necessary """
     global auth_token, device_headers
@@ -152,31 +152,13 @@ def get_data(data_type, args=""):
             req_pages = int(val)
         else:
             filters = section 
-    # TODO - bug if file and/or fields are passed with no filter...
-    # this could be a lot cleaner, also rethink the syntax for passing variables to see if there is a better way
-    #if len(args_sections) > 0:
-    #    filters = args_sections[0]
-    #if len(args_sections) > 1:
-    #    # Find fields and/or file
-    #    a = args_sections[1].split("=")
-    #    if a[0] == "fields":
-    #        fields = a[1]
-    #    elif a[0] == "out":
-    #        file = a[1]
-    #if len(args_sections) > 2:
-    #    # Find fields and/or file
-    #    a = args_sections[2].split("=")
-    #    if a[0] == "fields":
-    #        fields = a[1]
-    #    elif a[0] == "out":
-    #        file = a[1]
     # TODO: need to wrap requests.get() in a try in case auth wasn't done first or otherwise don't have an auth token
     # Get 1st page of data
     r = requests.get(url + "?page_size=" + str(PAGE_SIZE), headers=device_headers)
     json_data = json.loads(r.text)
     rows = {'page_items':[]}
     rows['page_items'] = json_data['page_items']
-    # If there are multiple pages, go ahead and pull them in too
+    # Check the total number of pages of data available, rows per page is controlled by PAGE_SIZE
     pages = json_data['total_pages']
     # if requested number of pages is 0, get all pages, if it is larger than 0, limit results to that number of pages
     if pages > 1 and req_pages > 0:
