@@ -76,7 +76,7 @@ class MyPrompt(Cmd):
         print cy.update_data("USERS", all_args[0], all_args[1])
 
     def do_getDevices(self, args):
-        """Get all Devices.\nOptions:\n  name=<string> (i.e. name contains <string>)\n  date_first_registered=<date> (e.g.  2018-01- for Jan 2018)\n  id=<devicce id>\n  version=<version>\n  state=<Online|Offline>\n  out=<filename> (suports .json and .csv)"""
+        """Get all Devices.\nOptions:\n  name=<string> (i.e. name contains <string>)\n  date_first_registered=<date> (e.g.  2018-01- for Jan 2018)\n  id=<devicce id>\n  version=<version>\n  state=<Online|Offline>\n pages=5 (200 rows per page)\n  out=<filename> (suports .json and .csv)"""
         print cy.get_data("DEVICES", args)
 
     def do_getDevice(self, args):
@@ -98,7 +98,7 @@ class MyPrompt(Cmd):
             print cy.delete_data("DEVICES", fields[1])
 
     def do_getPolicies(self, args):
-        """Get all Policies.\nOptions:\n  name=<string> (i.e. name contains <string>)\n  <field2=XXX>\n  <field3=YYY>\n  <field4=ZZZ>\n  out=<filename> (suports .json and .csv)"""
+        """Get all Policies.\nOptions:\n  name=<string> (i.e. name contains <string>)\n  <field2=XXX>\n  <field3=YYY>\n  <field4=ZZZ>\n  pages=X (200 rows per page)\n  out=<filename> (suports .json and .csv)"""
         # TODO fix comments above for help
         print cy.get_data("POLICIES", args)
 
@@ -108,12 +108,12 @@ class MyPrompt(Cmd):
         print cy.get_data_by_id("POLICIES", fields[1])
 
     def do_getZones(self, args):
-        """Get all Zones.\nOptions:\n  name=<string> (i.e. name contains <string>)\n  <field2=XXX>\n  <field3=YYY>\n  <field4=ZZZ>\n  out=<filename> (suports .json and .csv)"""
+        """Get all Zones.\nOptions:\n  name=<string> (i.e. name contains <string>)\n  <field2=XXX>\n  <field3=YYY>\n  <field4=ZZZ>\n  pages=X (200 rows per page)\n  out=<filename> (suports .json and .csv)"""
         # TODO fix comments above for help
         print cy.get_data("ZONES", args)
 
     def do_getThreats(self, args):
-        """Get all Threats.\nOptions:\n  name=<string> (i.e. name contains <string>)\n  <field2=XXX>\n  <field3=YYY>\n  <field4=ZZZ>\n  out=<filename> (suports .json and .csv)"""
+        """Get all Threats.\nOptions:\n  name=<string> (i.e. name contains <string>)\n  <field2=XXX>\n  <field3=YYY>\n  <field4=ZZZ>\n  pages=X (200 rows per page)\n  out=<filename> (suports .json and .csv)"""
         # TODO fix comments above for help
         print cy.get_data("THREATS", args)
 

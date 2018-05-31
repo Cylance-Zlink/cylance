@@ -80,18 +80,20 @@ FIELD_UPDATE_MAP = {
 def load_creds(file):
     # get saved creds if they exist
     global creds
-    logging.info("loading creds")
+    if file == "":
+        file = "config.json"
+    logging.info("loading creds from " + file)
     with open(file) as infile:
         creds = json.load(infile)
     # TODO: return success or failure
 
 def save_creds(file=""):
     # save creds
-    # TODO: retuen success or fail
+    # TODO: return success or fail
     global creds
-    logging.info("saving creds to: " + file)
     if file == "":
         file = "config.json"
+    logging.info("saving creds to: " + file)
     with open(file, "w") as out:
         json.dump(creds, out)
     out.close()
@@ -138,25 +140,36 @@ def get_data(data_type, args=""):
     file = ""
     filters = ""
     fields = ""
+    req_pages = 0
     args_sections = args.split(" ")
+    for section in args_sections:
+        key, val = section.split("=")
+        if key == "fields":
+            fields = val
+        elif key == "out":
+            file = val
+        elif key == "pages":
+            req_pages = int(val)
+        else:
+            filters = section 
     # TODO - bug if file and/or fields are passed with no filter...
     # this could be a lot cleaner, also rethink the syntax for passing variables to see if there is a better way
-    if len(args_sections) > 0:
-        filters = args_sections[0]
-    if len(args_sections) > 1:
-        # Find fields and/or file
-        a = args_sections[1].split("=")
-        if a[0] == "fields":
-            fields = a[1]
-        elif a[0] == "out":
-            file = a[1]
-    if len(args_sections) > 2:
-        # Find fields and/or file
-        a = args_sections[2].split("=")
-        if a[0] == "fields":
-            fields = a[1]
-        elif a[0] == "out":
-            file = a[1]
+    #if len(args_sections) > 0:
+    #    filters = args_sections[0]
+    #if len(args_sections) > 1:
+    #    # Find fields and/or file
+    #    a = args_sections[1].split("=")
+    #    if a[0] == "fields":
+    #        fields = a[1]
+    #    elif a[0] == "out":
+    #        file = a[1]
+    #if len(args_sections) > 2:
+    #    # Find fields and/or file
+    #    a = args_sections[2].split("=")
+    #    if a[0] == "fields":
+    #        fields = a[1]
+    #    elif a[0] == "out":
+    #        file = a[1]
     # TODO: need to wrap requests.get() in a try in case auth wasn't done first or otherwise don't have an auth token
     # Get 1st page of data
     r = requests.get(url + "?page_size=" + str(PAGE_SIZE), headers=device_headers)
@@ -165,7 +178,10 @@ def get_data(data_type, args=""):
     rows['page_items'] = json_data['page_items']
     # If there are multiple pages, go ahead and pull them in too
     pages = json_data['total_pages']
-    if pages > 1:
+    # if requested number of pages is 0, get all pages, if it is larger than 0, limit results to that number of pages
+    if pages > 1 and req_pages > 0:
+        if req_pages < pages:
+            pages = req_pages
         logging.debug("getting more pages of results from: " + url)
         for x in range (2, pages + 1):
             r = requests.get(url + "?page_size=" + str(PAGE_SIZE) + "&page=" + str(x), headers=device_headers)
@@ -274,9 +290,12 @@ def delete_data(data_type, id):
     if data_type in { 'USERS', 'POLICIES', 'ZONES' }:
         url = URLS['BASE_URL'] + creds['region'] + URLS[data_type] + "/" + id
     elif data_type in { 'DEVICES' }:
-       # This works totally differently then deleting a user by ID, need to put it in a JSON request, see api guide for details
-       logging.info("unsupported data type: " + data_type + " in delete_data()") 
-       return "unsupported data type: " + data_type + " in delete_data()" 
+        to_delete = {"device_ids": id}
+        url = URLS['BASE_URL'] + creds['region'] + URLS['DEVICES'] + "/"
+        logging.info("deleting data: " + url)
+        r = requests.delete(url, headers=device_headers, data=to_delete)
+        logging.info("status_code: " + str(r.status_code))
+        return "device deleted"
     else: 
         logging.debug("unknown data_type: " + data_type + " in delete_data()")
         return "bad data_type: " + data_type + " for delete_data"
@@ -378,13 +397,11 @@ def get_token():
     return auth_token
 
 if __name__ == '__main__':
-    # need something here
     print "Use import cylance in your script"
     print "Uasge:"
-    print "set_creds(tenant, app_id, app_secret, [region])"
-    print "set_region(region)  (optional, default=US)"
+    print "set_creds(tenant, app_id, app_secret, [region](default = North America))"
     print "get_token()"
-    print "Now you can use all the functions like get_data(USERS) etc"
+    print "Then you can use all the functions like get_data(USERS) etc"
     print "lib takes care of passing auth token to server, renewing token when it expires"
 
 
